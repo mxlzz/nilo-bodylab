@@ -44,10 +44,10 @@
     "on_acceptance": "E2-T01 review"
   },
   "last_change": {
-    "id": "E2-T01-implementation",
+    "id": "E2-T01-amendment-01",
     "log": "LOG.md",
-    "parent_commit": "1844f9f858989cddfd3301cc527f6b6a24eaa736",
-    "note": "Frozen thermal implementation; E1 unchanged; not executed."
+    "parent_commit": "53692d26df805e004842e86a94febef98ff54a9e",
+    "note": "Corrected development activity control before any simulation; no code or acceptance changes."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

@@ -99,7 +99,7 @@
         {
           "duration": 4,
           "ambient_K": 300,
-          "maintenance": 0.1,
+          "maintenance": 0.05,
           "activity": 0,
           "pulse": 0
         }

@@ -41,3 +41,6 @@ Contraste capacidad térmica vs equilibrio, calor de E1, controles y tolerancias
 
 ## E2-T01 implementación — 2026-11-25
 Código congelado, referencia analítica separada, E1 reutilizado sin modificar. Sin ejecución. Base 1844f9f858989cddfd3301cc527f6b6a24eaa736.
+
+## E2-T01 enmienda previa 01 — 2026-11-25
+Control activity: deducción algebraica detecta que el tramo de reposo original seguiría calentando; mantenimiento 0.05 en tramo 2. Enmienda explícita, sin ejecución ni cambio de criterios/código. Base 53692d26df805e004842e86a94febef98ff54a9e.
