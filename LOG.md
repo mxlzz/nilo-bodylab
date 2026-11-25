@@ -107,3 +107,6 @@ Referencia revisada y readback verificado. Canal local de descarga falló; se do
 
 ## E3.03 — workflow de acceso — 2026-11-25
 Preflight sin instalar/importar motor, runner estándar público, timeout 3 min, sin secretos ni acciones de terceros. Resultado pendiente. Base c4579b41f7cfc1e78b7856aa541a314fbbb78a1f.
+
+## E3.03 acceso — 2026-11-25
+Run 45647156945 success, hash wheel y metadata verificados en job 139321109993. Runner Python 3.12.3; usar wheel compatible, sin instalación aún. Próximo preregistro de contraste; G3 abierto. Base 76933a133e9767f20f79c5fa176f19a91e1820a8.
