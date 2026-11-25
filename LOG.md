@@ -38,3 +38,6 @@ Criba dirigida térmica/hídrica, NicheMapR fuente fijada; secuencia E2 acotada 
 
 ## E2-T01 preregistro — 2026-11-25
 Contraste capacidad térmica vs equilibrio, calor de E1, controles y tolerancias congelados. No ejecución. Base fee060f46210bf06432d47b3d032b96fc0da5a2c.
+
+## E2-T01 implementación — 2026-11-25
+Código congelado, referencia analítica separada, E1 reutilizado sin modificar. Sin ejecución. Base 1844f9f858989cddfd3301cc527f6b6a24eaa736.
