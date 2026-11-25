@@ -1,0 +1,37 @@
+name: E3.03 wheel access preflight
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/e3-access.yml']
+permissions: {}
+jobs:
+  inspect-wheel:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - name: Download and inspect wheel without installing
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 --version
+          uname -sm
+          curl --fail --silent --show-error --location --proto '=https' --proto-redir '=https' --max-time 60 --max-filesize 15000000 'https://files.pythonhosted.org/packages/79/b9/0e7a12212b6ead89c64df69f2751d505cc85559735583e203dd9db9e2ae9/mujoco_core-4.0.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl' -o wheel.zip
+          echo '578c67b41be8a715b488f1f1b6bab13534f11c020d407b9605826f72eed086b3  wheel.zip' | sha256sum -c -
+          python3 - <<'PY'
+          import json, zipfile, pathlib, email
+          with zipfile.ZipFile('wheel.zip') as z:
+              files=z.infolist()
+              assert all(not pathlib.PurePosixPath(f.filename).is_absolute() and '..' not in pathlib.PurePosixPath(f.filename).parts and '\\' not in f.filename for f in files)
+              total=sum(f.file_size for f in files)
+              assert total < 250_000_000
+              md=[f.filename for f in files if f.filename.endswith('.dist-info/METADATA')]
+              assert len(md)==1
+              msg=email.message_from_bytes(z.read(md[0]))
+              assert msg['Version']=='4.0.1' and msg['Name'].lower().replace('_','-')=='mujoco-core'
+              notices=[f.filename for f in files if any(k in f.filename.lower() for k in ('license','notice','copying'))]
+              assert notices
+              tags=[f.filename for f in files if f.filename.endswith('.dist-info/WHEEL')]
+              assert len(tags)==1
+              print(json.dumps(dict(name=msg['Name'],version=msg['Version'],requires_python=msg['Requires-Python'],requires_dist=msg.get_all('Requires-Dist'),license_expression=msg['License-Expression'],license_files=msg.get_all('License-File'),notices=notices,file_count=len(files),uncompressed_bytes=total,wheel=z.read(tags[0]).decode()),sort_keys=True))
+          PY

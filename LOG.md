@@ -104,3 +104,6 @@ Fuente y referencia por segmentos congeladas antes de ejecución; sin dependenci
 
 ## E3-M01 revisión / E3.03 preflight — 2026-11-25
 Referencia revisada y readback verificado. Canal local de descarga falló; se documentan wheel oficial, runner gratuito y preflight sin ejecución de motor. Base fc8b440153198259001e04bb66eea87bcafe94c3.
+
+## E3.03 — workflow de acceso — 2026-11-25
+Preflight sin instalar/importar motor, runner estándar público, timeout 3 min, sin secretos ni acciones de terceros. Resultado pendiente. Base c4579b41f7cfc1e78b7856aa541a314fbbb78a1f.

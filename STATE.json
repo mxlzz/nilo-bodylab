@@ -7,7 +7,7 @@
   "phase": "E3",
   "gate": "G2_passed_G3_open",
   "current_task": "E3.03-access-probe",
-  "status": "ready_to_start",
+  "status": "awaiting_probe_result",
   "completed_research_tasks": [
     "E0.01",
     "E0.02",
@@ -62,15 +62,15 @@
     "task": "E3.03-access-probe",
     "plan": "ROADMAP.md",
     "deliverable": "evidence/E3.03-access.md and optional one-shot CI probe logs",
-    "action": "Test free standard public runner access to hash-pinned headless wheel without installing/importing; review bundled metadata and licenses.",
+    "action": "Check one-shot public runner result; review wheel metadata/notices before any engine execution.",
     "acceptance": "Verified availability and license/dependency disposition or scoped blocker. No engine comparison until preregistered.",
     "on_acceptance": "E3.03 contrast preregistration or scoped deferral"
   },
   "last_change": {
-    "id": "E3-M01-review",
+    "id": "E3.03-access-probe",
     "log": "LOG.md",
-    "parent_commit": "fc8b440153198259001e04bb66eea87bcafe94c3",
-    "note": "Reviewed restricted mechanical reference; identified scope and documented access preflight."
+    "parent_commit": "c4579b41f7cfc1e78b7856aa541a314fbbb78a1f",
+    "note": "One-shot read-only preflight workflow frozen; awaiting run if trigger permitted."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
