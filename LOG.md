@@ -5,3 +5,6 @@ Usuario aprobó reformulación de corporalidad como fundamento de existencia y b
 
 ## E0.01 — 2026-11-25
 Matriz R1–R7 y protocolo de búsqueda en evidence/E0.01.md. Recuperados coordinación, D001 y resultados de auditoría central; sin repetir ensayos. Aceptación documental propia 7/7, sin revisión independiente; no búsqueda nueva, selección técnica ni experimentos. Límites de búsqueda operativos fijados antes del cribado. G0 abierto; próxima E0.02. Base e26c9fdac237698205f0759de2faf10e9dad2071.
+
+## E0.02 — 2026-11-25
+Revisión dirigida de literatura: 12 consultas preregistradas y complementarias, fuentes y exclusiones en evidence/E0.02.md; actualiza RESEARCH. DEB como referencia, A0 conservativo vs A1 mínimo como contraste a resolver; NicheMapR para E2. Ronda de citas parcial y fallos de acceso declarados, no revisión sistemática. Aceptación documental propia suficiente para E0.03; no experimentos, coste pago ni selección de tecnología. Base a0eb513e3479b12f5026c07e5488d074dc144030.
