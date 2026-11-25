@@ -23,3 +23,6 @@ Preregistro E1-01 y config congelada; sin implementación ni ejecución. Próxim
 
 ## E0.07 / G0 — 2026-11-25
 Autoauditoría G0, avanzar a E1-01 con alcance sintético y protocolo congelado. Sin experimento todavía, sin autorización de integración. Base 55b2d9e6eb31d93d114933e88eaa7d23b22c4f55.
+
+## E1-01 implementación — 2026-11-25
+Código experimental propio y evaluador analítico congelados antes de ejecución, sin dependencias externas. Próximo ejecutar. Base 8c396a919638e74cf3c04eb9ec84f742a15a7e93.

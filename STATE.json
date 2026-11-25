@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E1",
   "gate": "G0_passed_G1_open",
-  "current_task": "E1-01-implementation",
+  "current_task": "E1-01-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -15,7 +15,8 @@
     "E0.04",
     "E0.05",
     "E0.06",
-    "E0.07"
+    "E0.07",
+    "E1-01-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -29,18 +30,18 @@
   "pending_audit": "G1 after E1-01",
   "blocked_by": [],
   "next_action": {
-    "task": "E1-01-implementation",
+    "task": "E1-01-run",
     "plan": "experiments/E1-01/protocol.md",
-    "deliverable": "experiments/E1-01/run.py",
-    "action": "Implement preregistered model and independent analytical evaluator; freeze source before execution.",
-    "acceptance": "Source implements config and protocol, no simulation before source freeze.",
-    "on_acceptance": "E1-01-run"
+    "deliverable": "experiments/E1-01/results.json and evidence/E1-01.md",
+    "action": "Execute frozen code and config; record exact inputs, outputs and acceptance.",
+    "acceptance": "Preregistered criteria evaluated, failures preserved, no G1 before evidence.",
+    "on_acceptance": "G1"
   },
   "last_change": {
-    "id": "G0",
+    "id": "E1-01-implementation",
     "log": "LOG.md",
-    "parent_commit": "55b2d9e6eb31d93d114933e88eaa7d23b22c4f55",
-    "note": "Self-audit passed for narrow E1 synthetic experiment, not independent."
+    "parent_commit": "8c396a919638e74cf3c04eb9ec84f742a15a7e93",
+    "note": "Frozen authored source, no execution; analytical evaluator separate from stepping."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
