@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-S03-implementation",
+  "current_task": "E3-S03-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -65,7 +65,8 @@
     "E3-S02-run",
     "E3-S02-review",
     "E3.04-locomotion-screen",
-    "E3-S03-preregistration"
+    "E3-S03-preregistration",
+    "E3-S03-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -81,18 +82,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-S03-implementation",
+    "task": "E3-S03-run",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-S03/run.py and controller.py",
-    "action": "Implement preregistered viscous surface traction, local docking and energy/momentum/matter ledger, analytic reference and replay; static review before execution.",
-    "acceptance": "Frozen source, no changed criteria, separate controller/evaluator.",
-    "on_acceptance": "E3-S03-run"
+    "deliverable": "E3-S03 run log and results.jsonl",
+    "action": "Execute frozen source on bounded public runner and record criteria and evidence.",
+    "acceptance": "C1–C9 as preregistered, retain failures.",
+    "on_acceptance": "E3-S03-review"
   },
   "last_change": {
-    "id": "E3-S03-preregistration-amendment-2",
+    "id": "E3-S03-implementation",
     "log": "LOG.md",
-    "parent_commit": "bb8d77cff666fb1ba24649c5763f4cb68d1b50af",
-    "note": "Pre-execution energy budget corrected in docking controls to isolate access from depletion."
+    "parent_commit": "f35ebade713ebfb8b74f48f1ba5a4375fbdb48bc",
+    "note": "Frozen local surface traction, basal leak, docking, controller and evaluator source."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

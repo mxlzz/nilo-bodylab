@@ -195,3 +195,7 @@ Control remote cara 3→2.25 m por cálculo analítico, visible en tick de válv
 ## E3-S03 enmienda energética ex ante (2026-11-25)
 
 Presupuesto analítico de sostén podía agotar R antes de puerto. Casos dock/remote/barrier/dry R=.45,u=.4, remote cara 2.0, mismos criterios y contraste de acceso. Sin ejecución. Base bb8d77cff666fb1ba24649c5763f4cb68d1b50af.
+
+## E3-S03 implementación (2026-11-25)
+
+Fuente congelada tras revisión estática, controlador separado, ley de superficie viscosa y balances, referencia, replay. Sin ejecución. Base f35ebade713ebfb8b74f48f1ba5a4375fbdb48bc.
