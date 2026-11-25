@@ -1,6 +1,6 @@
 # Plan auditable — aprobado 2026-11-25
 
-Se conserva E0.01 del scaffold original (H0.01 en propuesta de chat). E0 se amplía; E1–E3 originales se refinan. Solo E0 está activa. Resto condicional: ningún protocolo, motor ni tecnología aprobado por anticipado.
+Se conserva E0.01 del scaffold original (H0.01 en propuesta de chat). E0 se amplía; E1–E3 originales se refinan. La fase activa y los gates se consultan en STATE.json, fuente canónica. Las fases posteriores son condicionales: ningún protocolo, motor ni tecnología aprobado por anticipado.
 
 | Hito | Dependencia | Resultado y aceptación del gate |
 |---|---|---|

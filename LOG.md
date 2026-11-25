@@ -86,3 +86,6 @@ Fuente y referencia congeladas antes de ejecución. Base 7c7ddc2194ebac465f4481a
 
 ## E2-C01 ejecución — 2026-11-25
 80 corridas, 9/9 criterios, interacción factorial 6.052 J; no mejora de eficiencia, consumo mayor. Salida íntegra xz, hashes y límites. E2.05 concluida como contraste; próxima auditoría G2, aún abierto. Base fc0349667f672cf31aed8e63601ac99c9d637217.
+
+## G2 — 2026-11-25
+Autoauditoría de E2, 45/45 controles de cuatro contrastes sintéticos según resúmenes verificados, interacción condicional sin ganancia de eficiencia. G2 superado con alcance limitado; E3.01 cribado físico abierto. No se declara fisiología completa. Cabecera ROADMAP actualizada para referir STATE; sin cambio de plan. Base add5cc55cd4ee057402d120e9a569d12b66cbe3f.

@@ -4,9 +4,9 @@
   "date": "2026-11-25",
   "branch": "main",
   "design": "approved",
-  "phase": "E2",
-  "gate": "G1_passed_G2_open",
-  "current_task": "G2",
+  "phase": "E3",
+  "gate": "G2_passed_G3_open",
+  "current_task": "E3.01",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -37,7 +37,8 @@
     "E2-C01-preregistration",
     "E2-C01-implementation",
     "E2-C01-run",
-    "E2.05"
+    "E2.05",
+    "G2"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -47,23 +48,24 @@
   ],
   "audits": [
     "audits/G0.md",
-    "audits/G1.md"
+    "audits/G1.md",
+    "audits/G2.md"
   ],
-  "pending_audit": "G2 after E2 evidence",
+  "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "G2",
+    "task": "E3.01",
     "plan": "ROADMAP.md",
-    "deliverable": "audits/G2.md",
-    "action": "Audit E2 evidence, scope, alternatives, integrity and remaining gaps; decide gate before E3.",
-    "acceptance": "Explicit scoped decision with unresolved requirements and no unsupported integration.",
-    "on_acceptance": "E3.01 if gate passes"
+    "deliverable": "evidence/E3.01.md and bounded E3 sequence",
+    "action": "Screen existing physical engines and minimal mechanical controls; define body/contact/work/sensory frontier requirements, justified scope and gate criteria before selecting implementation.",
+    "acceptance": "Traceable alternatives and measurable discriminating tests for R1/R2/R3/R4/R6, justified deferrals; no unreviewed code execution or premature motor/anatomy choice.",
+    "on_acceptance": "E3.02 preregistration if justified"
   },
   "last_change": {
-    "id": "E2-C01-run",
+    "id": "G2",
     "log": "LOG.md",
-    "parent_commit": "fc0349667f672cf31aed8e63601ac99c9d637217",
-    "note": "9/9 controls, conditional interaction, raw result archived. G2 audit pending."
+    "parent_commit": "add5cc55cd4ee057402d120e9a569d12b66cbe3f",
+    "note": "Scoped G2 self-audit passed; E3 screening opened; no architecture choice or physiological completion."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
