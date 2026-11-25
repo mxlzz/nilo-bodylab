@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E2",
   "gate": "G1_passed_G2_open",
-  "current_task": "E2-W01-run",
+  "current_task": "E2-W01-review",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -26,7 +26,8 @@
     "E2-T01-review",
     "E2.03",
     "E2-W01-preregistration",
-    "E2-W01-implementation"
+    "E2-W01-implementation",
+    "E2-W01-run"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -41,18 +42,18 @@
   "pending_audit": "G2 after E2 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E2-W01-run",
-    "plan": "experiments/E2-W01/PROTOCOL.md",
-    "deliverable": "Raw result and evidence",
-    "action": "Verify exact source/config; execute frozen experiment, record all outputs and failures.",
-    "acceptance": "14 preregistered checks",
-    "on_acceptance": "E2-W01-review"
+    "task": "E2-W01-review",
+    "plan": "ROADMAP.md",
+    "deliverable": "evidence/E2-W01-review.md",
+    "action": "Verify persisted experiment and scope; decide candidate and next E2.04.",
+    "acceptance": "Review 14 preregistered criteria, negatives, limitations, no unsupported physiological inference.",
+    "on_acceptance": "E2.04"
   },
   "last_change": {
-    "id": "E2-W01-pre-run-source-correction",
+    "id": "E2-W01-run",
     "log": "LOG.md",
-    "parent_commit": "2cdabacd85126296a828e643f3ed474f48041e6f",
-    "note": "Strict protocol fuel normalization corrected before any run; no protocol change."
+    "parent_commit": "d80b968337206e21adb57193ba19c14ff1249e87",
+    "note": "14/14 technical controls passed; raw output persisted."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

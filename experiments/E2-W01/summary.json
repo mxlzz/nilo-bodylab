@@ -1,0 +1,36 @@
+{
+  "checks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "passed": 14,
+  "runs": 70,
+  "steps": 10416,
+  "balances": [
+    3.499422973618493e-14,
+    1.666960840196463e-14,
+    2.2414454525246258e-14
+  ],
+  "fine_error_K": 0.008741905610463618,
+  "previous_error_K": 0.017518801214350788,
+  "water_error_kg": 1.5856456772600502e-18,
+  "wet_delta_K": 6.581256672933819,
+  "wall_s": 0.06100410099998044,
+  "rss_MiB": 94.375,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "code_sha256": "4d3c53649f0a70c05a3a400cfb5316a82d649733b2889bfb6d2a11b9448d127d",
+  "config_sha256": "2fa9db896a01f8a79aad062b1de4dfb84b09f65515ca60517589b1cfaab01021"
+}

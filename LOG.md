@@ -59,3 +59,6 @@ Código y referencia analítica congelados antes de ejecución. E1 reutilizado s
 
 ## E2-W01 corrección previa — 2026-11-25
 Inspección previa detectó denominador de residual combustible incluía soporte seco. Se corrige a max(1,combustible inicial), como exige protocolo. Sin corrida ni cambio de criterio. Base 2cdabacd85126296a828e643f3ed474f48041e6f.
+
+## E2-W01 ejecución — 2026-11-25
+70 corridas, 14/14 controles; evidencia, salida exacta comprimida y resumen. Próxima revisión; G2 abierto. Base d80b968337206e21adb57193ba19c14ff1249e87.
