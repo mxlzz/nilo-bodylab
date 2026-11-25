@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-S01-implementation",
+  "current_task": "E3-S01-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -55,7 +55,8 @@
     "E3-M03-review",
     "E3.03",
     "E3.04-screen",
-    "E3.04-preregistration"
+    "E3.04-preregistration",
+    "E3-S01-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -71,18 +72,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-S01-implementation",
+    "task": "E3-S01-run",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-S01/run.py and controller.py",
-    "action": "Implement frozen situated-body contrast and evaluator; static review before triggering CI.",
-    "acceptance": "No execution before source commit; separate observation interface, actuator and ledger; all frozen controls.",
-    "on_acceptance": "E3-S01-run"
+    "deliverable": "E3-S01 run log and results.jsonl",
+    "action": "Static check of frozen source, then execute on bounded free runner with verified wheels; preserve output.",
+    "acceptance": "C1–C9 as frozen; preserve failures and no retuning.",
+    "on_acceptance": "E3-S01-review"
   },
   "last_change": {
-    "id": "E3.04-preregistration",
+    "id": "E3-S01-implementation",
     "log": "LOG.md",
-    "parent_commit": "05edee1e0e70168438d5f0a3832d542a4907c9bc",
-    "note": "Frozen two-mass traction, local ray and equal-mass exchange protocol and cases."
+    "parent_commit": "5b89d2f3e9213d7570b9f90c0637931a4705eb93",
+    "note": "Frozen situated-body source and separate trusted controller; no execution."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

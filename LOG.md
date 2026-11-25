@@ -147,3 +147,7 @@ Alternativas de reacción, percepción e intercambio cribadas. Selección provis
 ## E3-S01 — preregistro (2026-11-25)
 
 13 casos dinámicos, 7 contrafactuales sensoriales, referencias y criterios C1–C9 fijados; sin ejecución. Base 05edee1e0e70168438d5f0a3832d542a4907c9bc.
+
+## E3-S01 — implementación (2026-11-25)
+
+Fuente y controlador separado congelados, ledger, referencias y trazas por tick; sin ejecución. Base 5b89d2f3e9213d7570b9f90c0637931a4705eb93.
