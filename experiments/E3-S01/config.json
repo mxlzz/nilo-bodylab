@@ -1,0 +1,645 @@
+{
+  "radius": 0.25,
+  "capacity": 0.5,
+  "q": 10,
+  "eta": 0.5,
+  "range": 1,
+  "control_dt": 0.25,
+  "steps": [
+    0.0005,
+    0.00025,
+    0.000125
+  ],
+  "contact": {
+    "solref": [
+      0.02,
+      1
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2
+    ]
+  },
+  "cases": [
+    {
+      "id": "x",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0.5,
+      "X": 0,
+      "boxes": [],
+      "duration": 1.5,
+      "pull": 1,
+      "pull_ticks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exchange": 0,
+      "controller": "script"
+    },
+    {
+      "id": "y",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        0,
+        2
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0.5,
+      "X": 0,
+      "boxes": [],
+      "duration": 1.5,
+      "pull": 1,
+      "pull_ticks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exchange": 0,
+      "controller": "script"
+    },
+    {
+      "id": "heavy",
+      "m": 4,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0.5,
+      "X": 0,
+      "boxes": [],
+      "duration": 1.5,
+      "pull": 1,
+      "pull_ticks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exchange": 0,
+      "controller": "script"
+    },
+    {
+      "id": "empty",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0,
+      "X": 0,
+      "boxes": [],
+      "duration": 1.5,
+      "pull": 1,
+      "pull_ticks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exchange": 0,
+      "controller": "script"
+    },
+    {
+      "id": "limited",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0.02,
+      "X": 0,
+      "boxes": [],
+      "duration": 1.5,
+      "pull": 1,
+      "pull_ticks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exchange": 0,
+      "controller": "script"
+    },
+    {
+      "id": "idle",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0.5,
+      "X": 0,
+      "boxes": [],
+      "duration": 1.5,
+      "pull": 1,
+      "pull_ticks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exchange": 0,
+      "controller": "idle"
+    },
+    {
+      "id": "reserved",
+      "m": 3,
+      "M": 2.5,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        1.2,
+        1.6
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0.015,
+      "X": 0,
+      "boxes": [],
+      "duration": 1,
+      "pull": 0.8,
+      "pull_ticks": [
+        0,
+        1,
+        2
+      ],
+      "exchange": 0,
+      "controller": "script"
+    },
+    {
+      "id": "collision",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "R": 0.5,
+      "X": 0,
+      "boxes": [
+        {
+          "name": "wall",
+          "pos": [
+            0,
+            1
+          ],
+          "half": [
+            1,
+            0.25
+          ]
+        }
+      ],
+      "duration": 1.25,
+      "pull": 0,
+      "pull_ticks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exchange": 0,
+      "controller": "script"
+    },
+    {
+      "id": "refill",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0,
+      "X": 0.08,
+      "boxes": [
+        {
+          "name": "dock",
+          "pos": [
+            -0.3499,
+            0
+          ],
+          "half": [
+            0.1,
+            0.3
+          ]
+        }
+      ],
+      "duration": 1,
+      "pull": 1,
+      "pull_ticks": [
+        1,
+        2
+      ],
+      "exchange": 0.1,
+      "controller": "script"
+    },
+    {
+      "id": "remote",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0,
+      "X": 0.08,
+      "boxes": [
+        {
+          "name": "dock",
+          "pos": [
+            -0.65,
+            0
+          ],
+          "half": [
+            0.1,
+            0.3
+          ]
+        }
+      ],
+      "duration": 1,
+      "pull": 1,
+      "pull_ticks": [
+        1,
+        2
+      ],
+      "exchange": 0.1,
+      "controller": "script"
+    },
+    {
+      "id": "dry-dock",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0,
+      "X": 0,
+      "boxes": [
+        {
+          "name": "dock",
+          "pos": [
+            -0.3499,
+            0
+          ],
+          "half": [
+            0.1,
+            0.3
+          ]
+        }
+      ],
+      "duration": 1,
+      "pull": 1,
+      "pull_ticks": [
+        1,
+        2
+      ],
+      "exchange": 0.1,
+      "controller": "script"
+    },
+    {
+      "id": "closed",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0,
+      "X": 0.08,
+      "boxes": [
+        {
+          "name": "dock",
+          "pos": [
+            -0.3499,
+            0
+          ],
+          "half": [
+            0.1,
+            0.3
+          ]
+        }
+      ],
+      "duration": 1,
+      "pull": 1,
+      "pull_ticks": [
+        1,
+        2
+      ],
+      "exchange": 0,
+      "controller": "script"
+    },
+    {
+      "id": "no-residue",
+      "m": 2,
+      "M": 3,
+      "body": [
+        0,
+        0
+      ],
+      "counter": [
+        2,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": 0.5,
+      "X": 0.08,
+      "boxes": [
+        {
+          "name": "dock",
+          "pos": [
+            -0.3499,
+            0
+          ],
+          "half": [
+            0.1,
+            0.3
+          ]
+        }
+      ],
+      "duration": 1,
+      "pull": 0,
+      "pull_ticks": [
+        1,
+        2
+      ],
+      "exchange": 0.1,
+      "controller": "script"
+    }
+  ],
+  "sensors": [
+    {
+      "id": "clear",
+      "boxes": [
+        {
+          "name": "target",
+          "pos": [
+            1.1,
+            0
+          ],
+          "half": [
+            0.1,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occluded-a",
+      "boxes": [
+        {
+          "name": "screen",
+          "pos": [
+            0.7,
+            0
+          ],
+          "half": [
+            0.1,
+            0.25
+          ]
+        },
+        {
+          "name": "target",
+          "pos": [
+            1.1,
+            0
+          ],
+          "half": [
+            0.1,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occluded-b",
+      "boxes": [
+        {
+          "name": "screen",
+          "pos": [
+            0.7,
+            0
+          ],
+          "half": [
+            0.1,
+            0.25
+          ]
+        },
+        {
+          "name": "target",
+          "pos": [
+            1.3,
+            0
+          ],
+          "half": [
+            0.1,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "far",
+      "boxes": [
+        {
+          "name": "target",
+          "pos": [
+            2.1,
+            0
+          ],
+          "half": [
+            0.1,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent",
+      "boxes": []
+    },
+    {
+      "id": "translated",
+      "shift": [
+        3,
+        4
+      ],
+      "boxes": [
+        {
+          "name": "target",
+          "pos": [
+            1.1,
+            0
+          ],
+          "half": [
+            0.1,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hidden-stock",
+      "X": 0.2,
+      "boxes": [
+        {
+          "name": "screen",
+          "pos": [
+            0.7,
+            0
+          ],
+          "half": [
+            0.1,
+            0.25
+          ]
+        },
+        {
+          "name": "target",
+          "pos": [
+            1.1,
+            0
+          ],
+          "half": [
+            0.1,
+            0.25
+          ]
+        }
+      ]
+    }
+  ]
+}

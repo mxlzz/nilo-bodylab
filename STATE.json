@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3.04-preregistration",
+  "current_task": "E3-S01-implementation",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -54,7 +54,8 @@
     "E3-M03-run",
     "E3-M03-review",
     "E3.03",
-    "E3.04-screen"
+    "E3.04-screen",
+    "E3.04-preregistration"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -70,18 +71,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3.04-preregistration",
+    "task": "E3-S01-implementation",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-S01/protocol.md and config.json",
-    "action": "Preregister finite two-body traction, contact, local sensory and material exchange contrast.",
-    "acceptance": "Freeze falsifiable references, causal boundaries, controls, metrics, tolerances, replay and resource limits before implementation.",
-    "on_acceptance": "E3-S01 implementation"
+    "deliverable": "experiments/E3-S01/run.py and controller.py",
+    "action": "Implement frozen situated-body contrast and evaluator; static review before triggering CI.",
+    "acceptance": "No execution before source commit; separate observation interface, actuator and ledger; all frozen controls.",
+    "on_acceptance": "E3-S01-run"
   },
   "last_change": {
-    "id": "E3.04-screen",
+    "id": "E3.04-preregistration",
     "log": "LOG.md",
-    "parent_commit": "72b9be3840155ffbe3cd6106b40187ad820a8e3c",
-    "note": "Screened finite counterpart traction, native rays/contact and equal-mass local exchange; no anatomy or engine choice."
+    "parent_commit": "05edee1e0e70168438d5f0a3832d542a4907c9bc",
+    "note": "Frozen two-mass traction, local ray and equal-mass exchange protocol and cases."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

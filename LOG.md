@@ -143,3 +143,7 @@ Readback íntegro verificado contra log. Primer intento de escritura falló Grap
 ## E3.04 — cribado (2026-11-25)
 
 Alternativas de reacción, percepción e intercambio cribadas. Selección provisional de instrumento de tracción de dos masas y puerto de intercambio 1:1; sin elección anatómica ni ejecución. Próximo preregistro. Base 72b9be3840155ffbe3cd6106b40187ad820a8e3c. Ver evidence/E3.04-screen.md.
+
+## E3-S01 — preregistro (2026-11-25)
+
+13 casos dinámicos, 7 contrafactuales sensoriales, referencias y criterios C1–C9 fijados; sin ejecución. Base 05edee1e0e70168438d5f0a3832d542a4907c9bc.
