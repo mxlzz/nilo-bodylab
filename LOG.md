@@ -131,3 +131,7 @@ Código M02 reutilizado, solo diagnóstico Euler y D1; ningún cambio de dinámi
 
 ## E3-M03 disparo CI — 2026-11-25
 Workflow acotado equivalente M02, nueva resolución y diagnóstico; hashes y límites conservados. Base 2cfd078434811c40d9c21a816162e8057250054c.
+
+## E3-M03 — ejecución (2026-11-25)
+
+Run 45648237706; 24 corridas, 266000 pasos; 8/8, error fino 0.0313349711 J sin alterar criterios. M02 negativo preservado. Evidencia en evidence/E3-M03.md. Próximo: revisión.

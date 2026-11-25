@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C4": true,
+    "C5": true,
+    "C6": true,
+    "C7": true,
+    "D1": true
+  },
+  "elapsed_s": 3.065919234999999,
+  "fine_reference_errors": {
+    "R": 0.00004999999992208459,
+    "W": 0.00024999999972319387,
+    "v": 0.00006249471026664732,
+    "x": 0.00012499999986159693
+  },
+  "max_energy_all": 0.12840098519973786,
+  "max_energy_fine": 0.03133497110516803,
+  "max_euler_defect": 0.12840098520002757,
+  "max_identity_error": 1.4374703684316703e-12,
+  "max_mass": 3.1530333899354446e-14,
+  "max_momentum": 3.397282455352979e-13,
+  "max_nc_error_coarse": 0.0009999999997525322,
+  "max_nc_error_fine": 0.00024999999972319387,
+  "max_penetration": 0.014778570956994752,
+  "mujoco": "4.0.1",
+  "numpy": "2.3.5",
+  "passed": true,
+  "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "rss_mib": 61.37890625,
+  "sha256": {
+    "config.json": "d5bfe5137070f7f466d13469817c07a8621bfbe4f4c987c26f6ac0dd073a865d",
+    "requirements.txt": "e58f8eee9eff0affb1689e26e69efcfd1a2ece7aa58ba496e8c3d887a33cbbc1",
+    "run.py": "780d156cbe190fc7517c1e72a9df7c035dd9a481ff2cd042c037a940c4cd8fc2"
+  },
+  "run_id": 45648237706,
+  "job_id": 139324985832,
+  "head_sha": "22f1b520abc567b353e1303bfa30f0114ac02758",
+  "raw_sha256": "37194e81390f0e949818f8ba07931ed5a9db7a972e60376402fedeb90b4e4982",
+  "steps": 266000,
+  "exit": 0,
+  "source_blob": "37c6c9219a5a32c69f02ac7b10f8b8a088ff5481"
+}

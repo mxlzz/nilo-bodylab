@@ -1,3 +1,3 @@
-# BodyLab — Estado y continuidad
+# Estado operativo
 
-G0/G1/G2 superados con alcance sintético; G3 abierto. E3-M02 rechazado; E3-M03 diagnóstico refinado disparado, resultado pendiente. No motor aceptado ni integración. STATE.json canónico.
+E3-M03 ejecutado: 8/8, 24 corridas. Error fino 0.0313349711 J. M02 permanece rechazado. Revisión pendiente. G2 superado; G3 abierto. Sin bloqueo.
