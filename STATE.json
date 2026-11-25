@@ -6,8 +6,8 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-M02-run",
-  "status": "awaiting_run_result",
+  "current_task": "E3-M02-review",
+  "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
     "E0.02",
@@ -46,7 +46,8 @@
     "E3-M01-review",
     "E3.03-access-probe",
     "E3.03-preregistration",
-    "E3-M02-implementation"
+    "E3-M02-implementation",
+    "E3-M02-run"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -62,18 +63,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-M02-run",
+    "task": "E3-M02-review",
     "plan": "ROADMAP.md",
-    "deliverable": "E3-M02 CI logs and results.json",
-    "action": "Read one-shot CI run and job logs; verify exact source and results, then evaluate.",
-    "acceptance": "C1–C7, preserve failures without retuning.",
-    "on_acceptance": "E3-M02-review"
+    "deliverable": "evidence/E3-M02-review.md",
+    "action": "Review rejected energy criterion and diagnose integration error; if justified preregister independent refinement without relaxing tolerance or replacing raw evidence.",
+    "acceptance": "Disposition of failure and scope; no engine acceptance or G3 passage.",
+    "on_acceptance": "E3-M03 refinement or alternate mechanism"
   },
   "last_change": {
-    "id": "E3-M02-run-trigger",
+    "id": "E3-M02-run",
     "log": "LOG.md",
-    "parent_commit": "464a66ed177b91bcadf718af0291bdb6c17401f7",
-    "note": "One-shot standard runner definition committed; result pending."
+    "parent_commit": "e9cdc727fbd2fdfd410aebace9aa392f0cc5864d",
+    "note": "24 runs; C2 failed, six passed; raw evidence preserved, motor not accepted."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

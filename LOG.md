@@ -119,3 +119,6 @@ Fuente propia congelada, separación de contacto blando y referencia rígida; no
 
 ## E3-M02 disparo CI — 2026-11-25
 Workflow de contraste acotado, runner público estándar, dependencias hash-pinned, inspección previa y venv offline. Pendiente confirmar ejecución. Base 464a66ed177b91bcadf718af0291bdb6c17401f7.
+
+## E3-M02 resultado negativo — 2026-11-25
+Run 45647841518, exit 1 por C2: residual energía contacto supera umbrales. 24 corridas, 6/7 criterios, datos íntegros y hashes preservados. No motor aceptado; próxima revisión. Base e9cdc727fbd2fdfd410aebace9aa392f0cc5864d.
