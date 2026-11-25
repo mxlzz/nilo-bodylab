@@ -1,5 +1,5 @@
 # BodyLab — Estado y continuidad
 
-2026-11-25. E0.03 completada: [cribado técnico y límites](evidence/E0.03.md). Referencias DEBtool/PyDEB/NicheMapR, balances mínimos y solver genérico por comparar. G0 abierto. Próxima unidad **E0.04**: decisión fundamentada entre adoptar/adaptar/combinar/desarrollar mínimo/cerrar, incluyendo utilidad de reproducción E0.05. STATE.json canónico.
+2026-11-25. E0.04 completada: [evidence/E0.04.md](evidence/E0.04.md). Scoped minimum balance comparison selected; no integration or execution. G0 abierto. Próxima **E0.05**: Resolve conditional external reproduction and document justification; derive analytic reference suitability before protocol. STATE.json canónico.
 
-Ningún experimento ejecutado ni tecnología seleccionada. R/MATLAB/Octave/PyDEB no disponibles localmente; no bloquea comparación documental. Licencias raíz verificadas, transitivas pendientes si se adopta. P/X condicionadas a G3. No iniciar E1 antes de G0.
+Sin experimento ni integración; P/X tras G3. Sin bloqueo para próxima unidad.

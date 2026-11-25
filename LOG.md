@@ -11,3 +11,6 @@ Revisión dirigida de literatura: 12 consultas preregistradas y complementarias,
 
 ## E0.03 — 2026-11-25
 Cribado técnico de DEBtool, NicheMapR, PyDEB, COPASI, SciPy y balances mínimos; SHA/licencias raíz, dependencias, lectura estática, riesgos de clipping y comportamiento, disponibilidad y costes cualitativos registrados en evidence/E0.03.md. Sin ejecución, instalación, coste pago ni integración. Familias de gates posteriores diferidas, no excluidas. Aceptación documental propia; G0 abierto, próxima E0.04. Base 20804d36f4685a1771c12b237c01b2c62f5ac17d.
+
+## E0.04 — 2026-11-25
+Scoped minimum balance comparison selected; no integration or execution. Evidencia: evidence/E0.04.md. Próxima E0.05. Base b93cf62539766dd0d775acc485c24752fc28e1fd.
