@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-M02-implementation",
+  "current_task": "E3-M02-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -45,7 +45,8 @@
     "E3-M01-run",
     "E3-M01-review",
     "E3.03-access-probe",
-    "E3.03-preregistration"
+    "E3.03-preregistration",
+    "E3-M02-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -61,18 +62,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-M02-implementation",
+    "task": "E3-M02-run",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-M02/run.py and one-shot CI execution definition",
-    "action": "Implement frozen contrast; review code and dependencies; freeze source before triggering CI.",
-    "acceptance": "No post hoc changes; CI limited and hashes verified.",
-    "on_acceptance": "E3-M02-run"
+    "deliverable": "E3-M02 CI logs and results.json",
+    "action": "Trigger one-shot free runner after source freeze; verify wheels, install offline, execute under limits, preserve results.",
+    "acceptance": "C1–C7, preserve failures without retuning.",
+    "on_acceptance": "E3-M02-review"
   },
   "last_change": {
-    "id": "E3.03-preregistration",
+    "id": "E3-M02-implementation",
     "log": "LOG.md",
-    "parent_commit": "06db4d59e1c84c0b5d8db3949f46b6afddcbe087",
-    "note": "Preregistered headless engine contrast, separate contact law and frozen hashes."
+    "parent_commit": "3505df0f8057c65b0b09a8362a239011b1f5c2dd",
+    "note": "Frozen source before CI trigger; no execution."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

@@ -113,3 +113,6 @@ Run 45647156945 success, hash wheel y metadata verificados en job 139321109993. 
 
 ## E3-M02 preregistro — 2026-11-25
 Contraste de MuJoCo headless contra referencia M01 en dominio compartido, contacto blando diferenciado, hashes de wheels y criterios congelados. Sin instalación ni ejecución. Base 06db4d59e1c84c0b5d8db3949f46b6afddcbe087.
+
+## E3-M02 implementación — 2026-11-25
+Fuente propia congelada, separación de contacto blando y referencia rígida; no ejecución. Base 3505df0f8057c65b0b09a8362a239011b1f5c2dd.
