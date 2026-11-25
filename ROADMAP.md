@@ -30,3 +30,6 @@ H-common: flujos acoplados mejoran coherencia causal frente a indicadores indepe
 
 ## E2 — secuencia operativa (2026-11-25, posterior a G1)
 Ver evidence/E2.01.md. E2.01 cribado; E2.02 capacidad térmica y balance acoplado E1 (preregistro, implementación, ejecución); E2.03 criba y contraste agua/calor si justificado; E2.04 límites funcionales, daño/reparación si causalmente definidos; E2.05 contraste conjunto y G2. Cada ensayo requiere preregistro propio; diferir mecanismos con razón y no reclamar validación integral. Sin cambio de objetivo ni arquitectura. 
+
+## E3 — secuencia operativa (2026-11-25, posterior a G2)
+Ver [evidence/E3.01.md](evidence/E3.01.md). E3.01 cribado; E3.02 referencia mecánica restringida con cuerpo finito, reacción, contacto y ledger; E3.03 comparación de motor reutilizable cuando acceso/licencias/recursos verificados; E3.04 cuerpo fijo situado y frontera sensorial/material; E3.05 perturbación material y disposición de daño/reparación; G3 auditoría de suficiencia para P/X. Cada ensayo preregistrado; no seleccionar motor por anticipado ni confundir referencia guiada con cuerpo completo. Bloqueo de acceso externo solo afecta unidades dependientes; no afirmar contraste realizado si falta. Criterios de gate y tolerancias por ensayo en evidencia/protocolos.

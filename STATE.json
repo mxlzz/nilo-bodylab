@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3.01",
+  "current_task": "E3.02-preregistration",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -38,7 +38,8 @@
     "E2-C01-implementation",
     "E2-C01-run",
     "E2.05",
-    "G2"
+    "G2",
+    "E3.01"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -54,18 +55,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3.01",
+    "task": "E3.02-preregistration",
     "plan": "ROADMAP.md",
-    "deliverable": "evidence/E3.01.md and bounded E3 sequence",
-    "action": "Screen existing physical engines and minimal mechanical controls; define body/contact/work/sensory frontier requirements, justified scope and gate criteria before selecting implementation.",
-    "acceptance": "Traceable alternatives and measurable discriminating tests for R1/R2/R3/R4/R6, justified deferrals; no unreviewed code execution or premature motor/anatomy choice.",
-    "on_acceptance": "E3.02 preregistration if justified"
+    "deliverable": "experiments/E3-M01/protocol.md and config.json",
+    "action": "Preregister bounded mechanical reference test with finite body, explicit reaction, work and contact ledgers; preserve motor comparison dependency.",
+    "acceptance": "Falsifiable hypothesis, exact analytic references, controls, quantitative tolerances, material and energy boundaries, replay and resource limits; freeze before implementation.",
+    "on_acceptance": "E3-M01 implementation"
   },
   "last_change": {
-    "id": "G2",
+    "id": "E3.01",
     "log": "LOG.md",
-    "parent_commit": "add5cc55cd4ee057402d120e9a569d12b66cbe3f",
-    "note": "Scoped G2 self-audit passed; E3 screening opened; no architecture choice or physiological completion."
+    "parent_commit": "5ed5ae05ab0cd5414273fa65554847e565417aac",
+    "note": "Screened four engines and analytic baseline; provisional candidate, no install or execution; E3 sequence defined."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

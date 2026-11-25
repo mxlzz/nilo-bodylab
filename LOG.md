@@ -89,3 +89,6 @@ Fuente y referencia congeladas antes de ejecución. Base 7c7ddc2194ebac465f4481a
 
 ## G2 — 2026-11-25
 Autoauditoría de E2, 45/45 controles de cuatro contrastes sintéticos según resúmenes verificados, interacción condicional sin ganancia de eficiencia. G2 superado con alcance limitado; E3.01 cribado físico abierto. No se declara fisiología completa. Cabecera ROADMAP actualizada para referir STATE; sin cambio de plan. Base add5cc55cd4ee057402d120e9a569d12b66cbe3f.
+
+## E3.01 — 2026-11-25
+Cribado de cuatro motores y referencia analítica, secuencia E3 y requisitos de G3. MuJoCo candidato provisional; ningún motor instalado ni ejecutado, red local sin resolución DNS. Próximo E3.02 preregistro de banco mecánico, no integración. Base 5ed5ae05ab0cd5414273fa65554847e565417aac.

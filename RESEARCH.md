@@ -36,3 +36,6 @@ Nuevas referencias: [Robot metabolism 2025](https://pmc.ncbi.nlm.nih.gov/article
 
 ## E2.04 — Límites funcionales
 [Criba](evidence/E2.04.md): fatiga muscular 3CC/3CC-r, MyoSuite, MuJoCo DC y acoplamiento electrotérmico. Contraste mínimo sin estado de fatiga, transductor con tensión limitada y resistencia térmica, sin fijar arquitectura. Daño/reparación diferidos hasta causa material definida.
+
+## E3.01 — Mecánica espacial
+[Cribado](evidence/E3.01.md): MuJoCo 4.0.1 candidato provisional por estado de integración/contactos/sensores; Box2D 3.2.0 incluye snapshot experimental; Pymunk 7.4.0 advierte caché de colisiones incompleta al restaurar; Rapier diferido. Referencia analítica restringida como control, no motor general. Versiones, licencias raíz, dependencias, disponibilidad y riesgos registrados. Sin instalación ni ejecución.
