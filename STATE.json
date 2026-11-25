@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E2",
   "gate": "G1_passed_G2_open",
-  "current_task": "E2.05",
+  "current_task": "E2-C01-implementation",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -33,7 +33,8 @@
     "E2-F01-preregistration",
     "E2-F01-implementation",
     "E2-F01-run",
-    "E2-F01-review"
+    "E2-F01-review",
+    "E2-C01-preregistration"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -48,18 +49,18 @@
   "pending_audit": "G2 after E2 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E2.05",
-    "plan": "ROADMAP.md",
-    "deliverable": "Preregistered combined resource/thermal/functional contrast, evidence and G2 audit",
-    "action": "Design and preregister coupled water/thermal/functional limit test with ablations and finite fuel; implement and execute only after freeze; evaluate G2 separately.",
-    "acceptance": "Joint perturbation and recovery tests, explicit ledgers, scope and negative results; gate decision and deferred mechanisms justified.",
-    "on_acceptance": "G2"
+    "task": "E2-C01-implementation",
+    "plan": "experiments/E2-C01/protocol.md",
+    "deliverable": "Frozen run.py",
+    "action": "Implement factorial coupled bank and analytical/RK4 evaluator; freeze before execution.",
+    "acceptance": "Reviewed source matches preregistration; no simulation.",
+    "on_acceptance": "E2-C01-run"
   },
   "last_change": {
-    "id": "E2-F01-review",
+    "id": "E2-C01-preregistration",
     "log": "LOG.md",
-    "parent_commit": "7fce0a142d8711c59da7c307f8ffe11aedd1511e",
-    "note": "Conditional reversible capacity mechanism accepted, no independent fatigue state; damage/repair deferred; E2.05 next."
+    "parent_commit": "cb2466e1aed30cd57d080c287e0a9e929c3d96cc",
+    "note": "Combined contrast preregistered; reuse tested mechanisms; no execution."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

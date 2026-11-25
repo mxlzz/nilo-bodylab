@@ -77,3 +77,6 @@ Fuente y referencia analítica/RK4 congeladas antes de ejecutar. Base eca658736c
 
 ## E2-F01 revisión — 2026-11-25
 Readback verificado, límite electrotérmico aceptado condicionalmente, sin contador adicional de fatiga. Potencia potencial distinta de efectiva; daño/reparación diferidos. Próximo E2.05; G2 abierto. Base 7fce0a142d8711c59da7c307f8ffe11aedd1511e.
+
+## E2-C01 preregistro — 2026-11-25
+Contraste factorial de mecanismos existentes, referencia analítica/RK4, escenarios y criterios congelados. Sin ejecución. Base cb2466e1aed30cd57d080c287e0a9e929c3d96cc.
