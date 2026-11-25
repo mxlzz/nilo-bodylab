@@ -6,8 +6,8 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-S01-run",
-  "status": "awaiting_run_result",
+  "current_task": "E3-S01-review",
+  "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
     "E0.02",
@@ -56,7 +56,8 @@
     "E3.03",
     "E3.04-screen",
     "E3.04-preregistration",
-    "E3-S01-implementation"
+    "E3-S01-implementation",
+    "E3-S01-run"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -72,18 +73,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-S01-run",
+    "task": "E3-S01-review",
     "plan": "ROADMAP.md",
-    "deliverable": "E3-S01 run log and results.jsonl",
-    "action": "Read E3-S01 one-shot runner result, verify full logs and hashes, then evaluate frozen criteria.",
-    "acceptance": "C1–C9 as frozen; preserve failures and no retuning.",
-    "on_acceptance": "E3-S01-review"
+    "deliverable": "evidence/E3-S01-review.md",
+    "action": "Verify persistence and evaluate adequacy of situated body and remaining physical/physiological gaps before E3.05.",
+    "acceptance": "Explicit limitations, no G3 passage yet, decide whether additional test necessary.",
+    "on_acceptance": "E3.05-screen or justified E3.04 extension"
   },
   "last_change": {
-    "id": "E3-S01-run-trigger",
+    "id": "E3-S01-run",
     "log": "LOG.md",
-    "parent_commit": "9b54d96d4160322828bef19274cfa2dd86316b15",
-    "note": "One-shot runner triggered with frozen source and 45 s timeout; result pending."
+    "parent_commit": "b92d8611c776c31835a8edf453bd60ba634ffb02",
+    "note": "Publication recovered; 39 runs and 7 sensory cases, 9/9 passed; review pending."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

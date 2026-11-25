@@ -1,0 +1,61 @@
+{
+  "criteria": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C4": true,
+    "C5": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true
+  },
+  "elapsed_s": 34.86089447299992,
+  "free_refinement": [
+    0.00020833333332648252,
+    0.000052083333317354263
+  ],
+  "max_energy_all": 0.03132305695947757,
+  "max_energy_fine": 0.007821750463404276,
+  "max_force_error": 2.220446049250313e-16,
+  "max_force_sum_error": 0,
+  "max_mass": 4.884981308350689e-15,
+  "max_momentum": 2.1094237467877974e-13,
+  "max_penetration": 0.007388129985540615,
+  "mujoco": "4.0.1",
+  "numpy": "2.3.5",
+  "passed": true,
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "reference_fine": {
+    "R": 0.000010416666658796814,
+    "W": 0.000052083333317354263,
+    "v": 0.000031246282136632164,
+    "x": 0.0000312500000901883
+  },
+  "rss_mib": 61.4375,
+  "runs": 39,
+  "sensor_cases": 7,
+  "sha256": {
+    "config.json": "e92d808b3d872b7ee23d4ce9b6fd9f9f7ade2c42cb59010b3f6f5fc2765d9289",
+    "controller.py": "f6317f69842840b40054cb131e25297390785504e90e3bb6f1cf3f7653122b86",
+    "requirements.txt": "e58f8eee9eff0affb1689e26e69efcfd1a2ece7aa58ba496e8c3d887a33cbbc1",
+    "run.py": "3576b22729eb2c7c8e1539031e973263752ba4ffa2880276b0a642337e40ae5e"
+  },
+  "steps": 227500,
+  "type": "summary",
+  "run_id": 45654354822,
+  "job_id": 139346923797,
+  "head_sha": "b92d8611c776c31835a8edf453bd60ba634ffb02",
+  "raw_sha256": "cc054a047096d1cf4f97738a5e01c1ad7000e0e1a46e0232ac4fda70033ff3f3",
+  "raw_records": 47,
+  "raw_bytes_ascii": 100134,
+  "exit": 0,
+  "source_blobs": {
+    "config.json": "097fa51932a5de67f2b5468ff12958fd6bbdd133",
+    "controller.py": "1ec9f91ec1d12dfbba1e711f27fc0c25f0a7ccff",
+    "protocol.md": "94f8c4bdc4035bf50c539b4d7ca30a8511f33f41",
+    "requirements.txt": "dfd55d77039ffec5f748c041432f7a7850e300f0",
+    "run.py": "281da4d40a3f6fcd62b56a76b3fba6dd714dc62c"
+  }
+}

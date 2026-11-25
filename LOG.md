@@ -155,3 +155,7 @@ Fuente y controlador separado congelados, ledger, referencias y trazas por tick;
 ## E3-S01 — disparo CI (2026-11-25)
 
 Workflow acotado derivado de M03 con timeout 45 s para contraste y hashes de controlador/fuente; dependencias y recursos conservados. Primer intento de escritura falló GraphQL; HEAD intacto y reintento. Base 9b54d96d4160322828bef19274cfa2dd86316b15.
+
+## E3-S01 — ejecución (2026-11-25)
+
+Bloqueo de publicación resuelto por CAS al commit preparado, sin cambios de protocolo/fuente. Run 45654354822 success, 39 corridas, 7 escenas, 9/9, evidencia y raw JSONL preservados. Próxima revisión; G3 abierto. Base b92d8611c776c31835a8edf453bd60ba634ffb02.
