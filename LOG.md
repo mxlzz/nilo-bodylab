@@ -116,3 +116,6 @@ Contraste de MuJoCo headless contra referencia M01 en dominio compartido, contac
 
 ## E3-M02 implementación — 2026-11-25
 Fuente propia congelada, separación de contacto blando y referencia rígida; no ejecución. Base 3505df0f8057c65b0b09a8362a239011b1f5c2dd.
+
+## E3-M02 disparo CI — 2026-11-25
+Workflow de contraste acotado, runner público estándar, dependencias hash-pinned, inspección previa y venv offline. Pendiente confirmar ejecución. Base 464a66ed177b91bcadf718af0291bdb6c17401f7.

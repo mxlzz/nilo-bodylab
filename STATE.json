@@ -7,7 +7,7 @@
   "phase": "E3",
   "gate": "G2_passed_G3_open",
   "current_task": "E3-M02-run",
-  "status": "ready_to_start",
+  "status": "awaiting_run_result",
   "completed_research_tasks": [
     "E0.01",
     "E0.02",
@@ -65,15 +65,15 @@
     "task": "E3-M02-run",
     "plan": "ROADMAP.md",
     "deliverable": "E3-M02 CI logs and results.json",
-    "action": "Trigger one-shot free runner after source freeze; verify wheels, install offline, execute under limits, preserve results.",
+    "action": "Read one-shot CI run and job logs; verify exact source and results, then evaluate.",
     "acceptance": "C1–C7, preserve failures without retuning.",
     "on_acceptance": "E3-M02-review"
   },
   "last_change": {
-    "id": "E3-M02-implementation",
+    "id": "E3-M02-run-trigger",
     "log": "LOG.md",
-    "parent_commit": "3505df0f8057c65b0b09a8362a239011b1f5c2dd",
-    "note": "Frozen source before CI trigger; no execution."
+    "parent_commit": "464a66ed177b91bcadf718af0291bdb6c17401f7",
+    "note": "One-shot standard runner definition committed; result pending."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
