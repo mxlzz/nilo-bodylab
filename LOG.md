@@ -14,3 +14,6 @@ Cribado técnico de DEBtool, NicheMapR, PyDEB, COPASI, SciPy y balances mínimos
 
 ## E0.04 — 2026-11-25
 Scoped minimum balance comparison selected; no integration or execution. Evidencia: evidence/E0.04.md. Próxima E0.05. Base b93cf62539766dd0d775acc485c24752fc28e1fd.
+
+## E0.05 — 2026-11-25
+Conditional external example reproduction not warranted; analytical reference derived; no execution. Evidencia: evidence/E0.05.md. Próxima E0.06. Base 355b03d81cc3c3502fd508901e9b4d5081593a9f.
