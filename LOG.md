@@ -35,3 +35,6 @@ Autoauditoría G1 superada con alcance sintético limitado. Conservar A0 y candi
 
 ## E2.01 — 2026-11-25
 Criba dirigida térmica/hídrica, NicheMapR fuente fijada; secuencia E2 acotada y omisiones explícitas. Próxima E2-T01 preregistro. Base 828854a774cbfa6dcdc982c5d9b4714e943e620b.
+
+## E2-T01 preregistro — 2026-11-25
+Contraste capacidad térmica vs equilibrio, calor de E1, controles y tolerancias congelados. No ejecución. Base fee060f46210bf06432d47b3d032b96fc0da5a2c.

@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "q_J_per_kg": 100,
+  "structure_kg": 1,
+  "work_efficiency": 0.6,
+  "dt_s": [
+    0.25,
+    0.125,
+    0.0625,
+    0.03125,
+    0.015625
+  ],
+  "tolerances": {
+    "balance": 1e-10,
+    "temperature_K": 0.05,
+    "heat_forcing_J": 1e-9,
+    "convergence_ratio": 0.65,
+    "control_K": 1e-9,
+    "baseline_failure_K": 2,
+    "wall_s": 20,
+    "rss_MiB": 128
+  },
+  "cases": [
+    {
+      "id": "steady",
+      "set": "development",
+      "metabolic": "A0",
+      "pending": 0,
+      "ready": 5,
+      "external": 0,
+      "k": 1,
+      "T_K": 300,
+      "C_J_K": 10,
+      "G_W_K": 2,
+      "segments": [
+        {
+          "duration": 4,
+          "ambient_K": 290,
+          "maintenance": 0.2,
+          "activity": 0,
+          "pulse": 0
+        },
+        {
+          "duration": 4,
+          "ambient_K": 290,
+          "maintenance": 0.2,
+          "activity": 0,
+          "pulse": 0
+        }
+      ]
+    },
+    {
+      "id": "cooling",
+      "set": "development",
+      "metabolic": "A0",
+      "pending": 0,
+      "ready": 0,
+      "external": 0,
+      "k": 1,
+      "T_K": 310,
+      "C_J_K": 10,
+      "G_W_K": 2,
+      "segments": [
+        {
+          "duration": 2,
+          "ambient_K": 290,
+          "maintenance": 0,
+          "activity": 0,
+          "pulse": 0
+        },
+        {
+          "duration": 4,
+          "ambient_K": 290,
+          "maintenance": 0,
+          "activity": 0,
+          "pulse": 0
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "set": "development",
+      "metabolic": "A0",
+      "pending": 0,
+      "ready": 5,
+      "external": 0,
+      "k": 1,
+      "T_K": 300,
+      "C_J_K": 10,
+      "G_W_K": 2,
+      "segments": [
+        {
+          "duration": 2,
+          "ambient_K": 300,
+          "maintenance": 0.1,
+          "activity": 0.5,
+          "pulse": 0
+        },
+        {
+          "duration": 4,
+          "ambient_K": 300,
+          "maintenance": 0.1,
+          "activity": 0,
+          "pulse": 0
+        }
+      ]
+    },
+    {
+      "id": "ambient-reversal",
+      "set": "reserved",
+      "metabolic": "A0",
+      "pending": 0,
+      "ready": 5,
+      "external": 0,
+      "k": 1,
+      "T_K": 300,
+      "C_J_K": 10,
+      "G_W_K": 2,
+      "segments": [
+        {
+          "duration": 2,
+          "ambient_K": 320,
+          "maintenance": 0.1,
+          "activity": 0,
+          "pulse": 0
+        },
+        {
+          "duration": 2,
+          "ambient_K": 280,
+          "maintenance": 0.1,
+          "activity": 0.2,
+          "pulse": 0
+        },
+        {
+          "duration": 4,
+          "ambient_K": 300,
+          "maintenance": 0.1,
+          "activity": 0,
+          "pulse": 0
+        }
+      ]
+    },
+    {
+      "id": "insulated",
+      "set": "reserved",
+      "metabolic": "A0",
+      "pending": 0,
+      "ready": 5,
+      "external": 0,
+      "k": 1,
+      "T_K": 300,
+      "C_J_K": 10,
+      "G_W_K": 0,
+      "segments": [
+        {
+          "duration": 2,
+          "ambient_K": 300,
+          "maintenance": 0.2,
+          "activity": 0,
+          "pulse": 0
+        },
+        {
+          "duration": 2,
+          "ambient_K": 290,
+          "maintenance": 0.1,
+          "activity": 0.2,
+          "pulse": 0
+        }
+      ]
+    },
+    {
+      "id": "history-hot",
+      "set": "reserved",
+      "metabolic": "A0",
+      "pending": 0,
+      "ready": 0,
+      "external": 0,
+      "k": 1,
+      "T_K": 315,
+      "C_J_K": 20,
+      "G_W_K": 1,
+      "segments": [
+        {
+          "duration": 2,
+          "ambient_K": 300,
+          "maintenance": 0,
+          "activity": 0,
+          "pulse": 0
+        },
+        {
+          "duration": 4,
+          "ambient_K": 300,
+          "maintenance": 0,
+          "activity": 0,
+          "pulse": 0
+        }
+      ]
+    },
+    {
+      "id": "history-cold",
+      "set": "reserved",
+      "metabolic": "A0",
+      "pending": 0,
+      "ready": 0,
+      "external": 0,
+      "k": 1,
+      "T_K": 285,
+      "C_J_K": 20,
+      "G_W_K": 1,
+      "segments": [
+        {
+          "duration": 2,
+          "ambient_K": 300,
+          "maintenance": 0,
+          "activity": 0,
+          "pulse": 0
+        },
+        {
+          "duration": 4,
+          "ambient_K": 300,
+          "maintenance": 0,
+          "activity": 0,
+          "pulse": 0
+        }
+      ]
+    },
+    {
+      "id": "pending-coupling",
+      "set": "reserved",
+      "metabolic": "A1",
+      "pending": 1,
+      "ready": 0,
+      "external": 0,
+      "k": 0.5,
+      "T_K": 300,
+      "C_J_K": 10,
+      "G_W_K": 2,
+      "segments": [
+        {
+          "duration": 2,
+          "ambient_K": 300,
+          "maintenance": 0.15,
+          "activity": 0.65,
+          "pulse": 0
+        },
+        {
+          "duration": 2,
+          "ambient_K": 295,
+          "maintenance": 0.2,
+          "activity": 0,
+          "pulse": 0
+        }
+      ]
+    }
+  ]
+}

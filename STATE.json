@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E2",
   "gate": "G1_passed_G2_open",
-  "current_task": "E2.02-preregistration",
+  "current_task": "E2-T01-implementation",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -19,7 +19,8 @@
     "E1-01-implementation",
     "E1-01-run",
     "G1",
-    "E2.01"
+    "E2.01",
+    "E2.02-preregistration"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -34,18 +35,18 @@
   "pending_audit": "G2 after E2 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E2.02-preregistration",
-    "plan": "ROADMAP.md",
-    "deliverable": "experiments/E2-T01/protocol.md and config.json",
-    "action": "Preregister finite thermal capacity versus equilibrium with E1 ledger and analytical controls; freeze before implementation/execution.",
-    "acceptance": "Defined physical boundary, comparable baseline, rejection, coupling, controls and resources.",
-    "on_acceptance": "E2-T01 implementation"
+    "task": "E2-T01-implementation",
+    "plan": "experiments/E2-T01/protocol.md",
+    "deliverable": "experiments/E2-T01/run.py",
+    "action": "Freeze thermal model, analytic evaluator and replay before execution; reuse E1 source unchanged.",
+    "acceptance": "Implementation reviewed against preregistered checks and inputs, no execution yet.",
+    "on_acceptance": "E2-T01-run"
   },
   "last_change": {
-    "id": "E2.01",
+    "id": "E2.02-preregistration",
     "log": "LOG.md",
-    "parent_commit": "828854a774cbfa6dcdc982c5d9b4714e943e620b",
-    "note": "Directed heat/water screening; bounded E2 sequence, no simulation."
+    "parent_commit": "fee060f46210bf06432d47b3d032b96fc0da5a2c",
+    "note": "Thermal protocol and config frozen, no execution."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
