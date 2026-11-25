@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3.03-preregistration",
+  "current_task": "E3-M02-implementation",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -44,7 +44,8 @@
     "E3-M01-implementation",
     "E3-M01-run",
     "E3-M01-review",
-    "E3.03-access-probe"
+    "E3.03-access-probe",
+    "E3.03-preregistration"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -60,18 +61,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3.03-preregistration",
+    "task": "E3-M02-implementation",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-M02/protocol.md and config.json",
-    "action": "Preregister MuJoCo headless contrast on verified runner; pin compatible CPython 3.12 wheel and NumPy hashes, review notices, define soft contact and shared analytic domain.",
-    "acceptance": "Frozen criteria before code/run, explicit contact law differences, resource limits and replay; no selection by access alone.",
-    "on_acceptance": "E3-M02 implementation"
+    "deliverable": "experiments/E3-M02/run.py and one-shot CI execution definition",
+    "action": "Implement frozen contrast; review code and dependencies; freeze source before triggering CI.",
+    "acceptance": "No post hoc changes; CI limited and hashes verified.",
+    "on_acceptance": "E3-M02-run"
   },
   "last_change": {
-    "id": "E3.03-access-probe",
+    "id": "E3.03-preregistration",
     "log": "LOG.md",
-    "parent_commit": "76933a133e9767f20f79c5fa176f19a91e1820a8",
-    "note": "CI access probe succeeded, wheel hash verified, metadata logged; CPython 3.12 requires matching wheel for runtime."
+    "parent_commit": "06db4d59e1c84c0b5d8db3949f46b6afddcbe087",
+    "note": "Preregistered headless engine contrast, separate contact law and frozen hashes."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
