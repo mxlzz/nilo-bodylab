@@ -1,3 +1,3 @@
 # BodyLab — Estado y continuidad
 
-E1-01 ejecutado; [evidencia](evidence/E1-01.md), H1 condicional, sin validación fisiológica general. G1 abierto, próxima unidad auditoría G1. Primer intento timeout; repetición con mismo código/config exit 0. Sin integración. STATE.json canónico.
+E1 cerrado; [G1](audits/G1.md) superado con alcance sintético y autoauditoría. E2 abierto. Próxima E2.01: cribado y secuencia de regulación y límites, referencias y preregistro. A0 control; A1 opcional. Primer timeout de E1 preservado; sin integración ni bloqueo de criba. STATE.json canónico.

@@ -29,3 +29,6 @@ Código experimental propio y evaluador analítico congelados antes de ejecució
 
 ## E1-01 ejecución — 2026-11-25
 70 corridas; 10/10 controles; H1 condicional; primer timeout sin resultado, segunda ejecución sin cambios de modelo exit 0. Salida íntegra gzip y resumen, hashes y limitaciones en evidence/E1-01.md. Próximo G1. Base 5d0a53813ae90b2841121cd0d0f7e52d2d520437.
+
+## G1 — 2026-11-25
+Autoauditoría G1 superada con alcance sintético limitado. Conservar A0 y candidato A1 opcional; abrir E2. Sin integración. Base 27e600d6dce2ec952337c46ca1055c00902f7abf.
