@@ -122,3 +122,6 @@ Workflow de contraste acotado, runner público estándar, dependencias hash-pinn
 
 ## E3-M02 resultado negativo — 2026-11-25
 Run 45647841518, exit 1 por C2: residual energía contacto supera umbrales. 24 corridas, 6/7 criterios, datos íntegros y hashes preservados. No motor aceptado; próxima revisión. Base e9cdc727fbd2fdfd410aebace9aa392f0cc5864d.
+
+## E3-M02 revisión / E3-M03 preregistro — 2026-11-25
+Readback íntegro del negativo; hipótesis defecto de trabajo Euler derivada, refinamiento x8 preregistrado con mismos criterios y D1 diagnóstico. No relajar C2 ni corregir residual; no ejecución. Base 480d90d73f7b3d4cbf875f594e65a10878ff608a.
