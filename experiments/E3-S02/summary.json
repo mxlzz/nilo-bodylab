@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C4": true,
+    "C5": true,
+    "C6": true,
+    "C7": true
+  },
+  "elapsed_s": 14.816578444000001,
+  "instant_misses": 10,
+  "integral_misses": 0,
+  "max_momentum_error": 3.552713678800501e-15,
+  "max_noninterference": 0,
+  "max_penetration": 0.007399266260772502,
+  "max_reference_error": 1.7763568394002505e-15,
+  "mujoco": "4.0.1",
+  "numpy": "2.3.5",
+  "pairs": 14,
+  "passed": true,
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "rss_mib": 61.08203125,
+  "sha256": {
+    "config.json": "9c3bf1281c8dc7c4f717f24f1470335b98b66033f36a4edae70bb9117641effa",
+    "requirements.txt": "e58f8eee9eff0affb1689e26e69efcfd1a2ece7aa58ba496e8c3d887a33cbbc1",
+    "run.py": "c30033a4b1cd8ea47a2fc622e511d587702a1287fb63594bf950729ff2a71d22"
+  },
+  "steps": 70000,
+  "type": "summary",
+  "run_id": 45655669089,
+  "job_id": 139351529630,
+  "head_sha": "e84abc70e0778044d020381e942087446d9c437d",
+  "raw_sha256": "aca3bb4e8ae12b8c20e2f1c8fa9a82a32d47b28b21c1c7d9676f2001e84f2b47",
+  "raw_records": 15,
+  "raw_bytes_ascii": 17573,
+  "exit": 0,
+  "paired_main_steps": 140000,
+  "replay_steps_excluded": true
+}

@@ -171,3 +171,7 @@ Fuente congelada antes de ejecución, sensor nativo, baseline sin sensor, refere
 ## E3-S02 disparo CI (2026-11-25)
 
 Workflow público acotado, mismas dependencias, timeout 20 s ejecución. Base 3c373ebaf469ee0709615b10323564d426b4ab85.
+
+## E3-S02 ejecución (2026-11-25)
+
+Run 45655669089, 7/7, 14 pares, 10 intervalos omitidos por lectura puntual y ninguno por integral, cero interferencia. Evidencia y JSONL guardados. Base e84abc70e0778044d020381e942087446d9c437d.
