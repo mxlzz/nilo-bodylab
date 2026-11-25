@@ -1,5 +1,5 @@
 # BodyLab — Estado y continuidad
 
-2026-11-25. Diseño aprobado D001; E0 abierta. Próxima unidad **E0.01**: matriz de requisitos observables/falsificadores y protocolo de búsqueda, recuperando antecedentes internos. Consultar ROADMAP.md y STATE.json (canónico).
+2026-11-25. E0.01 completada: [matriz y protocolo](evidence/E0.01.md), aceptación documental autoevaluada. G0 abierto. Próxima unidad **E0.02**: revisión científica dirigida con registro de consultas y fuentes primarias, brechas y contraejemplos; priorizar bioenergética mínima. STATE.json canónico.
 
-Último resultado: diseño e inventario documental inicial; ningún experimento ejecutado, ningún organismo validado. G0 pendiente; P y X condicionadas a G3, X no bloquea P. No hay bloqueo conocido para primera tarea. Stack, versiones, licencias y presupuesto experimental abiertos. No iniciar simulación antes de protocolo y gate correspondientes.
+Ningún experimento ejecutado ni organismo validado; stack, versiones, licencias y presupuesto experimental abiertos. P/X condicionadas a G3; X no bloquea P. Sin bloqueo conocido para revisión documental. No iniciar simulación antes de G0.

@@ -6,9 +6,11 @@
   "design": "approved",
   "phase": "E0",
   "gate": "G0_open",
-  "current_task": "E0.01",
+  "current_task": "E0.02",
   "status": "ready_to_start",
-  "completed_research_tasks": [],
+  "completed_research_tasks": [
+    "E0.01"
+  ],
   "approved_decisions": [
     "decisions/D001.md"
   ],
@@ -19,18 +21,18 @@
   "pending_audit": "G0 after E0.07",
   "blocked_by": [],
   "next_action": {
-    "task": "E0.01",
+    "task": "E0.02",
     "plan": "ROADMAP.md",
-    "deliverable": "evidence/E0.01.md",
-    "action": "Map R1-R7 to observable, reference evidence, falsifier and exclusions; recover prior audit and record reproducible search protocol. No simulation.",
-    "acceptance": "Each requirement has observable and falsifier or explicit unresolved uncertainty; inclusion/exclusion and search limits recorded before further screening; prior audit reused.",
-    "on_acceptance": "E0.02"
+    "deliverable": "RESEARCH.md and search log in evidence/",
+    "action": "Execute directed scientific review using evidence/E0.01.md protocol; prioritize E1 and record gaps and counterexamples.",
+    "acceptance": "Primary references for finalists, scope/results/limitations, search log and open discriminating questions.",
+    "on_acceptance": "E0.03"
   },
   "last_change": {
-    "id": "INIT-001",
+    "id": "E0.01",
     "log": "LOG.md",
-    "parent_commit": "b45bb3c0c46b8a16852314feeb5050d9d8af8fb1",
-    "note": "Approved design initialized; no experiment executed. Verify actual HEAD; commit itself is not self-referenced."
+    "parent_commit": "e26c9fdac237698205f0759de2faf10e9dad2071",
+    "note": "Documentary acceptance self-assessed; no new literature screening or experiment; G0 open."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
