@@ -1,0 +1,86 @@
+{
+  "protocol": "E2-T01",
+  "source_commit": "5f9d0a4113e09d120e3be10b5d0043d459eecb98",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "source_sha256": "773fa167094a62955141ac93e69c6f33a070a55113b472f94c6296b577574231",
+  "config_sha256": "80e24f64e5f2e6e2a0b9b4185a97e72ae245b572d4e63e92e14535495ad4d756",
+  "e1_sha256": "2777c4765618eb68d404657bf8fa4d3f7060adebdd59b8039ca66c9d4d509932",
+  "command": "timeout 20s python -u experiments/E2-T01/run.py --config experiments/E2-T01/config.json --out experiments/E2-T01/results.json",
+  "exit": 0,
+  "raw_output": {
+    "path": "results.json.gz",
+    "uncompressed_bytes": 61969,
+    "uncompressed_sha256": "91545996c35784281a504a7386b5868cfaae5f539a8adb65270425fd3c8f7eee",
+    "compressed_sha256": "0ba0204262454720feacdf8e23d77fb61e44d32bbe2e3d18bbd7bf567f1b6cd4",
+    "git_blob": "cab0f2351de6fd8ee41679f54063612584382d66"
+  },
+  "wall_s": 0.03177468299998054,
+  "rss_MiB": 95.25390625,
+  "runs": 80,
+  "steps": 11904,
+  "checks": {
+    "balance": true,
+    "admissible": true,
+    "forcing": true,
+    "reference": true,
+    "convergence": true,
+    "steady": true,
+    "cooling": true,
+    "insulated": true,
+    "activity": true,
+    "reversal": true,
+    "pending": true,
+    "replay": true,
+    "resources": true
+  },
+  "h1_checks": {
+    "reserved": true,
+    "baseline_fails": true,
+    "history": true
+  },
+  "h0": false,
+  "verdict": "H1_conditional",
+  "max_balance_residual": 2.9103830456733704e-14,
+  "fine_error_K": 0.011307742560404677,
+  "double_dt_error_K": 0.022641475263185384,
+  "seconds_per_step": {
+    "T0": 0.000002183305107439598,
+    "T1": 0.000002300899193478221
+  },
+  "fine_T_K": {
+    "steady": [
+      300,
+      300
+    ],
+    "cooling": [
+      303.39800705,
+      296.0125765
+    ],
+    "activity": [
+      304.95149471,
+      303.60014866
+    ],
+    "ambient_reversal": [
+      308.25249119,
+      301.89725063,
+      303.60759008
+    ],
+    "insulated": [
+      304,
+      307.6
+    ],
+    "history_hot": [
+      313.57203083,
+      311.11097049
+    ],
+    "history_cold": [
+      286.42796917,
+      288.88902951
+    ],
+    "pending_coupling": [
+      302.59207669,
+      301.93927077
+    ]
+  }
+}

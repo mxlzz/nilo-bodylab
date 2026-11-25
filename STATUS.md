@@ -1,3 +1,3 @@
 # BodyLab — Estado y continuidad
 
-E2-T01 congelado; enmienda 01 del control de desarrollo anterior a ejecución (sin modificar criterios). Próxima unidad: ejecutar fuente y config enmendada verificadas. G2 abierto; sin resultados térmicos aún. STATE.json canónico.
+E2-T01 ejecutado: [evidencia](evidence/E2-T01.md), H1 condicional, 13/13 controles. Próxima revisión de alcance y E2.03. G2 abierto, sin integración. STATE.json canónico.
