@@ -68,3 +68,6 @@ Salida y evidencia verificadas; aceptación condicional a balance de fase, no re
 
 ## E2.04 / E2-F01 preregistro — 2026-11-25
 Criba de mecanismos y preregistro electrotérmico. No motor elegido, daño/reparación diferidos por ausencia de mecanismo material, sin ejecución. Base 383af87944f56e991051fab148f407c703a51553.
+
+## E2-F01 implementación — 2026-11-25
+Fuente y referencia analítica/RK4 congeladas antes de ejecutar. Base eca658736ca2fbb3618d28a2169927edc2ca8719.

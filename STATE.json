@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E2",
   "gate": "G1_passed_G2_open",
-  "current_task": "E2-F01-implementation",
+  "current_task": "E2-F01-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -30,7 +30,8 @@
     "E2-W01-run",
     "E2-W01-review",
     "E2.04",
-    "E2-F01-preregistration"
+    "E2-F01-preregistration",
+    "E2-F01-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -45,18 +46,18 @@
   "pending_audit": "G2 after E2 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E2-F01-implementation",
+    "task": "E2-F01-run",
     "plan": "experiments/E2-F01/protocol.md",
-    "deliverable": "experiments/E2-F01/run.py",
-    "action": "Implement and freeze electrothermal contrast and analytic/RK4 reference prior to execution.",
-    "acceptance": "Code reviewed against frozen protocol and config; no execution.",
-    "on_acceptance": "E2-F01-run"
+    "deliverable": "Exact output and evidence",
+    "action": "Verify frozen source and config; execute and record results.",
+    "acceptance": "Nine preregistered checks; preserve negatives.",
+    "on_acceptance": "E2-F01-review"
   },
   "last_change": {
-    "id": "E2-F01-preregistration",
+    "id": "E2-F01-implementation",
     "log": "LOG.md",
-    "parent_commit": "383af87944f56e991051fab148f407c703a51553",
-    "note": "Causal functional limits screened; preregistered conditional transducer test; no new fatigue/damage state or motor choice."
+    "parent_commit": "eca658736ca2fbb3618d28a2169927edc2ca8719",
+    "note": "Authored source frozen before execution."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
