@@ -128,3 +128,6 @@ Readback íntegro del negativo; hipótesis defecto de trabajo Euler derivada, re
 
 ## E3-M03 implementación — 2026-11-25
 Código M02 reutilizado, solo diagnóstico Euler y D1; ningún cambio de dinámica/ledger ni ejecución. Base aa4a365d0c017afd76342270e564e758707db70a.
+
+## E3-M03 disparo CI — 2026-11-25
+Workflow acotado equivalente M02, nueva resolución y diagnóstico; hashes y límites conservados. Base 2cfd078434811c40d9c21a816162e8057250054c.
