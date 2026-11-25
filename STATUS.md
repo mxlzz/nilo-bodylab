@@ -1,3 +1,3 @@
 # Estado operativo
 
-2026-11-25 — E3-S03 ejecutado, 9/9, 24 corridas, llegada física y acceso local, controles negativos. Revisión pendiente; G3 abierto, E3.05 pendiente.
+2026-11-25 — E3.04 completada en dominio sintético restringido; S03 9/9, llegada e intercambio local sin cable, readback verificado. G3 abierto. Próximo E3.05-screen: daño, reparación y pérdida funcional. Sin bloqueo ni integración.

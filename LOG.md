@@ -207,3 +207,7 @@ Workflow público acotado, mismas dependencias, timeout 60 s ejecución. Base cc
 ## E3-S03 ejecución (2026-11-25)
 
 Run 45664613141, 9/9, 24 corridas, llegada y retirada sin cable, intercambio .08 kg solo por puerto local, replay exacto. Datos y revisión pendiente, G3 abierto. Base 9f09abef7f4a1d004865167d4c5aa58fa19890c4.
+
+## E3-S03 revisión / cierre E3.04 (2026-11-25)
+
+Readback de 25 registros idéntico al log; 9/9 en dominio restringido. E3.04 cerrada, no locomoción autónoma ni suelo general, próximo E3.05 cribado. G3 abierto. Base 3ea5e1009a92c9b6233a7248586435cabe2c360e.
