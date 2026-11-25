@@ -1,3 +1,3 @@
 # BodyLab — Estado y continuidad
 
-G1 superado. G2 abierto. E2-W01 ejecutado, 14/14 controles. Resultado de fase condicionado, no fisiología validada. Próxima revisión de alcance. Sin integración ni bloqueo. STATE.json canónico.
+G0 y G1 superados por autoauditoría de alcance sintético. G2 abierto. E2-T01 y E2-W01 revisados: capacidad térmica y balance hídrico/entalpía como candidatos condicionales. Sin retroacción funcional validada. Próxima E2.04: cribado de límites funcionales/daño/recuperación. Sin integración ni intervención requerida. STATE.json canónico.

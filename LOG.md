@@ -62,3 +62,6 @@ Inspección previa detectó denominador de residual combustible incluía soporte
 
 ## E2-W01 ejecución — 2026-11-25
 70 corridas, 14/14 controles; evidencia, salida exacta comprimida y resumen. Próxima revisión; G2 abierto. Base d80b968337206e21adb57193ba19c14ff1249e87.
+
+## E2-W01 revisión — 2026-11-25
+Salida y evidencia verificadas; aceptación condicional a balance de fase, no regulación ni sed. Próximo E2.04, G2 abierto. Base f2ee1d1337a2073dbf59cd47905a9e34e8b29cd7.
