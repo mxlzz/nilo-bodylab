@@ -49,10 +49,10 @@
     "on_acceptance": "E2-W01-review"
   },
   "last_change": {
-    "id": "E2-W01-implementation",
+    "id": "E2-W01-pre-run-source-correction",
     "log": "LOG.md",
-    "parent_commit": "1b3b1e79a638b2eaa16783fbf45924bb40a2399a",
-    "note": "Source frozen before execution."
+    "parent_commit": "2cdabacd85126296a828e643f3ed474f48041e6f",
+    "note": "Strict protocol fuel normalization corrected before any run; no protocol change."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

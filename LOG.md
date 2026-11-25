@@ -56,3 +56,6 @@ Criba hídrica, contraste de fase acotado; protocolo y configuración congelados
 
 ## E2-W01 implementación — 2026-11-25
 Código y referencia analítica congelados antes de ejecución. E1 reutilizado sin modificación. Base 1b3b1e79a638b2eaa16783fbf45924bb40a2399a.
+
+## E2-W01 corrección previa — 2026-11-25
+Inspección previa detectó denominador de residual combustible incluía soporte seco. Se corrige a max(1,combustible inicial), como exige protocolo. Sin corrida ni cambio de criterio. Base 2cdabacd85126296a828e643f3ed474f48041e6f.

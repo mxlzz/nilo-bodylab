@@ -50,7 +50,7 @@ def simulate(c,phase,dt,k,checkpoint=None,start=0):
     def inspect():
         nonlocal valid
         for j,z in enumerate(totals(s)):
-            scale=max(1e-6 if j==1 else 1.,abs(origins[j]))
+            scale=max(1.,origins[0]-1.) if j==0 else max(1e-6 if j==1 else 1.,abs(origins[j]))
             errors[j]=max(errors[j],abs(z-origins[j])/scale)
         valid &= all(s[z]>=0 for z in ("m","x","v")) and all(s["f"][z]>=0 for z in ("X","P","R","W"))
         valid &= 285<=temp(s,k)<=320
