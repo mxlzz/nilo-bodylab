@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-M03-implementation",
+  "current_task": "E3-M03-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -49,7 +49,8 @@
     "E3-M02-implementation",
     "E3-M02-run",
     "E3-M02-review",
-    "E3-M03-preregistration"
+    "E3-M03-preregistration",
+    "E3-M03-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -65,18 +66,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-M03-implementation",
+    "task": "E3-M03-run",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-M03/run.py",
-    "action": "Reuse M02 code with diagnostic-only Euler defect instrumentation; freeze before runner trigger.",
-    "acceptance": "Same physical state updates and C1–C7; D1 preregistered, no thresholds relaxed.",
-    "on_acceptance": "E3-M03-run"
+    "deliverable": "E3-M03 runner log and results.json",
+    "action": "Trigger frozen refinement; verify all unchanged C1–C7 plus D1, preserve result regardless of outcome.",
+    "acceptance": "No physical changes or correction of energy residual.",
+    "on_acceptance": "E3-M03-review"
   },
   "last_change": {
-    "id": "E3-M03-preregistration",
+    "id": "E3-M03-implementation",
     "log": "LOG.md",
-    "parent_commit": "480d90d73f7b3d4cbf875f594e65a10878ff608a",
-    "note": "M02 rejected; exact log readback; refinement diagnostic preregistered, no retuning."
+    "parent_commit": "aa4a365d0c017afd76342270e564e758707db70a",
+    "note": "M02 reused with diagnostic-only additions and unchanged physical steps; frozen before execution."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

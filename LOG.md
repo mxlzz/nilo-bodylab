@@ -125,3 +125,6 @@ Run 45647841518, exit 1 por C2: residual energía contacto supera umbrales. 24 c
 
 ## E3-M02 revisión / E3-M03 preregistro — 2026-11-25
 Readback íntegro del negativo; hipótesis defecto de trabajo Euler derivada, refinamiento x8 preregistrado con mismos criterios y D1 diagnóstico. No relajar C2 ni corregir residual; no ejecución. Base 480d90d73f7b3d4cbf875f594e65a10878ff608a.
+
+## E3-M03 implementación — 2026-11-25
+Código M02 reutilizado, solo diagnóstico Euler y D1; ningún cambio de dinámica/ledger ni ejecución. Base aa4a365d0c017afd76342270e564e758707db70a.
