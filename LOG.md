@@ -47,3 +47,6 @@ Control activity: deducción algebraica detecta que el tramo de reposo original 
 
 ## E2-T01 ejecución — 2026-11-25
 80 corridas, 13 controles/3 condiciones H1 superados; resultado condicional. Salida exacta gzip, resumen, fuente/config verificados, limitaciones en evidence/E2-T01.md. Base 5f9d0a4113e09d120e3be10b5d0043d459eecb98. Próxima revisión; G2 abierto.
+
+## E2-T01 revisión — 2026-11-25
+Resultado verificado y aceptado para nodo térmico sintético; T0 control de equilibrio válido, T1 candidato, sin retroacción fisiológica. Próxima E2.03. Base 5220177c7692db21a4f06dea5f31689429e7c6ef.
