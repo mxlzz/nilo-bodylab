@@ -1,0 +1,68 @@
+name: E3-S02 tactile integration contrast
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/e3-s02.yml']
+permissions: {}
+jobs:
+  contrast:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      PIP_DISABLE_PIP_VERSION_CHECK: '1'
+      PIP_NO_INPUT: '1'
+    steps:
+      - name: Fetch exact public revision and prepare verified wheels
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 --version
+          python3 -c 'import sys; assert sys.version_info[:2]==(3,12)'
+          uname -sm
+          git init checkout
+          git -C checkout -c credential.helper= fetch --depth 1 https://github.com/mxlzz/nilo-bodylab.git "$GITHUB_SHA"
+          git -C checkout checkout --detach FETCH_HEAD
+          test "$(git -C checkout rev-parse HEAD)" = "$GITHUB_SHA"
+          cd checkout/experiments/E3-S02
+          sha256sum run.py config.json requirements.txt
+          python3 -m venv "$RUNNER_TEMP/bodylab-venv"
+          PY="$RUNNER_TEMP/bodylab-venv/bin/python"
+          "$PY" -m pip download --no-deps --require-hashes --only-binary=:all: --retries 1 --timeout 15 --dest wheelhouse -r requirements.txt
+          sha256sum wheelhouse/*.whl
+          "$PY" - <<'PY'
+          import zipfile, pathlib, email, json
+          files=list(pathlib.Path("wheelhouse").glob("*.whl"))
+          assert len(files)==2
+          expected={"mujoco-core":"4.0.1","numpy":"2.3.5"}
+          for f in files:
+              assert "cp312-cp312" in f.name and "x86_64" in f.name
+              with zipfile.ZipFile(f) as z:
+                  paths=z.namelist()
+                  assert all(not pathlib.PurePosixPath(p).is_absolute() and ".." not in pathlib.PurePosixPath(p).parts and "\\" not in p and not p.lower().endswith(".pth") for p in paths)
+                  assert sum(i.file_size for i in z.infolist())<300_000_000
+                  md=[p for p in paths if p.endswith(".dist-info/METADATA")]
+                  assert len(md)==1
+                  msg=email.message_from_bytes(z.read(md[0]))
+                  name=msg["Name"].lower().replace("_","-")
+                  assert expected.pop(name)==msg["Version"]
+                  deps=msg.get_all("Requires-Dist") or []
+                  base=[d for d in deps if "extra ==" not in d and "extra==" not in d]
+                  assert base==(["numpy"] if name=="mujoco-core" else [])
+                  notices=[p for p in paths if not p.endswith("/") and any(k in p.lower() for k in ("license","notice","copying"))]
+                  assert notices
+                  assert any(z.getinfo(p).file_size>0 for p in notices)
+                  print("WHEEL_METADATA="+json.dumps(dict(name=name,version=msg["Version"],requires_python=msg["Requires-Python"],base_dependencies=base,license_expression=msg["License-Expression"],license_files=msg.get_all("License-File"),notices=notices),sort_keys=True))
+          assert not expected
+          PY
+          "$PY" -m pip install --no-index --no-deps --require-hashes --find-links wheelhouse -r requirements.txt
+          "$PY" -m pip check
+      - name: Execute frozen contrast
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd checkout/experiments/E3-S02
+          timeout 20s "$RUNNER_TEMP/bodylab-venv/bin/python" -u run.py

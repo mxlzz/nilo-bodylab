@@ -7,7 +7,7 @@
   "phase": "E3",
   "gate": "G2_passed_G3_open",
   "current_task": "E3-S02-run",
-  "status": "ready_to_start",
+  "status": "awaiting_run_result",
   "completed_research_tasks": [
     "E0.01",
     "E0.02",
@@ -80,15 +80,15 @@
     "task": "E3-S02-run",
     "plan": "ROADMAP.md",
     "deliverable": "E3-S02 run log and results.jsonl",
-    "action": "Execute frozen tactile contrast, preserve and evaluate C1–C7.",
+    "action": "Read one-shot E3-S02 job result and evaluate frozen criteria.",
     "acceptance": "No changes to criteria; preserve results including negatives.",
     "on_acceptance": "E3-S02-review"
   },
   "last_change": {
-    "id": "E3-S02-implementation",
+    "id": "E3-S02-run-trigger",
     "log": "LOG.md",
-    "parent_commit": "0d5e7ddee6db83c091c3d386821cff2d139e6a59",
-    "note": "Frozen native touch sensor and interval impulse experiment."
+    "parent_commit": "3c373ebaf469ee0709615b10323564d426b4ab85",
+    "note": "One-shot runner trigger, bounded CPU and hash-pinned dependencies."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

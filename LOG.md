@@ -167,3 +167,7 @@ S01 aceptado en dominio restringido; contacto ~.08 s omitido por muestreo fino e
 ## E3-S02 implementación (2026-11-25)
 
 Fuente congelada antes de ejecución, sensor nativo, baseline sin sensor, referencia por momento, restauración de acumulador. Base 0d5e7ddee6db83c091c3d386821cff2d139e6a59.
+
+## E3-S02 disparo CI (2026-11-25)
+
+Workflow público acotado, mismas dependencias, timeout 20 s ejecución. Base 3c373ebaf469ee0709615b10323564d426b4ab85.
