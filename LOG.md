@@ -151,3 +151,7 @@ Alternativas de reacción, percepción e intercambio cribadas. Selección provis
 ## E3-S01 — implementación (2026-11-25)
 
 Fuente y controlador separado congelados, ledger, referencias y trazas por tick; sin ejecución. Base 5b89d2f3e9213d7570b9f90c0637931a4705eb93.
+
+## E3-S01 — disparo CI (2026-11-25)
+
+Workflow acotado derivado de M03 con timeout 45 s para contraste y hashes de controlador/fuente; dependencias y recursos conservados. Primer intento de escritura falló GraphQL; HEAD intacto y reintento. Base 9b54d96d4160322828bef19274cfa2dd86316b15.

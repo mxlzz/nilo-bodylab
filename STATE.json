@@ -7,7 +7,7 @@
   "phase": "E3",
   "gate": "G2_passed_G3_open",
   "current_task": "E3-S01-run",
-  "status": "ready_to_start",
+  "status": "awaiting_run_result",
   "completed_research_tasks": [
     "E0.01",
     "E0.02",
@@ -75,15 +75,15 @@
     "task": "E3-S01-run",
     "plan": "ROADMAP.md",
     "deliverable": "E3-S01 run log and results.jsonl",
-    "action": "Static check of frozen source, then execute on bounded free runner with verified wheels; preserve output.",
+    "action": "Read E3-S01 one-shot runner result, verify full logs and hashes, then evaluate frozen criteria.",
     "acceptance": "C1–C9 as frozen; preserve failures and no retuning.",
     "on_acceptance": "E3-S01-review"
   },
   "last_change": {
-    "id": "E3-S01-implementation",
+    "id": "E3-S01-run-trigger",
     "log": "LOG.md",
-    "parent_commit": "5b89d2f3e9213d7570b9f90c0637931a4705eb93",
-    "note": "Frozen situated-body source and separate trusted controller; no execution."
+    "parent_commit": "9b54d96d4160322828bef19274cfa2dd86316b15",
+    "note": "One-shot runner triggered with frozen source and 45 s timeout; result pending."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
