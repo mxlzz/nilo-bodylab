@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E2",
   "gate": "G1_passed_G2_open",
-  "current_task": "E2-C01-implementation",
+  "current_task": "E2-C01-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -34,7 +34,8 @@
     "E2-F01-implementation",
     "E2-F01-run",
     "E2-F01-review",
-    "E2-C01-preregistration"
+    "E2-C01-preregistration",
+    "E2-C01-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -49,18 +50,18 @@
   "pending_audit": "G2 after E2 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E2-C01-implementation",
+    "task": "E2-C01-run",
     "plan": "experiments/E2-C01/protocol.md",
-    "deliverable": "Frozen run.py",
-    "action": "Implement factorial coupled bank and analytical/RK4 evaluator; freeze before execution.",
-    "acceptance": "Reviewed source matches preregistration; no simulation.",
-    "on_acceptance": "E2-C01-run"
+    "deliverable": "Exact output and evidence",
+    "action": "Verify frozen source/config; execute and preserve all outcomes.",
+    "acceptance": "Nine preregistered criteria, no post hoc changes.",
+    "on_acceptance": "G2"
   },
   "last_change": {
-    "id": "E2-C01-preregistration",
+    "id": "E2-C01-implementation",
     "log": "LOG.md",
-    "parent_commit": "cb2466e1aed30cd57d080c287e0a9e929c3d96cc",
-    "note": "Combined contrast preregistered; reuse tested mechanisms; no execution."
+    "parent_commit": "7c7ddc2194ebac465f4481a32ed9e242a6b70306",
+    "note": "Combined source and analytic/RK4 reference frozen, no execution."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

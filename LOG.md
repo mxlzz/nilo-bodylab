@@ -80,3 +80,6 @@ Readback verificado, límite electrotérmico aceptado condicionalmente, sin cont
 
 ## E2-C01 preregistro — 2026-11-25
 Contraste factorial de mecanismos existentes, referencia analítica/RK4, escenarios y criterios congelados. Sin ejecución. Base cb2466e1aed30cd57d080c287e0a9e929c3d96cc.
+
+## E2-C01 implementación — 2026-11-25
+Fuente y referencia congeladas antes de ejecución. Base 7c7ddc2194ebac465f4481a32ed9e242a6b70306.
