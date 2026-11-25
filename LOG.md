@@ -199,3 +199,7 @@ Presupuesto analítico de sostén podía agotar R antes de puerto. Casos dock/re
 ## E3-S03 implementación (2026-11-25)
 
 Fuente congelada tras revisión estática, controlador separado, ley de superficie viscosa y balances, referencia, replay. Sin ejecución. Base f35ebade713ebfb8b74f48f1ba5a4375fbdb48bc.
+
+## E3-S03 disparo CI (2026-11-25)
+
+Workflow público acotado, mismas dependencias, timeout 60 s ejecución. Base ccf5f076436040a9c3b50760341d0ed22698ba6f.
