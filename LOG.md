@@ -92,3 +92,6 @@ Autoauditoría de E2, 45/45 controles de cuatro contrastes sintéticos según re
 
 ## E3.01 — 2026-11-25
 Cribado de cuatro motores y referencia analítica, secuencia E3 y requisitos de G3. MuJoCo candidato provisional; ningún motor instalado ni ejecutado, red local sin resolución DNS. Próximo E3.02 preregistro de banco mecánico, no integración. Base 5ed5ae05ab0cd5414273fa65554847e565417aac.
+
+## E3-M01 preregistro — 2026-11-25
+Banco mecánico restringido, frontera, controles, referencia y criterios congelados antes de implementación. Sin elección de motor ni ejecución. Base 75a04704ea6db816e6a4e67d04966166c1389201.

@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3.02-preregistration",
+  "current_task": "E3-M01-implementation",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -39,7 +39,8 @@
     "E2-C01-run",
     "E2.05",
     "G2",
-    "E3.01"
+    "E3.01",
+    "E3.02-preregistration"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -55,18 +56,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3.02-preregistration",
+    "task": "E3-M01-implementation",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-M01/protocol.md and config.json",
-    "action": "Preregister bounded mechanical reference test with finite body, explicit reaction, work and contact ledgers; preserve motor comparison dependency.",
-    "acceptance": "Falsifiable hypothesis, exact analytic references, controls, quantitative tolerances, material and energy boundaries, replay and resource limits; freeze before implementation.",
-    "on_acceptance": "E3-M01 implementation"
+    "deliverable": "experiments/E3-M01/run.py",
+    "action": "Implement frozen event-resolved mechanical bank and independent reference; no execution before source commit.",
+    "acceptance": "Static check against frozen protocol/config, explicit ledgers and replay; commit source.",
+    "on_acceptance": "E3-M01-run"
   },
   "last_change": {
-    "id": "E3.01",
+    "id": "E3.02-preregistration",
     "log": "LOG.md",
-    "parent_commit": "5ed5ae05ab0cd5414273fa65554847e565417aac",
-    "note": "Screened four engines and analytic baseline; provisional candidate, no install or execution; E3 sequence defined."
+    "parent_commit": "75a04704ea6db816e6a4e67d04966166c1389201",
+    "note": "Frozen restricted mechanical reference protocol and cases; no code or execution."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
