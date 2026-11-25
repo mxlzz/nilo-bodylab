@@ -1,19 +1,29 @@
-# BodyLab — Hoja de ruta inicial
+# Plan auditable — aprobado 2026-11-25
 
-**Aprobación:** apertura de línea y revisión de antecedentes autorizadas; los diseños y experimentos de abajo son candidatos, no protocolos experimentales aprobados.
+Se conserva E0.01 del scaffold original (H0.01 en propuesta de chat). E0 se amplía; E1–E3 originales se refinan. Solo E0 está activa. Resto condicional: ningún protocolo, motor ni tecnología aprobado por anticipado.
 
-## E0 — Antecedentes y alcance (abierta)
-Buscar literatura y desarrollos relevantes, verificar fuentes/código/versión y licencias. Candidatos de partida: DEBtool, NicheMapR, modelos homeostáticos, MuJoCo, OpenSim, bioquímica de Creatures, Chreatures, ALIEN, Bigville; son candidatos, no selecciones.
-Entregable: inventario trazable, comparación crítica, vacíos y decisión de qué conviene reutilizar, adaptar, descartar o investigar. No establecer tecnología por anticipado.
+| Hito | Dependencia | Resultado y aceptación del gate |
+|---|---|---|
+| E0 antecedentes y selección | Ninguna | Inventario trazable, requisitos y brechas; alternativas, licencias/versiones/coste de finalistas y protocolo E1 preregistrado. G0 antes de ejecución. |
+| E1 bioenergética mínima | G0 | A0 vs candidato de flujos; balances, convergencia, perturbación/recuperación y coste contrastados. G1 decide qué conservar. |
+| E2 regulación y límites | G1 | Solo mecanismos necesarios (agua, nutrición, temperatura, fatiga/daño/recuperación según evidencia); perturbaciones combinadas, sin recursos creados ni correcciones ocultas. G2. |
+| E3 cuerpo físico fijo | G1,G2 (orden ajustable con razón) | Geometría sencilla, contactos, sensores, actuación y trabajo acoplados; controlador intercambiable, sin acceso privilegiado; balance y replay. G3 valida base común o reformula/cierra. |
+| P1 desarrollo condicionado | G3 | Plan corporal parcial vs fijo en condiciones y presupuesto comparables; cambios dentro de una vida por historia/recursos, efecto funcional y coste. G-P1. |
+| P2 ciclo vital y robustez | G-P1 | Desarrollo, envejecimiento y muerte cuando pertinentes; escenarios reservados, sensibilidad, ablación y transferencia entre sustitutos; mecanismo mínimo y límites. G-P2. |
+| X1 factibilidad morfogénesis abierta | G3 y oportunidad justificada | Pregunta independiente y recurso acotado; comparar modelos locales/celulares/estructurales existentes; no confundir patrón emergente con organismo funcional. G-X1 puede cerrar sin ejecución. |
+| X2 contraste abierto | G-X1 | Formación/reorganización dentro de una vida, coste material y continuidad funcional, comparación con fijo y/o P en condiciones equivalentes. G-X2 decide continuar, transferir mecanismo o cerrar. |
+| F síntesis | P2 o cierre justificado de P | Dictamen de suficiencia, limitaciones y transferibilidad. X no bloquea P ni F; integrar con Nilo requiere gate/aprobación externos. |
 
-## E1 — Hipótesis y protocolo (pendiente de E0)
-Definir nivel de abstracción y conjunto mínimo de procesos tras revisar antecedentes; formular hipótesis y tolerancias cuantitativas de balance, causalidad, reproducibilidad y coste.
-Modelo sustituto posible: Entorno sintético con fuentes/sumideros explícitos; controlador de prueba que prescribe actividad y contacto, no conducta autónoma.
-Entregable: hipótesis falsable, baseline, controles, configuración, métricas y umbral de decisión, presupuesto y plan de reproducibilidad. No ejecutar hasta revisar y aprobar protocolo conforme a coordinación.
+Cada gate requiere auditoría en audits/ y criterio cuantitativo preregistrado por ensayo. No escalar si modelo simple satisface requisitos. Unidades verificables, sucesivas si el usuario solicita y no hay dependencia pendiente. No iniciar campañas paralelas con escrituras conflictivas.
 
-## E2 — Contraste mínimo (condicional)
-Balance de reservas, perturbación y recuperación, dependencia de actividad y temperatura, señales interoceptivas observables; contrastar un baseline de reservas abstractas contra alternativas. Locomoción/manipulación solo si justificadas.
-El ensayo concreto debe derivar de E0/E1; no es una obligación de implementar estos candidatos. Ejecutar solo lo necesario y registrar negativos.
+## E0 — tareas
+- **E0.01 (siguiente)**: leer objetivo, D001, RESEARCH y auditoría externa Nilo enlazada; matriz R1–R7 → observable → evidencia de referencia → falsificador → exclusión; definir consultas reproducibles, fuentes, inclusión/exclusión y límites antes de búsqueda adicional. Entregable evidence/E0.01.md. Aceptación: cada R tiene observable y falsificador o incertidumbre explícita; cribado y registro de búsqueda definidos; antecedentes internos recuperados sin duplicar auditoría. No seleccionar motor ni escribir simulador. Guardar LOG/STATE/STATUS. Siguiente E0.02.
+- E0.02: revisión científica dirigida y búsqueda por citas; extender RESEARCH con fuentes originales, alcance, resultados, brechas y contraejemplos. Aceptación: referencias primarias de finalistas, límites y preguntas abiertas.
+- E0.03: cribado técnico (código, licencias por componente, versiones/commits, dependencias, mantenimiento, coste y evidencia). Aceptación: matriz comparable, inaccesibles explícitos, no copiar sin permiso.
+- E0.04: comparar adoptar/adaptar/combinar/desarrollar mínimo/cerrar por R1–R7 y coste. Aceptación: decisión fundamentada, descartes y dudas discriminantes.
+- E0.05: reproducir únicamente ejemplos mínimos de finalistas si necesario y seguro, con preregistro y controles. Aceptación: resultado verificable o bloqueo con recuperación, sin afirmar validación integral.
+- E0.06: protocolo E1: baseline A0, alternativa justificada, fronteras, unidades, ecuaciones, escenarios, métricas/tolerancias, coste, convergencia/replay, condiciones de rechazo. Aceptación: preregistro auditable sin umbrales post hoc.
+- E0.07: G0 audita trazabilidad y adecuación; decidir avanzar/corregir/replantear/pausar/cerrar. Aceptación: auditoría registrada, protocolo apto según coordinación Nilo. Respetar gates y solicitar autorización ante cambios sustantivos o costes pagos.
 
-## E3 — Replicación y revisión (condicional)
-Repetir contrastes con variación justificada; auditar generalización y coste; comparar con mecanismos existentes; decidir avanzar, ajustar, pausar o cerrar. No integrar con otros laboratorios hasta contar con evidencia y un gate específico.
+## Hipótesis candidatas, no resultados
+H-common: flujos acoplados mejoran coherencia causal frente a indicadores independientes. H-P: plasticidad histórica aporta cambio funcional útil sin coste desproporcionado frente a fijo. H-X: organización abierta puede mantener estructuras funcionales sin anatomía final prescrita. Reformular con E0 antes de ensayar; ninguna confirmación obligatoria.

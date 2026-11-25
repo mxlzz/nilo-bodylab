@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "project": "BodyLab",
+  "date": "2026-11-25",
+  "branch": "main",
+  "design": "approved",
+  "phase": "E0",
+  "gate": "G0_open",
+  "current_task": "E0.01",
+  "status": "ready_to_start",
+  "completed_research_tasks": [],
+  "approved_decisions": [
+    "decisions/D001.md"
+  ],
+  "initial_evidence": [
+    "RESEARCH.md"
+  ],
+  "audits": [],
+  "pending_audit": "G0 after E0.07",
+  "blocked_by": [],
+  "next_action": {
+    "task": "E0.01",
+    "plan": "ROADMAP.md",
+    "deliverable": "evidence/E0.01.md",
+    "action": "Map R1-R7 to observable, reference evidence, falsifier and exclusions; recover prior audit and record reproducible search protocol. No simulation.",
+    "acceptance": "Each requirement has observable and falsifier or explicit unresolved uncertainty; inclusion/exclusion and search limits recorded before further screening; prior audit reused.",
+    "on_acceptance": "E0.02"
+  },
+  "last_change": {
+    "id": "INIT-001",
+    "log": "LOG.md",
+    "parent_commit": "b45bb3c0c46b8a16852314feeb5050d9d8af8fb1",
+    "note": "Approved design initialized; no experiment executed. Verify actual HEAD; commit itself is not self-referenced."
+  },
+  "parallel_tracks": {
+    "P": "conditional_on_G3",
+    "X": "conditional_on_G3_and_opportunity_nonblocking"
+  },
+  "budget": "free resources only; preregister limits per experiment"
+}
