@@ -1,0 +1,44 @@
+{
+  "checks": {
+    "balances": true,
+    "admissible": true,
+    "reference": true,
+    "convergence": true,
+    "negative_controls": true,
+    "interaction": true,
+    "depletion_refill": true,
+    "replay": true,
+    "resources": true
+  },
+  "verdict": "H1_conditional",
+  "runs": 80,
+  "steps": 21120,
+  "balances": [
+    2.611244553918368e-14,
+    8.538092108323347e-15,
+    2.3231762489872137e-14
+  ],
+  "fine_error_K": 0.017753990617336513,
+  "coarse_error_K": 0.03553954445135332,
+  "work_error": 0.0000916147053920868,
+  "interaction_J": 6.0520869856378425,
+  "work_delta_J": 6.0520869856378425,
+  "control_delta_J": 0,
+  "wall_s": 0.46303752599988,
+  "rss_MiB": 94.5078125,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "code_sha256": "333a85412f61f7ad32d1d4f348308739c889475f02f11a8898511bc637bee6cb",
+  "config_sha256": "9f6997f573e5fab40418b471ed459a18b8cab46adc007d959b5c4e95dd06d13f",
+  "raw_output": {
+    "path": "results.json.xz",
+    "git_blob": "f45b86072ff4524ee3981505920c0165d9c4dfd8",
+    "compressed_bytes": 10060,
+    "compressed_sha256": "5757befded5a1ff7c7d3721ed0e270a87b6fb103bbcd48c5f6765d3a5991d8f5",
+    "uncompressed_bytes": 78814,
+    "uncompressed_sha256": "a1e953b365e99f61aad0603a16690718fa9fc101f6ec9165d5a1f197deb3706e"
+  },
+  "source_commit": "fc0349667f672cf31aed8e63601ac99c9d637217",
+  "command": "timeout 20s python -u experiments/E2-C01/run.py --config experiments/E2-C01/config.json --out experiments/E2-C01/results.json",
+  "exit": 0
+}

@@ -83,3 +83,6 @@ Contraste factorial de mecanismos existentes, referencia analítica/RK4, escenar
 
 ## E2-C01 implementación — 2026-11-25
 Fuente y referencia congeladas antes de ejecución. Base 7c7ddc2194ebac465f4481a32ed9e242a6b70306.
+
+## E2-C01 ejecución — 2026-11-25
+80 corridas, 9/9 criterios, interacción factorial 6.052 J; no mejora de eficiencia, consumo mayor. Salida íntegra xz, hashes y límites. E2.05 concluida como contraste; próxima auditoría G2, aún abierto. Base fc0349667f672cf31aed8e63601ac99c9d637217.

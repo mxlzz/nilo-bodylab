@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E2",
   "gate": "G1_passed_G2_open",
-  "current_task": "E2-C01-run",
+  "current_task": "G2",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -35,7 +35,9 @@
     "E2-F01-run",
     "E2-F01-review",
     "E2-C01-preregistration",
-    "E2-C01-implementation"
+    "E2-C01-implementation",
+    "E2-C01-run",
+    "E2.05"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -50,18 +52,18 @@
   "pending_audit": "G2 after E2 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E2-C01-run",
-    "plan": "experiments/E2-C01/protocol.md",
-    "deliverable": "Exact output and evidence",
-    "action": "Verify frozen source/config; execute and preserve all outcomes.",
-    "acceptance": "Nine preregistered criteria, no post hoc changes.",
-    "on_acceptance": "G2"
+    "task": "G2",
+    "plan": "ROADMAP.md",
+    "deliverable": "audits/G2.md",
+    "action": "Audit E2 evidence, scope, alternatives, integrity and remaining gaps; decide gate before E3.",
+    "acceptance": "Explicit scoped decision with unresolved requirements and no unsupported integration.",
+    "on_acceptance": "E3.01 if gate passes"
   },
   "last_change": {
-    "id": "E2-C01-implementation",
+    "id": "E2-C01-run",
     "log": "LOG.md",
-    "parent_commit": "7c7ddc2194ebac465f4481a32ed9e242a6b70306",
-    "note": "Combined source and analytic/RK4 reference frozen, no execution."
+    "parent_commit": "fc0349667f672cf31aed8e63601ac99c9d637217",
+    "note": "9/9 controls, conditional interaction, raw result archived. G2 audit pending."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
