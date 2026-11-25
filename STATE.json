@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E2",
   "gate": "G1_passed_G2_open",
-  "current_task": "E2-F01-run",
+  "current_task": "E2-F01-review",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -31,7 +31,8 @@
     "E2-W01-review",
     "E2.04",
     "E2-F01-preregistration",
-    "E2-F01-implementation"
+    "E2-F01-implementation",
+    "E2-F01-run"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -46,18 +47,18 @@
   "pending_audit": "G2 after E2 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E2-F01-run",
-    "plan": "experiments/E2-F01/protocol.md",
-    "deliverable": "Exact output and evidence",
-    "action": "Verify frozen source and config; execute and record results.",
-    "acceptance": "Nine preregistered checks; preserve negatives.",
-    "on_acceptance": "E2-F01-review"
+    "task": "E2-F01-review",
+    "plan": "ROADMAP.md",
+    "deliverable": "evidence/E2-F01-review.md",
+    "action": "Verify persisted result and limitations; choose next combined test, preserve G2 open.",
+    "acceptance": "Explicit scoped result and justified next step.",
+    "on_acceptance": "E2.05"
   },
   "last_change": {
-    "id": "E2-F01-implementation",
+    "id": "E2-F01-run",
     "log": "LOG.md",
-    "parent_commit": "eca658736ca2fbb3618d28a2169927edc2ca8719",
-    "note": "Authored source frozen before execution."
+    "parent_commit": "316b0ccb3799b20068ab9fcc81af93ca936f2af4",
+    "note": "Nine controls passed; H1 conditional; exact gzip output persisted."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

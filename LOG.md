@@ -71,3 +71,6 @@ Criba de mecanismos y preregistro electrotérmico. No motor elegido, daño/repar
 
 ## E2-F01 implementación — 2026-11-25
 Fuente y referencia analítica/RK4 congeladas antes de ejecutar. Base eca658736ca2fbb3618d28a2169927edc2ca8719.
+
+## E2-F01 ejecución — 2026-11-25
+60 corridas, nueve controles, H1 condicional; salida íntegra y evidencia. DNS de descarga falló, hashes verificados por copia local. G2 abierto. Base 316b0ccb3799b20068ab9fcc81af93ca936f2af4.
