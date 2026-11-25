@@ -74,3 +74,6 @@ Fuente y referencia analítica/RK4 congeladas antes de ejecutar. Base eca658736c
 
 ## E2-F01 ejecución — 2026-11-25
 60 corridas, nueve controles, H1 condicional; salida íntegra y evidencia. DNS de descarga falló, hashes verificados por copia local. G2 abierto. Base 316b0ccb3799b20068ab9fcc81af93ca936f2af4.
+
+## E2-F01 revisión — 2026-11-25
+Readback verificado, límite electrotérmico aceptado condicionalmente, sin contador adicional de fatiga. Potencia potencial distinta de efectiva; daño/reparación diferidos. Próximo E2.05; G2 abierto. Base 7fce0a142d8711c59da7c307f8ffe11aedd1511e.
