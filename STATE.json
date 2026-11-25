@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-S03-preregistration",
+  "current_task": "E3-S03-implementation",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -64,7 +64,8 @@
     "E3-S02-implementation",
     "E3-S02-run",
     "E3-S02-review",
-    "E3.04-locomotion-screen"
+    "E3.04-locomotion-screen",
+    "E3-S03-preregistration"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -80,18 +81,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-S03-preregistration",
+    "task": "E3-S03-implementation",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-S03/protocol.md and config.json",
-    "action": "Freeze viscous surface traction model, analytic free-motion reference and physical docking controls, energy/matter/momentum and sensory boundary.",
-    "acceptance": "Prespecified falsifiable cases, tolerances, resource bounds and rejection before implementation.",
-    "on_acceptance": "E3-S03-implementation"
+    "deliverable": "experiments/E3-S03/run.py and controller.py",
+    "action": "Implement preregistered viscous surface traction, local docking and energy/momentum/matter ledger, analytic reference and replay; static review before execution.",
+    "acceptance": "Frozen source, no changed criteria, separate controller/evaluator.",
+    "on_acceptance": "E3-S03-run"
   },
   "last_change": {
-    "id": "E3.04-locomotion-screen",
+    "id": "E3-S03-preregistration",
     "log": "LOG.md",
-    "parent_commit": "9b5d8504ee4ccfee1a731d7c8ba37234eb6c6ee1",
-    "note": "Screened locomotion alternatives; provisional viscous moving surface reference, native surfacevel alternative."
+    "parent_commit": "48fbeaf7eba15d0f18401fc1f832ecc228e81135",
+    "note": "Frozen traction and docking protocol, 12 cases x two resolutions, C1-C9."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

@@ -183,3 +183,7 @@ Readback de 15 registros idéntico al log, 7/7 en dominio restringido. Próxima 
 ## E3.04 locomoción — cribado (2026-11-25)
 
 Alternativas y fuentes contrastadas, tracción por superficie móvil viscosa elegida como banco mínimo, sin anatomía ni motor definitivo. Sin ejecución ni integración. Próximo preregistro S03. Base 9b5d8504ee4ccfee1a731d7c8ba37234eb6c6ee1.
+
+## E3-S03 preregistro (2026-11-25)
+
+Ley viscosa, balances, reserva/fuga basal, puerto, referencia analítica, controles y criterios C1–C9 fijados; sin ejecución. Base 48fbeaf7eba15d0f18401fc1f832ecc228e81135.

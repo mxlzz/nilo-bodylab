@@ -1,0 +1,260 @@
+{
+  "radius": 0.25,
+  "capacity": 0.5,
+  "q": 10,
+  "eta": 0.5,
+  "basal": 0.02,
+  "period": 0.25,
+  "dt": [
+    0.0005,
+    0.000125
+  ],
+  "solref": "0.02 1",
+  "solimp": "0.9 0.95 0.001 0.5 2",
+  "range": 1,
+  "speed_limit": 0.5,
+  "exchange_limit": 0.08,
+  "dock_speed": 0.01,
+  "cases": [
+    {
+      "id": "x",
+      "m": 2,
+      "gamma": 4,
+      "R": 0.5,
+      "X": 0,
+      "duration": 2,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 1,
+      "retreat_at": null,
+      "exchange_at": [],
+      "wall": null,
+      "kind": "free",
+      "controller": "script"
+    },
+    {
+      "id": "y",
+      "m": 2,
+      "gamma": 4,
+      "R": 0.5,
+      "X": 0,
+      "duration": 2,
+      "u": [
+        0,
+        0.5
+      ],
+      "drive_until": 1,
+      "retreat_at": null,
+      "exchange_at": [],
+      "wall": null,
+      "kind": "free",
+      "controller": "script"
+    },
+    {
+      "id": "heavy",
+      "m": 4,
+      "gamma": 4,
+      "R": 0.5,
+      "X": 0,
+      "duration": 2,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 1,
+      "retreat_at": null,
+      "exchange_at": [],
+      "wall": null,
+      "kind": "free",
+      "controller": "script"
+    },
+    {
+      "id": "no-grip",
+      "m": 2,
+      "gamma": 0,
+      "R": 0.5,
+      "X": 0,
+      "duration": 2,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 1,
+      "retreat_at": null,
+      "exchange_at": [],
+      "wall": null,
+      "kind": "free",
+      "controller": "script"
+    },
+    {
+      "id": "empty",
+      "m": 2,
+      "gamma": 4,
+      "R": 0,
+      "X": 0,
+      "duration": 2,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 1,
+      "retreat_at": null,
+      "exchange_at": [],
+      "wall": null,
+      "kind": "free",
+      "controller": "script"
+    },
+    {
+      "id": "idle",
+      "m": 2,
+      "gamma": 4,
+      "R": 0.5,
+      "X": 0,
+      "duration": 2,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 1,
+      "retreat_at": null,
+      "exchange_at": [],
+      "wall": null,
+      "kind": "free",
+      "controller": "idle"
+    },
+    {
+      "id": "limited",
+      "m": 2,
+      "gamma": 4,
+      "R": 0.008,
+      "X": 0,
+      "duration": 2,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 1,
+      "retreat_at": null,
+      "exchange_at": [],
+      "wall": null,
+      "kind": "free",
+      "controller": "script"
+    },
+    {
+      "id": "reserved",
+      "m": 3,
+      "gamma": 3,
+      "R": 0.5,
+      "X": 0,
+      "duration": 2,
+      "u": [
+        0.24,
+        0.32
+      ],
+      "drive_until": 0.75,
+      "retreat_at": null,
+      "exchange_at": [],
+      "wall": null,
+      "kind": "free",
+      "controller": "script"
+    },
+    {
+      "id": "dock",
+      "m": 2,
+      "gamma": 4,
+      "R": 0.3,
+      "X": 0.08,
+      "duration": 4.5,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 3,
+      "retreat_at": 3,
+      "exchange_at": [
+        10,
+        11
+      ],
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "kind": "dock",
+      "controller": "script"
+    },
+    {
+      "id": "remote",
+      "m": 2,
+      "gamma": 4,
+      "R": 0.3,
+      "X": 0.08,
+      "duration": 4.5,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 3,
+      "retreat_at": 3,
+      "exchange_at": [
+        10,
+        11
+      ],
+      "wall": {
+        "name": "dock",
+        "face": 3
+      },
+      "kind": "dock",
+      "controller": "script"
+    },
+    {
+      "id": "barrier",
+      "m": 2,
+      "gamma": 4,
+      "R": 0.3,
+      "X": 0.08,
+      "duration": 4.5,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 3,
+      "retreat_at": 3,
+      "exchange_at": [
+        10,
+        11
+      ],
+      "wall": {
+        "name": "barrier",
+        "face": 0.65
+      },
+      "kind": "dock",
+      "controller": "script"
+    },
+    {
+      "id": "dry",
+      "m": 2,
+      "gamma": 4,
+      "R": 0.3,
+      "X": 0,
+      "duration": 4.5,
+      "u": [
+        0.5,
+        0
+      ],
+      "drive_until": 3,
+      "retreat_at": 3,
+      "exchange_at": [
+        10,
+        11
+      ],
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "kind": "dock",
+      "controller": "script"
+    }
+  ]
+}
