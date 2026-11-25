@@ -53,3 +53,6 @@ Resultado verificado y aceptado para nodo térmico sintético; T0 control de equ
 
 ## E2.03 / E2-W01 preregistro — 2026-11-25
 Criba hídrica, contraste de fase acotado; protocolo y configuración congelados sin código/ejecución. Base 4a92fc9497b2cb4d8a7ce3ab4624471f439b97a5.
+
+## E2-W01 implementación — 2026-11-25
+Código y referencia analítica congelados antes de ejecución. E1 reutilizado sin modificación. Base 1b3b1e79a638b2eaa16783fbf45924bb40a2399a.

@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E2",
   "gate": "G1_passed_G2_open",
-  "current_task": "E2-W01-implementation",
+  "current_task": "E2-W01-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -25,7 +25,8 @@
     "E2-T01-run",
     "E2-T01-review",
     "E2.03",
-    "E2-W01-preregistration"
+    "E2-W01-preregistration",
+    "E2-W01-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -40,18 +41,18 @@
   "pending_audit": "G2 after E2 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E2-W01-implementation",
+    "task": "E2-W01-run",
     "plan": "experiments/E2-W01/PROTOCOL.md",
-    "deliverable": "Frozen run.py; independently coded analytic reference",
-    "action": "Implement preregistered experiment, review source and freeze prior to execution.",
-    "acceptance": "Exact protocol and config, no external dependencies, no results inspected.",
-    "on_acceptance": "E2-W01-run"
+    "deliverable": "Raw result and evidence",
+    "action": "Verify exact source/config; execute frozen experiment, record all outputs and failures.",
+    "acceptance": "14 preregistered checks",
+    "on_acceptance": "E2-W01-review"
   },
   "last_change": {
-    "id": "E2-W01-preregistration",
+    "id": "E2-W01-implementation",
     "log": "LOG.md",
-    "parent_commit": "4a92fc9497b2cb4d8a7ce3ab4624471f439b97a5",
-    "note": "Water/heat screening accepted and protocol frozen. No execution."
+    "parent_commit": "1b3b1e79a638b2eaa16783fbf45924bb40a2399a",
+    "note": "Source frozen before execution."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
