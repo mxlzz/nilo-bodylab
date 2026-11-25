@@ -89,10 +89,10 @@
     "on_acceptance": "E3-S03-run"
   },
   "last_change": {
-    "id": "E3-S03-preregistration-amendment",
+    "id": "E3-S03-preregistration-amendment-2",
     "log": "LOG.md",
-    "parent_commit": "316404b9a0d620882b076eb9f43046c455429e95",
-    "note": "Pre-execution remote geometry corrected to ensure visible but unreachable control."
+    "parent_commit": "bb8d77cff666fb1ba24649c5763f4cb68d1b50af",
+    "note": "Pre-execution energy budget corrected in docking controls to isolate access from depletion."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

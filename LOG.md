@@ -191,3 +191,7 @@ Ley viscosa, balances, reserva/fuga basal, puerto, referencia analítica, contro
 ## E3-S03 enmienda geométrica ex ante (2026-11-25)
 
 Control remote cara 3→2.25 m por cálculo analítico, visible en tick de válvula sin contacto; criterio reforzado antes de implementación y ejecución. Base 316404b9a0d620882b076eb9f43046c455429e95.
+
+## E3-S03 enmienda energética ex ante (2026-11-25)
+
+Presupuesto analítico de sostén podía agotar R antes de puerto. Casos dock/remote/barrier/dry R=.45,u=.4, remote cara 2.0, mismos criterios y contraste de acceso. Sin ejecución. Base bb8d77cff666fb1ba24649c5763f4cb68d1b50af.

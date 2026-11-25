@@ -164,11 +164,11 @@
       "id": "dock",
       "m": 2,
       "gamma": 4,
-      "R": 0.3,
+      "R": 0.45,
       "X": 0.08,
       "duration": 4.5,
       "u": [
-        0.5,
+        0.4,
         0
       ],
       "drive_until": 3,
@@ -188,11 +188,11 @@
       "id": "remote",
       "m": 2,
       "gamma": 4,
-      "R": 0.3,
+      "R": 0.45,
       "X": 0.08,
       "duration": 4.5,
       "u": [
-        0.5,
+        0.4,
         0
       ],
       "drive_until": 3,
@@ -203,7 +203,7 @@
       ],
       "wall": {
         "name": "dock",
-        "face": 2.25
+        "face": 2
       },
       "kind": "dock",
       "controller": "script"
@@ -212,11 +212,11 @@
       "id": "barrier",
       "m": 2,
       "gamma": 4,
-      "R": 0.3,
+      "R": 0.45,
       "X": 0.08,
       "duration": 4.5,
       "u": [
-        0.5,
+        0.4,
         0
       ],
       "drive_until": 3,
@@ -236,11 +236,11 @@
       "id": "dry",
       "m": 2,
       "gamma": 4,
-      "R": 0.3,
+      "R": 0.45,
       "X": 0,
       "duration": 4.5,
       "u": [
-        0.5,
+        0.4,
         0
       ],
       "drive_until": 3,
