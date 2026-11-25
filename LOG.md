@@ -135,3 +135,7 @@ Workflow acotado equivalente M02, nueva resolución y diagnóstico; hashes y lí
 ## E3-M03 — ejecución (2026-11-25)
 
 Run 45648237706; 24 corridas, 266000 pasos; 8/8, error fino 0.0313349711 J sin alterar criterios. M02 negativo preservado. Evidencia en evidence/E3-M03.md. Próximo: revisión.
+
+## E3-M03 — revisión y E3.03 (2026-11-25)
+
+Readback íntegro verificado contra log. Primer intento de escritura falló GraphQL; HEAD intacto, reintento exitoso. Autoevaluación: E3.03 cerrada solo en dominio restringido, M02 negativo preservado; MuJoCo candidato provisional. Coste x7.8 por refinamiento x8. Próximo E3.04-screen; G3 abierto. Ver evidence/E3-M03-review.md.
