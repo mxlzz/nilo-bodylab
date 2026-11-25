@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C4": true,
+    "C5": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true
+  },
+  "passed": true,
+  "runs": 40,
+  "steps": 1380,
+  "max_reference_error": 1.9984014443252818e-15,
+  "max_refinement_difference": 1.9984014443252818e-15,
+  "max_residual": 1.4802973661668753e-16,
+  "elapsed_s": 0.0074654120000019475,
+  "rss_mib": 94.12890625,
+  "python": "3.13.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "command": "timeout 20s python -u run.py > stdout.log 2> stderr.log",
+  "exit": 0,
+  "source_commit": "5ce19e1ffb21eb5ebe20095baefac9722b2c0b17",
+  "source_blob": "0aaf007677530b335bcbce1393652a7deef39f8c",
+  "config_blob": "c66dab6da920cea42a32f08bc825f1a64b9c4bae",
+  "sha256": {
+    "run.py": "1150aff1c7d600b8abef72cf6d135da749c93bdaa34a6dc07eda3afbe8a92a7d",
+    "config.json": "ab0d4f5a7190454be2124c21ff85b099b07dbd0bd344ba2b57b4cddbeb7d532d"
+  },
+  "raw": {
+    "blob": "738c7017090ca83937478792abc5e87ec2f6eed1",
+    "gzip_bytes": 1285,
+    "json_bytes": 11187,
+    "gzip_sha256": "effacebe310a9e1277550b1aa2470f70ac54e68db85233628cf2dbd642ecd103",
+    "json_sha256": "82de89ceff07709a4034cbc9915a3975a02f27ff3ea904da298e072ec25c2064"
+  }
+}

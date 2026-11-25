@@ -98,3 +98,6 @@ Banco mecánico restringido, frontera, controles, referencia y criterios congela
 
 ## E3-M01 implementación — 2026-11-25
 Fuente y referencia por segmentos congeladas antes de ejecución; sin dependencias externas. Base b4118eee186d81eb4d6d265e1ca69e4e1370da6b.
+
+## E3-M01 ejecución — 2026-11-25
+40 corridas, 9/9 criterios, salida íntegra gzip y evidencia con hashes. Fallo DNS, copia local exacta verificada; exit 0. Próxima revisión, G3 abierto. Base 5ce19e1ffb21eb5ebe20095baefac9722b2c0b17.
