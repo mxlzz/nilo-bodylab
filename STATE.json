@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-M01-review",
+  "current_task": "E3.03-access-probe",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -42,7 +42,8 @@
     "E3.01",
     "E3.02-preregistration",
     "E3-M01-implementation",
-    "E3-M01-run"
+    "E3-M01-run",
+    "E3-M01-review"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -58,18 +59,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-M01-review",
+    "task": "E3.03-access-probe",
     "plan": "ROADMAP.md",
-    "deliverable": "evidence/E3-M01-review.md",
-    "action": "Review result against preregistration, identify limits and decide E3.03 access/contrast.",
-    "acceptance": "Preserved raw evidence and explicit scope; no engine selection by inference.",
-    "on_acceptance": "E3.03 availability/contrast"
+    "deliverable": "evidence/E3.03-access.md and optional one-shot CI probe logs",
+    "action": "Test free standard public runner access to hash-pinned headless wheel without installing/importing; review bundled metadata and licenses.",
+    "acceptance": "Verified availability and license/dependency disposition or scoped blocker. No engine comparison until preregistered.",
+    "on_acceptance": "E3.03 contrast preregistration or scoped deferral"
   },
   "last_change": {
-    "id": "E3-M01-run",
+    "id": "E3-M01-review",
     "log": "LOG.md",
-    "parent_commit": "5ce19e1ffb21eb5ebe20095baefac9722b2c0b17",
-    "note": "40 deterministic runs, C1-C9 passed, exact output verified; review pending."
+    "parent_commit": "fc8b440153198259001e04bb66eea87bcafe94c3",
+    "note": "Reviewed restricted mechanical reference; identified scope and documented access preflight."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

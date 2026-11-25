@@ -101,3 +101,6 @@ Fuente y referencia por segmentos congeladas antes de ejecución; sin dependenci
 
 ## E3-M01 ejecución — 2026-11-25
 40 corridas, 9/9 criterios, salida íntegra gzip y evidencia con hashes. Fallo DNS, copia local exacta verificada; exit 0. Próxima revisión, G3 abierto. Base 5ce19e1ffb21eb5ebe20095baefac9722b2c0b17.
+
+## E3-M01 revisión / E3.03 preflight — 2026-11-25
+Referencia revisada y readback verificado. Canal local de descarga falló; se documentan wheel oficial, runner gratuito y preflight sin ejecución de motor. Base fc8b440153198259001e04bb66eea87bcafe94c3.
