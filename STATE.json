@@ -6,8 +6,8 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-S03-run",
-  "status": "awaiting_run_result",
+  "current_task": "E3-S03-review",
+  "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
     "E0.02",
@@ -66,7 +66,8 @@
     "E3-S02-review",
     "E3.04-locomotion-screen",
     "E3-S03-preregistration",
-    "E3-S03-implementation"
+    "E3-S03-implementation",
+    "E3-S03-run"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -82,18 +83,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-S03-run",
+    "task": "E3-S03-review",
     "plan": "ROADMAP.md",
-    "deliverable": "E3-S03 run log and results.jsonl",
-    "action": "Read one-shot S03 job result; verify evidence and evaluate C1–C9.",
-    "acceptance": "C1–C9 as preregistered, retain failures.",
-    "on_acceptance": "E3-S03-review"
+    "deliverable": "evidence/E3-S03-review.md",
+    "action": "Verify persisted raw output and review locomotion limits before E3.05.",
+    "acceptance": "Explicit restricted acceptance and disposition of remaining gaps; G3 open.",
+    "on_acceptance": "E3.05-screen"
   },
   "last_change": {
-    "id": "E3-S03-run-trigger",
+    "id": "E3-S03-run",
     "log": "LOG.md",
-    "parent_commit": "ccf5f076436040a9c3b50760341d0ed22698ba6f",
-    "note": "Bounded one-shot runner, same pinned dependencies."
+    "parent_commit": "9f09abef7f4a1d004865167d4c5aa58fa19890c4",
+    "note": "9/9, substrate traction and physical docking, 24 runs; review pending."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

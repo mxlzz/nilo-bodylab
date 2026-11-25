@@ -203,3 +203,7 @@ Fuente congelada tras revisión estática, controlador separado, ley de superfic
 ## E3-S03 disparo CI (2026-11-25)
 
 Workflow público acotado, mismas dependencias, timeout 60 s ejecución. Base ccf5f076436040a9c3b50760341d0ed22698ba6f.
+
+## E3-S03 ejecución (2026-11-25)
+
+Run 45664613141, 9/9, 24 corridas, llegada y retirada sin cable, intercambio .08 kg solo por puerto local, replay exacto. Datos y revisión pendiente, G3 abierto. Base 9f09abef7f4a1d004865167d4c5aa58fa19890c4.
