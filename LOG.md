@@ -8,3 +8,6 @@ Matriz R1–R7 y protocolo de búsqueda en evidence/E0.01.md. Recuperados coordi
 
 ## E0.02 — 2026-11-25
 Revisión dirigida de literatura: 12 consultas preregistradas y complementarias, fuentes y exclusiones en evidence/E0.02.md; actualiza RESEARCH. DEB como referencia, A0 conservativo vs A1 mínimo como contraste a resolver; NicheMapR para E2. Ronda de citas parcial y fallos de acceso declarados, no revisión sistemática. Aceptación documental propia suficiente para E0.03; no experimentos, coste pago ni selección de tecnología. Base a0eb513e3479b12f5026c07e5488d074dc144030.
+
+## E0.03 — 2026-11-25
+Cribado técnico de DEBtool, NicheMapR, PyDEB, COPASI, SciPy y balances mínimos; SHA/licencias raíz, dependencias, lectura estática, riesgos de clipping y comportamiento, disponibilidad y costes cualitativos registrados en evidence/E0.03.md. Sin ejecución, instalación, coste pago ni integración. Familias de gates posteriores diferidas, no excluidas. Aceptación documental propia; G0 abierto, próxima E0.04. Base 20804d36f4685a1771c12b237c01b2c62f5ac17d.

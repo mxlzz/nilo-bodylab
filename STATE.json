@@ -6,11 +6,12 @@
   "design": "approved",
   "phase": "E0",
   "gate": "G0_open",
-  "current_task": "E0.03",
+  "current_task": "E0.04",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
-    "E0.02"
+    "E0.02",
+    "E0.03"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -22,18 +23,18 @@
   "pending_audit": "G0 after E0.07",
   "blocked_by": [],
   "next_action": {
-    "task": "E0.03",
+    "task": "E0.04",
     "plan": "ROADMAP.md",
-    "deliverable": "evidence/E0.03.md",
-    "action": "Technical screening of DEBtool/NicheMapR and minimal balance alternatives; pin source/version, licenses, dependencies, maintenance, estimated cost and evidence; retain deferred families without implementation.",
-    "acceptance": "Comparable technical matrix with explicit access gaps, no unlicensed copying or unreviewed execution.",
-    "on_acceptance": "E0.04"
+    "deliverable": "evidence/E0.04.md",
+    "action": "Compare adoption/adaptation/combination/minimal own model/closure against R1-R7 and cost; decide which references and minimal comparison are warranted for E1, including whether E0.05 replication is necessary.",
+    "acceptance": "Evidence-based scoped decision, rejected options and discriminating uncertainties; no implementation before G0.",
+    "on_acceptance": "E0.05"
   },
   "last_change": {
-    "id": "E0.02",
+    "id": "E0.03",
     "log": "LOG.md",
-    "parent_commit": "a0eb513e3479b12f5026c07e5488d074dc144030",
-    "note": "Directed literature review self-assessed sufficient for technical screening; incomplete formal citation chase, access gaps documented. No experiment; G0 open."
+    "parent_commit": "20804d36f4685a1771c12b237c01b2c62f5ac17d",
+    "note": "Technical screening and environment inspection; no execution, licenses root-level only; deferred family screening remains conditional. Documentary self-assessment, G0 open."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
