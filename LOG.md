@@ -163,3 +163,7 @@ Bloqueo de publicación resuelto por CAS al commit preparado, sin cambios de pro
 ## E3-S01 revisión / E3-S02 preregistro (2026-11-25)
 
 S01 aceptado en dominio restringido; contacto ~.08 s omitido por muestreo fino en mando .25 s, no fallo de C4. Cribado y preregistro S02, alternativa integral local nativa; ampliar E3.04 con locomoción sin cable tras revisión. Sin ejecución. Base b64dcbc793d2c9d3b9862a5372fd4f0ade1b29f9.
+
+## E3-S02 implementación (2026-11-25)
+
+Fuente congelada antes de ejecución, sensor nativo, baseline sin sensor, referencia por momento, restauración de acumulador. Base 0d5e7ddee6db83c091c3d386821cff2d139e6a59.

@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-S02-implementation",
+  "current_task": "E3-S02-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -60,7 +60,8 @@
     "E3-S01-run",
     "E3-S01-review",
     "E3-S02-screen",
-    "E3-S02-preregistration"
+    "E3-S02-preregistration",
+    "E3-S02-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -76,18 +77,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-S02-implementation",
+    "task": "E3-S02-run",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-S02/run.py",
-    "action": "Implement frozen tactile temporal contrast, native local sensor vs point sample, independent impulse reference and replay.",
-    "acceptance": "Frozen source before run; no changes to criteria.",
-    "on_acceptance": "E3-S02-run"
+    "deliverable": "E3-S02 run log and results.jsonl",
+    "action": "Execute frozen tactile contrast, preserve and evaluate C1–C7.",
+    "acceptance": "No changes to criteria; preserve results including negatives.",
+    "on_acceptance": "E3-S02-review"
   },
   "last_change": {
-    "id": "E3-S02-preregistration",
+    "id": "E3-S02-implementation",
     "log": "LOG.md",
-    "parent_commit": "b64dcbc793d2c9d3b9862a5372fd4f0ade1b29f9",
-    "note": "S01 accepted in restricted domain, temporal tactile gap measured, S02 frozen."
+    "parent_commit": "0d5e7ddee6db83c091c3d386821cff2d139e6a59",
+    "note": "Frozen native touch sensor and interval impulse experiment."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
