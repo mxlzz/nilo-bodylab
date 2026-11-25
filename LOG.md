@@ -20,3 +20,6 @@ Conditional external example reproduction not warranted; analytical reference de
 
 ## E0.06 — 2026-11-25
 Preregistro E1-01 y config congelada; sin implementación ni ejecución. Próxima auditoría G0. Base 7fc390c7f7d473790d50b50d9fd0d94e4978ad19.
+
+## E0.07 / G0 — 2026-11-25
+Autoauditoría G0, avanzar a E1-01 con alcance sintético y protocolo congelado. Sin experimento todavía, sin autorización de integración. Base 55b2d9e6eb31d93d114933e88eaa7d23b22c4f55.
