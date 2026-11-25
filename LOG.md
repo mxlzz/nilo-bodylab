@@ -95,3 +95,6 @@ Cribado de cuatro motores y referencia analítica, secuencia E3 y requisitos de 
 
 ## E3-M01 preregistro — 2026-11-25
 Banco mecánico restringido, frontera, controles, referencia y criterios congelados antes de implementación. Sin elección de motor ni ejecución. Base 75a04704ea6db816e6a4e67d04966166c1389201.
+
+## E3-M01 implementación — 2026-11-25
+Fuente y referencia por segmentos congeladas antes de ejecución; sin dependencias externas. Base b4118eee186d81eb4d6d265e1ca69e4e1370da6b.
