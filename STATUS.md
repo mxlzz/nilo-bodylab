@@ -1,3 +1,3 @@
 # Estado operativo
 
-2026-11-25 — E3.03 completada en dominio restringido. M02 rechazado; M03 8/8, error fino 0.0313349711 J sin relajar tolerancias. MuJoCo 4.0.1 candidato provisional; no selección definitiva. G2 superado, G3 abierto. Próximo E3.04-screen: cuerpo fijo situado, reacción, frontera sensorial/material. Sin bloqueo.
+2026-11-25 — G2 superado; G3 abierto. E3.04 cribado completado: tracción con contraparte finita, sensores locales y puerto de intercambio de masa equivalente como banco, MuJoCo candidato provisional. Próximo E3-S01 preregistro. Sin ensayo E3.04 ni integración; sin bloqueo.

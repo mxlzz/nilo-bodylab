@@ -139,3 +139,7 @@ Run 45648237706; 24 corridas, 266000 pasos; 8/8, error fino 0.0313349711 J sin a
 ## E3-M03 — revisión y E3.03 (2026-11-25)
 
 Readback íntegro verificado contra log. Primer intento de escritura falló GraphQL; HEAD intacto, reintento exitoso. Autoevaluación: E3.03 cerrada solo en dominio restringido, M02 negativo preservado; MuJoCo candidato provisional. Coste x7.8 por refinamiento x8. Próximo E3.04-screen; G3 abierto. Ver evidence/E3-M03-review.md.
+
+## E3.04 — cribado (2026-11-25)
+
+Alternativas de reacción, percepción e intercambio cribadas. Selección provisional de instrumento de tracción de dos masas y puerto de intercambio 1:1; sin elección anatómica ni ejecución. Próximo preregistro. Base 72b9be3840155ffbe3cd6106b40187ad820a8e3c. Ver evidence/E3.04-screen.md.
