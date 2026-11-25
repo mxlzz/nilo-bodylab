@@ -159,3 +159,7 @@ Workflow acotado derivado de M03 con timeout 45 s para contraste y hashes de con
 ## E3-S01 — ejecución (2026-11-25)
 
 Bloqueo de publicación resuelto por CAS al commit preparado, sin cambios de protocolo/fuente. Run 45654354822 success, 39 corridas, 7 escenas, 9/9, evidencia y raw JSONL preservados. Próxima revisión; G3 abierto. Base b92d8611c776c31835a8edf453bd60ba634ffb02.
+
+## E3-S01 revisión / E3-S02 preregistro (2026-11-25)
+
+S01 aceptado en dominio restringido; contacto ~.08 s omitido por muestreo fino en mando .25 s, no fallo de C4. Cribado y preregistro S02, alternativa integral local nativa; ampliar E3.04 con locomoción sin cable tras revisión. Sin ejecución. Base b64dcbc793d2c9d3b9862a5372fd4f0ade1b29f9.

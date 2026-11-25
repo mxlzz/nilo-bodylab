@@ -1,0 +1,124 @@
+{
+  "radius": 0.25,
+  "m": 2,
+  "M": 3,
+  "period": 0.25,
+  "duration": 1,
+  "dt": [
+    0.0005,
+    0.000125
+  ],
+  "solref": "0.02 1",
+  "solimp": "0.9 0.95 0.001 0.5 2",
+  "cases": [
+    {
+      "id": "early",
+      "wall": [
+        0,
+        0.3
+      ],
+      "axis": "y",
+      "body_v": [
+        0,
+        1
+      ],
+      "counter_v": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "middle",
+      "wall": [
+        0,
+        0.42
+      ],
+      "axis": "y",
+      "body_v": [
+        0,
+        1
+      ],
+      "counter_v": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "boundary",
+      "wall": [
+        0,
+        0.5
+      ],
+      "axis": "y",
+      "body_v": [
+        0,
+        1
+      ],
+      "counter_v": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "late",
+      "wall": [
+        0,
+        0.61
+      ],
+      "axis": "y",
+      "body_v": [
+        0,
+        1
+      ],
+      "counter_v": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "reserved-x",
+      "wall": [
+        0.63,
+        0
+      ],
+      "axis": "x",
+      "body_v": [
+        0.8,
+        0
+      ],
+      "counter_v": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "no-contact",
+      "wall": null,
+      "axis": "y",
+      "body_v": [
+        0,
+        1
+      ],
+      "counter_v": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "counter-only",
+      "wall": [
+        2,
+        0.42
+      ],
+      "axis": "y",
+      "body_v": [
+        0,
+        0
+      ],
+      "counter_v": [
+        0,
+        1
+      ]
+    }
+  ]
+}
