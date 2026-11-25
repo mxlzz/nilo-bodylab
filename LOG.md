@@ -179,3 +179,7 @@ Run 45655669089, 7/7, 14 pares, 10 intervalos omitidos por lectura puntual y nin
 ## E3-S02 revisión (2026-11-25)
 
 Readback de 15 registros idéntico al log, 7/7 en dominio restringido. Próxima criba locomoción sin cable, G3 abierto. Base 69102179cd0991ea0d00c221300a01d722f47955.
+
+## E3.04 locomoción — cribado (2026-11-25)
+
+Alternativas y fuentes contrastadas, tracción por superficie móvil viscosa elegida como banco mínimo, sin anatomía ni motor definitivo. Sin ejecución ni integración. Próximo preregistro S03. Base 9b5d8504ee4ccfee1a731d7c8ba37234eb6c6ee1.
