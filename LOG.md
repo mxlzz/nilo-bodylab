@@ -187,3 +187,7 @@ Alternativas y fuentes contrastadas, tracción por superficie móvil viscosa ele
 ## E3-S03 preregistro (2026-11-25)
 
 Ley viscosa, balances, reserva/fuga basal, puerto, referencia analítica, controles y criterios C1–C9 fijados; sin ejecución. Base 48fbeaf7eba15d0f18401fc1f832ecc228e81135.
+
+## E3-S03 enmienda geométrica ex ante (2026-11-25)
+
+Control remote cara 3→2.25 m por cálculo analítico, visible en tick de válvula sin contacto; criterio reforzado antes de implementación y ejecución. Base 316404b9a0d620882b076eb9f43046c455429e95.
