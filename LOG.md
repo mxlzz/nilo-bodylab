@@ -17,3 +17,6 @@ Scoped minimum balance comparison selected; no integration or execution. Evidenc
 
 ## E0.05 — 2026-11-25
 Conditional external example reproduction not warranted; analytical reference derived; no execution. Evidencia: evidence/E0.05.md. Próxima E0.06. Base 355b03d81cc3c3502fd508901e9b4d5081593a9f.
+
+## E0.06 — 2026-11-25
+Preregistro E1-01 y config congelada; sin implementación ni ejecución. Próxima auditoría G0. Base 7fc390c7f7d473790d50b50d9fd0d94e4978ad19.

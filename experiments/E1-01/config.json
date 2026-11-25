@@ -1,0 +1,172 @@
+{
+  "schema": 1,
+  "q_J_per_kg": 100,
+  "structure_kg": 1,
+  "work_efficiency": 0.6,
+  "dt_s": [
+    0.25,
+    0.125,
+    0.0625,
+    0.03125,
+    0.015625
+  ],
+  "tolerances": {
+    "balance_relative": 1e-10,
+    "reference_relative": 0.01,
+    "baseline_failure_relative": 0.05,
+    "convergence_ratio": 0.65,
+    "replay_abs": 0,
+    "max_wall_s": 30,
+    "max_rss_mib": 128
+  },
+  "cases": [
+    {
+      "id": "ready-control",
+      "set": "development",
+      "pending": 0,
+      "ready": 1,
+      "external": 0,
+      "k": 1,
+      "segments": [
+        {
+          "duration": 4,
+          "pulse": 0,
+          "maintenance": 0.1,
+          "activity": 0.4
+        }
+      ]
+    },
+    {
+      "id": "empty-control",
+      "set": "development",
+      "pending": 0,
+      "ready": 0,
+      "external": 0,
+      "k": 1,
+      "segments": [
+        {
+          "duration": 2,
+          "pulse": 1,
+          "maintenance": 0.1,
+          "activity": 0.4
+        }
+      ]
+    },
+    {
+      "id": "pulse-development",
+      "set": "development",
+      "pending": 0,
+      "ready": 0,
+      "external": 1,
+      "k": 1,
+      "segments": [
+        {
+          "duration": 2,
+          "pulse": 1,
+          "maintenance": 0.1,
+          "activity": 0.9
+        },
+        {
+          "duration": 2,
+          "pulse": 0,
+          "maintenance": 0.15,
+          "activity": 0
+        }
+      ]
+    },
+    {
+      "id": "paired-ready",
+      "set": "reserved",
+      "pending": 0,
+      "ready": 1,
+      "external": 0,
+      "k": 0.5,
+      "segments": [
+        {
+          "duration": 2,
+          "pulse": 0,
+          "maintenance": 0.15,
+          "activity": 0.65
+        },
+        {
+          "duration": 2,
+          "pulse": 0,
+          "maintenance": 0.2,
+          "activity": 0
+        }
+      ]
+    },
+    {
+      "id": "paired-pending",
+      "set": "reserved",
+      "pending": 1,
+      "ready": 0,
+      "external": 0,
+      "k": 0.5,
+      "segments": [
+        {
+          "duration": 2,
+          "pulse": 0,
+          "maintenance": 0.15,
+          "activity": 0.65
+        },
+        {
+          "duration": 2,
+          "pulse": 0,
+          "maintenance": 0.2,
+          "activity": 0
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "set": "reserved",
+      "pending": 0,
+      "ready": 0.25,
+      "external": 0.9,
+      "k": 2,
+      "segments": [
+        {
+          "duration": 2,
+          "pulse": 0,
+          "maintenance": 0.15,
+          "activity": 0.55
+        },
+        {
+          "duration": 2,
+          "pulse": 0.5,
+          "maintenance": 0.15,
+          "activity": 0
+        },
+        {
+          "duration": 2,
+          "pulse": 1,
+          "maintenance": 0.1,
+          "activity": 0.4
+        }
+      ]
+    },
+    {
+      "id": "no-demand",
+      "set": "reserved",
+      "pending": 0.7,
+      "ready": 0.3,
+      "external": 0.4,
+      "k": 1,
+      "segments": [
+        {
+          "duration": 2,
+          "pulse": 0.2,
+          "maintenance": 0,
+          "activity": 0
+        },
+        {
+          "duration": 2,
+          "pulse": 0.3,
+          "maintenance": 0,
+          "activity": 0
+        }
+      ]
+    }
+  ]
+}
