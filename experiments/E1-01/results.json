@@ -1,0 +1,67 @@
+{
+  "protocol": "E1-01",
+  "source_commit": "5d0a53813ae90b2841121cd0d0f7e52d2d520437",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "config_sha256": "0edf387d9d93925b4d7c768a594201c6d92ccafb4b459dfcbb74f75efab568d8",
+  "source_sha256": "2777c4765618eb68d404657bf8fa4d3f7060adebdd59b8039ca66c9d4d509932",
+  "raw_output": {
+    "path": "results.json.gz",
+    "uncompressed_bytes": 107062,
+    "uncompressed_sha256": "1d52aa09f287aea8a720577436b9b0d89cd153c01382576fb5a94157c1fb6149",
+    "compressed_sha256": "acc07c1f1df8ca78a7597bc35eaae5267c102c97fc67a6d943a4f5483ae7c120",
+    "git_blob": "022ae12aeb96213ef8e393dbac0dec6b73158587"
+  },
+  "attempts": [
+    {
+      "command": "ulimit -v 131072; timeout 30s python experiments/E1-01/run.py --config experiments/E1-01/config.json --out experiments/E1-01/results.json",
+      "exit": 124,
+      "output": "no result file, no stdout; cause not isolated; virtual memory cap was additional to protocol RSS cap"
+    },
+    {
+      "command": "timeout 12s python -u experiments/E1-01/run.py --config experiments/E1-01/config.json --out experiments/E1-01/results.json",
+      "exit": 0
+    }
+  ],
+  "wall_s": 0.017885728000010204,
+  "rss_mib": 94.2578125,
+  "runs": 70,
+  "steps": 6944,
+  "checks": {
+    "balance": true,
+    "nonnegative": true,
+    "own_reference": true,
+    "convergence": true,
+    "replay": true,
+    "ready_control": true,
+    "empty_control": true,
+    "no_demand": true,
+    "finite_pulse": true,
+    "resources": true
+  },
+  "h1_checks": {
+    "A1_reserved": true,
+    "A0_pending_fails": true,
+    "A0_pair_identical": true,
+    "A0_ready": true
+  },
+  "h0": false,
+  "verdict": "H1_conditional",
+  "max_balance_residual": 2.347880344250766e-15,
+  "fine_error": 0.0021201203569642946,
+  "coarse_error": 0.0042512507581379255,
+  "seconds_per_step": {
+    "A0": 0.0000019258418778103315,
+    "A1": 0.000002030064228203936
+  },
+  "paired_work_J_at_t2": {
+    "A0_ready": 48.75,
+    "A0_pending": 48.75,
+    "A1_ready": 48.75,
+    "A1_pending": 30.886161349
+  },
+  "paired_pending_common_error": {
+    "A0": 0.3678794411714422,
+    "A1": 0.0014417252494047794
+  }
+}

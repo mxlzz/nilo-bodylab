@@ -26,3 +26,6 @@ Autoauditoría G0, avanzar a E1-01 con alcance sintético y protocolo congelado.
 
 ## E1-01 implementación — 2026-11-25
 Código experimental propio y evaluador analítico congelados antes de ejecución, sin dependencias externas. Próximo ejecutar. Base 8c396a919638e74cf3c04eb9ec84f742a15a7e93.
+
+## E1-01 ejecución — 2026-11-25
+70 corridas; 10/10 controles; H1 condicional; primer timeout sin resultado, segunda ejecución sin cambios de modelo exit 0. Salida íntegra gzip y resumen, hashes y limitaciones en evidence/E1-01.md. Próximo G1. Base 5d0a53813ae90b2841121cd0d0f7e52d2d520437.

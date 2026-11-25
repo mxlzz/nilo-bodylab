@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E1",
   "gate": "G0_passed_G1_open",
-  "current_task": "E1-01-run",
+  "current_task": "G1",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -16,7 +16,8 @@
     "E0.05",
     "E0.06",
     "E0.07",
-    "E1-01-implementation"
+    "E1-01-implementation",
+    "E1-01-run"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -30,18 +31,18 @@
   "pending_audit": "G1 after E1-01",
   "blocked_by": [],
   "next_action": {
-    "task": "E1-01-run",
-    "plan": "experiments/E1-01/protocol.md",
-    "deliverable": "experiments/E1-01/results.json and evidence/E1-01.md",
-    "action": "Execute frozen code and config; record exact inputs, outputs and acceptance.",
-    "acceptance": "Preregistered criteria evaluated, failures preserved, no G1 before evidence.",
-    "on_acceptance": "G1"
+    "task": "G1",
+    "plan": "ROADMAP.md",
+    "deliverable": "audits/G1.md",
+    "action": "Audit E1 acceptance, scope, limitations and cost; decide whether to retain candidate and proceed to E2.",
+    "acceptance": "Explicit gate decision grounded in verified results and limitations.",
+    "on_acceptance": "E2"
   },
   "last_change": {
-    "id": "E1-01-implementation",
+    "id": "E1-01-run",
     "log": "LOG.md",
-    "parent_commit": "8c396a919638e74cf3c04eb9ec84f742a15a7e93",
-    "note": "Frozen authored source, no execution; analytical evaluator separate from stepping."
+    "parent_commit": "5d0a53813ae90b2841121cd0d0f7e52d2d520437",
+    "note": "Executed frozen source/config, H1 conditional; raw compressed exact output preserved; first timeout recorded."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
