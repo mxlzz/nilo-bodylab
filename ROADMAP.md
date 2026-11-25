@@ -27,3 +27,6 @@ Cada gate requiere auditoría en audits/ y criterio cuantitativo preregistrado p
 
 ## Hipótesis candidatas, no resultados
 H-common: flujos acoplados mejoran coherencia causal frente a indicadores independientes. H-P: plasticidad histórica aporta cambio funcional útil sin coste desproporcionado frente a fijo. H-X: organización abierta puede mantener estructuras funcionales sin anatomía final prescrita. Reformular con E0 antes de ensayar; ninguna confirmación obligatoria.
+
+## E2 — secuencia operativa (2026-11-25, posterior a G1)
+Ver evidence/E2.01.md. E2.01 cribado; E2.02 capacidad térmica y balance acoplado E1 (preregistro, implementación, ejecución); E2.03 criba y contraste agua/calor si justificado; E2.04 límites funcionales, daño/reparación si causalmente definidos; E2.05 contraste conjunto y G2. Cada ensayo requiere preregistro propio; diferir mecanismos con razón y no reclamar validación integral. Sin cambio de objetivo ni arquitectura. 

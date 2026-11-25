@@ -32,3 +32,6 @@ Código experimental propio y evaluador analítico congelados antes de ejecució
 
 ## G1 — 2026-11-25
 Autoauditoría G1 superada con alcance sintético limitado. Conservar A0 y candidato A1 opcional; abrir E2. Sin integración. Base 27e600d6dce2ec952337c46ca1055c00902f7abf.
+
+## E2.01 — 2026-11-25
+Criba dirigida térmica/hídrica, NicheMapR fuente fijada; secuencia E2 acotada y omisiones explícitas. Próxima E2-T01 preregistro. Base 828854a774cbfa6dcdc982c5d9b4714e943e620b.

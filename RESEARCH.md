@@ -30,3 +30,6 @@ Nuevas referencias: [Robot metabolism 2025](https://pmc.ncbi.nlm.nih.gov/article
 
 ## E0.03 — Cribado técnico (2026-11-25)
 [Comparación, fuentes fijadas y lectura estática](evidence/E0.03.md). Se identificó PyDEB como alternativa Python; DEBtool animal/flux.m calcula balance elemental; NicheMapR DEB_var ofrece estómago y reserva con entradas variables, pero incorpora reglas propias. PyDEB aplica límites de no-negatividad en integración; riesgo de corrección sin ledger a contrastar, no fallo ejecutado. COPASI se posterga por resolución química no justificada; SciPy 1.17.0 disponible como auxiliar numérico, no modelo fisiológico. Licencias raíz y commits registrados; faltan pruebas de runtime y revisión transitiva. R/MATLAB/Octave/PyDEB no disponibles localmente. Próxima E0.04 compara adoptar, adaptar, combinar, desarrollar mínimo o cerrar; familias posteriores diferidas por dependencia de gates. Ninguna tecnología seleccionada ni experimento ejecutado.
+
+## E2.01 — Regulación y límites
+[Cribado](evidence/E2.01.md): referencia térmica transitoria NicheMapR onelump y onelump_var, derivación Porter/Kearney y Kearney et al. 2021. Primer ensayo de capacidad térmica y calor E1, agua/evaporación después, fatiga/daño/reparación según causa; gradientes y geometría condicionales. No adoptar conducta de termorregulación.
