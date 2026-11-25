@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-S02-review",
+  "current_task": "E3.04-locomotion-screen",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -62,7 +62,8 @@
     "E3-S02-screen",
     "E3-S02-preregistration",
     "E3-S02-implementation",
-    "E3-S02-run"
+    "E3-S02-run",
+    "E3-S02-review"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -78,18 +79,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-S02-review",
+    "task": "E3.04-locomotion-screen",
     "plan": "ROADMAP.md",
-    "deliverable": "evidence/E3-S02-review.md",
-    "action": "Verify stored outputs and assess adequacy; proceed to locomotion screen only if criteria accepted.",
-    "acceptance": "Readback verified and explicit restricted disposition.",
-    "on_acceptance": "E3.04-locomotion-screen"
+    "deliverable": "evidence/E3.04-locomotion-screen.md",
+    "action": "Compare minimal untethered motion with physical reaction and local resource approach, screen reusable mechanisms before preregistering.",
+    "acceptance": "Justified minimum mechanism, alternatives and reference; explicit momentum/energy boundary, no goals, no anatomy commitment.",
+    "on_acceptance": "E3-S03-preregistration"
   },
   "last_change": {
-    "id": "E3-S02-run",
+    "id": "E3-S02-review",
     "log": "LOG.md",
-    "parent_commit": "e84abc70e0778044d020381e942087446d9c437d",
-    "note": "7/7, ten missed instant readings recovered, no physical interference."
+    "parent_commit": "69102179cd0991ea0d00c221300a01d722f47955",
+    "note": "Tactile temporal contrast accepted in restricted domain, raw readback verified; locomotion screen next."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

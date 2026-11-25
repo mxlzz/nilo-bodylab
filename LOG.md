@@ -175,3 +175,7 @@ Workflow público acotado, mismas dependencias, timeout 20 s ejecución. Base 3c
 ## E3-S02 ejecución (2026-11-25)
 
 Run 45655669089, 7/7, 14 pares, 10 intervalos omitidos por lectura puntual y ninguno por integral, cero interferencia. Evidencia y JSONL guardados. Base e84abc70e0778044d020381e942087446d9c437d.
+
+## E3-S02 revisión (2026-11-25)
+
+Readback de 15 registros idéntico al log, 7/7 en dominio restringido. Próxima criba locomoción sin cable, G3 abierto. Base 69102179cd0991ea0d00c221300a01d722f47955.

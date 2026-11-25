@@ -1,3 +1,3 @@
 # Estado operativo
 
-2026-11-25 — E3-S02 ejecutado, 7/7, 14 pares y 10 contactos recuperados, cero interferencia. Próxima revisión; G3 abierto. Locomoción sin cable y E3.05 pendientes.
+2026-11-25 — E3-S02 revisado, 7/7, señal temporal local aceptada para contacto normal aislado; readback verificado. G3 abierto. Próximo E3.04-locomotion-screen, E3.05 pendiente. Sin bloqueo.
