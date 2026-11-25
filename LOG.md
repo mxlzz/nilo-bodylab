@@ -65,3 +65,6 @@ Inspección previa detectó denominador de residual combustible incluía soporte
 
 ## E2-W01 revisión — 2026-11-25
 Salida y evidencia verificadas; aceptación condicional a balance de fase, no regulación ni sed. Próximo E2.04, G2 abierto. Base f2ee1d1337a2073dbf59cd47905a9e34e8b29cd7.
+
+## E2.04 / E2-F01 preregistro — 2026-11-25
+Criba de mecanismos y preregistro electrotérmico. No motor elegido, daño/reparación diferidos por ausencia de mecanismo material, sin ejecución. Base 383af87944f56e991051fab148f407c703a51553.

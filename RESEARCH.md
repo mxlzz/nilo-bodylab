@@ -33,3 +33,6 @@ Nuevas referencias: [Robot metabolism 2025](https://pmc.ncbi.nlm.nih.gov/article
 
 ## E2.01 — Regulación y límites
 [Cribado](evidence/E2.01.md): referencia térmica transitoria NicheMapR onelump y onelump_var, derivación Porter/Kearney y Kearney et al. 2021. Primer ensayo de capacidad térmica y calor E1, agua/evaporación después, fatiga/daño/reparación según causa; gradientes y geometría condicionales. No adoptar conducta de termorregulación.
+
+## E2.04 — Límites funcionales
+[Criba](evidence/E2.04.md): fatiga muscular 3CC/3CC-r, MyoSuite, MuJoCo DC y acoplamiento electrotérmico. Contraste mínimo sin estado de fatiga, transductor con tensión limitada y resistencia térmica, sin fijar arquitectura. Daño/reparación diferidos hasta causa material definida.
