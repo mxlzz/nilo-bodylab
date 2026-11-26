@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_rework",
-  "current_task": "E3-C02-review",
+  "current_task": "G3-recheck",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -80,7 +80,9 @@
     "E3.06-screen",
     "E3.06-preregistration",
     "E3-C02-implementation",
-    "E3-C02-run"
+    "E3-C02-run",
+    "E3-C02-review",
+    "E3.06"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -97,18 +99,18 @@
   "pending_audit": "G3-recheck after E3.06",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-C02-review",
+    "task": "G3-recheck",
     "plan": "ROADMAP.md",
-    "deliverable": "evidence/E3-C02-review.md",
-    "action": "Verify raw readback, source integrity and scope of C02; review E3.06 before G3 recheck.",
-    "acceptance": "Frozen criteria, explicit causal evidence and limits, no overclaim.",
-    "on_acceptance": "G3-recheck"
+    "deliverable": "audits/G3-recheck.md",
+    "action": "Reevaluate fixed-body sufficiency and explicit limitations against initial G3 disposition, R1–R7 and roadmap.",
+    "acceptance": "Explicit gate decision; no automatic pass; if sufficient, bounded P1 next.",
+    "on_acceptance": "Conditional P1-screen or replanning"
   },
   "last_change": {
-    "id": "E3-C02-run",
+    "id": "E3-C02-review",
     "log": "LOG.md",
-    "parent_commit": "2995e725e1cf7af66786fb2c55c6d1b1aa8fd384",
-    "note": "C02 9/9; situated damage and resource-dependent repair; review pending."
+    "parent_commit": "a07ff2a7b1062a8b67e058d9701384cf83ae08be",
+    "note": "Raw readback verified; E3.06 accepted within scope; G3 recheck next."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

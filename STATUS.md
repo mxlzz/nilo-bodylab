@@ -1,3 +1,3 @@
 # Estado operativo
 
-2026-11-26 — E3-C02 ejecutado 9/9, 24 corridas, reparación situada dependiente de recarga, 12 replays exactos. Revisión pendiente; G3 en corrección, sin integración.
+2026-11-26 — E3.06 completada en dominio restringido, C02 9/9, readback verificado; reparación dependiente de ingreso local y precursor, sin reset. Próximo G3-recheck. G3 aún no superado; sin integración.

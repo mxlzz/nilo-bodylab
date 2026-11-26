@@ -259,3 +259,7 @@ Runner público, mismas dependencias verificadas, timeout 90 s proceso y 4 min j
 ## E3-C02 ejecución (2026-11-26)
 
 Run 45832676159, 9/9, 24 corridas, reparación dependiente de ingreso local y precursor, recuperación funcional sin reset. Salida íntegra y resumen registrados; próxima revisión. Base 2995e725e1cf7af66786fb2c55c6d1b1aa8fd384.
+
+## E3-C02 revisión / cierre E3.06 (2026-11-26)
+
+Readback idéntico de 25 registros, fuentes congeladas verificadas; 9/9, recuperación situada dependiente de materia y energía sin reset. Dry conserva movilidad; no supervivencia demostrada. Próxima reevaluación G3. Base a07ff2a7b1062a8b67e058d9701384cf83ae08be.
