@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_rework",
-  "current_task": "E3.06-preregistration",
+  "current_task": "E3-C02-implementation",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -77,7 +77,8 @@
     "E3-D01-review",
     "E3.05",
     "G3-audit-initial",
-    "E3.06-screen"
+    "E3.06-screen",
+    "E3.06-preregistration"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -94,18 +95,18 @@
   "pending_audit": "G3-recheck after E3.06",
   "blocked_by": [],
   "next_action": {
-    "task": "E3.06-preregistration",
+    "task": "E3-C02-implementation",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-C02/protocol.md and config.json",
-    "action": "Freeze coupled situated body contrast with material damage, local refill and repair sharing reserve; use ex ante analytical feasibility estimates.",
-    "acceptance": "Falsifiable conditions, controls, tolerances, replay and cost frozen before source changes.",
-    "on_acceptance": "E3-C02-implementation"
+    "deliverable": "experiments/E3-C02/run.py and controller.py",
+    "action": "Adapt S03 and D01 under frozen C1–C9; review source before execution.",
+    "acceptance": "Frozen source, no change to criteria, controller separate.",
+    "on_acceptance": "E3-C02-run"
   },
   "last_change": {
-    "id": "E3.06-screen",
+    "id": "E3.06-preregistration",
     "log": "LOG.md",
-    "parent_commit": "98395db751cb470cca410a214b0ad948916692a1",
-    "note": "Screened reuse, compatible energy partition, repair competition and analytic feasibility."
+    "parent_commit": "3f51404f60eba9fbe695d08a381f3877f6c41373",
+    "note": "Frozen C02 protocol, 12 cases x 2 dt, shared reserve and situated repair."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

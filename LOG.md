@@ -243,3 +243,7 @@ Verificación de CI, fuentes congeladas y salidas; M02 negativo preservado. Auto
 ## E3.06 cribado (2026-11-26)
 
 Revisión de compatibilidad S03/D01/A0 y alternativas previas, partición de energía de interfaz, estimaciones analíticas de contraste de reparación dependiente de recarga. Diferir térmica/hídrica con razón. Próximo preregistro E3-C02. Base 98395db751cb470cca410a214b0ad948916692a1.
+
+## E3-C02 preregistro (2026-11-26)
+
+12 casos, dos dt, reparación dependiente de recarga, reserva común, referencia libre y controladores, criterios C1–C9 congelados. Sin ejecución. Base 3f51404f60eba9fbe695d08a381f3877f6c41373.

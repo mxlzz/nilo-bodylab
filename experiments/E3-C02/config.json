@@ -1,0 +1,403 @@
+{
+  "radius": 0.25,
+  "capacity": 0.5,
+  "q": 10,
+  "eta": 0.5,
+  "basal": 0.02,
+  "period": 0.25,
+  "dt": [
+    0.0005,
+    0.000125
+  ],
+  "solref": "0.02 1",
+  "solimp": "0.9 0.95 0.001 0.5 2",
+  "range": 1,
+  "speed_limit": 0.5,
+  "exchange_limit": 0.16,
+  "dock_speed": 0.01,
+  "patch_mass": 0.02,
+  "patch_gamma": 2,
+  "repair_cost": 0.65,
+  "cases": [
+    {
+      "m": 2,
+      "R": 0.21,
+      "X": 0.16,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0.5,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "script",
+      "id": "coupled"
+    },
+    {
+      "m": 2,
+      "R": 0.21,
+      "X": 0,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0.5,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "script",
+      "id": "dry"
+    },
+    {
+      "m": 2,
+      "R": 0.21,
+      "X": 0.16,
+      "P": 0,
+      "grip": 1,
+      "wear": 0.5,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "script",
+      "id": "no-precursor"
+    },
+    {
+      "m": 2,
+      "R": 0.21,
+      "X": 0.16,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0.5,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": false,
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "script",
+      "id": "no-repair"
+    },
+    {
+      "m": 2,
+      "R": 0.21,
+      "X": 0.16,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "script",
+      "id": "no-wear"
+    },
+    {
+      "m": 2,
+      "R": 0.21,
+      "X": 0.16,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0.5,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": {
+        "name": "dock",
+        "face": 2
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "script",
+      "id": "remote"
+    },
+    {
+      "m": 2,
+      "R": 0.21,
+      "X": 0.16,
+      "P": 0.02,
+      "grip": 0,
+      "wear": 0.5,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "script",
+      "id": "no-grip"
+    },
+    {
+      "m": 2,
+      "R": 0,
+      "X": 0.16,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0.5,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "script",
+      "id": "empty"
+    },
+    {
+      "m": 2,
+      "R": 0.21,
+      "X": 0.16,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0.5,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": {
+        "name": "dock",
+        "face": 0.65
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "contact",
+      "id": "reactive"
+    },
+    {
+      "m": 2,
+      "R": 0.21,
+      "X": 0.16,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0.5,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": {
+        "name": "dock",
+        "face": 2
+      },
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 4.5,
+      "drive_until": 2.5,
+      "retreat_at": 3,
+      "exchange_at": [
+        10
+      ],
+      "repair_at": [
+        10,
+        11
+      ],
+      "controller": "contact",
+      "id": "remote-reactive"
+    },
+    {
+      "m": 2,
+      "R": 0.5,
+      "X": 0,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": null,
+      "u": [
+        0.4,
+        0
+      ],
+      "duration": 2,
+      "drive_until": 1,
+      "retreat_at": null,
+      "exchange_at": [],
+      "repair_at": [],
+      "controller": "script",
+      "id": "free"
+    },
+    {
+      "m": 3,
+      "R": 0.5,
+      "X": 0,
+      "P": 0.02,
+      "grip": 1,
+      "wear": 0,
+      "E": [
+        0.1,
+        0.5
+      ],
+      "repair": true,
+      "wall": null,
+      "u": [
+        0.24,
+        0.32
+      ],
+      "duration": 2,
+      "drive_until": 0.75,
+      "retreat_at": null,
+      "exchange_at": [],
+      "repair_at": [],
+      "controller": "script",
+      "id": "reserved"
+    }
+  ]
+}
