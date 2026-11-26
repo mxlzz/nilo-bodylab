@@ -215,3 +215,7 @@ Readback de 25 registros idéntico al log; 9/9 en dominio restringido. E3.04 cer
 ## E3.05 cribado (2026-11-26)
 
 Archard, desgaste energético, reparación extrínseca/intrínseca y LAMMPS contrastados documentalmente. Banco mínimo de módulos adheridos/fragmentos retenidos y precursor finito; no HP, sin muerte impuesta. Próximo D01 preregistro. Base 92afa32d4f3c3e83c5269ec2a75bdfd5664a818c.
+
+## E3-D01 preregistro (2026-11-26)
+
+Ley de daño, superficie efectiva, fragmentos, reparación finita, banco y referencia exacta por eventos, 9 casos, C1–C8 fijados. Sin ejecución. Base d9746c904c426cd5988753a4375d1904b9f9b96b.

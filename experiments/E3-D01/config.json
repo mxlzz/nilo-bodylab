@@ -1,0 +1,175 @@
+{
+  "m": 2,
+  "capacity": 0.5,
+  "q": 10,
+  "eta": 0.5,
+  "basal": 0.02,
+  "patch_mass": 0.02,
+  "patch_gamma": 2,
+  "repair_cost": 0.06,
+  "repair_duration": 1,
+  "repair_period": 0.5,
+  "refill_stock": 0.5,
+  "probe_u": 0.4,
+  "probe_duration": 1,
+  "dt": [
+    0.01,
+    0.005,
+    0.0025
+  ],
+  "cases": [
+    {
+      "id": "intact",
+      "T": 2,
+      "u": 0.5,
+      "alpha": 0,
+      "E": [
+        0.2,
+        0.4
+      ],
+      "initial": [
+        true,
+        true
+      ],
+      "P": 0.04,
+      "R": 0.5,
+      "repair": false
+    },
+    {
+      "id": "partial",
+      "T": 1.2,
+      "u": 0.5,
+      "alpha": 0.5,
+      "E": [
+        0.2,
+        0.4
+      ],
+      "initial": [
+        true,
+        true
+      ],
+      "P": 0.04,
+      "R": 0.5,
+      "repair": false
+    },
+    {
+      "id": "partial-repair",
+      "T": 1.2,
+      "u": 0.5,
+      "alpha": 0.5,
+      "E": [
+        0.2,
+        0.4
+      ],
+      "initial": [
+        true,
+        true
+      ],
+      "P": 0.02,
+      "R": 0.5,
+      "repair": true
+    },
+    {
+      "id": "total",
+      "T": 2,
+      "u": 0.5,
+      "alpha": 0.5,
+      "E": [
+        0.2,
+        0.4
+      ],
+      "initial": [
+        true,
+        true
+      ],
+      "P": 0,
+      "R": 0.5,
+      "repair": true
+    },
+    {
+      "id": "total-repair",
+      "T": 2,
+      "u": 0.5,
+      "alpha": 0.5,
+      "E": [
+        0.2,
+        0.4
+      ],
+      "initial": [
+        true,
+        true
+      ],
+      "P": 0.04,
+      "R": 0.5,
+      "repair": true
+    },
+    {
+      "id": "one-repair",
+      "T": 2,
+      "u": 0.5,
+      "alpha": 0.5,
+      "E": [
+        0.2,
+        0.4
+      ],
+      "initial": [
+        true,
+        true
+      ],
+      "P": 0.02,
+      "R": 0.5,
+      "repair": true
+    },
+    {
+      "id": "idle",
+      "T": 2,
+      "u": 0,
+      "alpha": 0.5,
+      "E": [
+        0.2,
+        0.4
+      ],
+      "initial": [
+        true,
+        true
+      ],
+      "P": 0.04,
+      "R": 0.5,
+      "repair": false
+    },
+    {
+      "id": "no-energy",
+      "T": 0,
+      "u": 0.5,
+      "alpha": 0.5,
+      "E": [
+        0.2,
+        0.4
+      ],
+      "initial": [
+        false,
+        false
+      ],
+      "P": 0.04,
+      "R": 0.005,
+      "repair": true
+    },
+    {
+      "id": "reserved",
+      "T": 1.5,
+      "u": 0.4,
+      "alpha": 0.5,
+      "E": [
+        0.16,
+        0.32
+      ],
+      "initial": [
+        true,
+        true
+      ],
+      "P": 0.02,
+      "R": 0.5,
+      "repair": true
+    }
+  ]
+}

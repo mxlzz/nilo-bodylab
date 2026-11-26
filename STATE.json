@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3.05-preregistration",
+  "current_task": "E3-D01-implementation",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -70,7 +70,8 @@
     "E3-S03-run",
     "E3-S03-review",
     "E3.04",
-    "E3.05-screen"
+    "E3.05-screen",
+    "E3.05-preregistration"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -86,18 +87,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3.05-preregistration",
+    "task": "E3-D01-implementation",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-D01/protocol.md and config.json",
-    "action": "Preregister material patch detachment, finite repair stock, reaction, functional probe and independent reference.",
-    "acceptance": "Freeze causal material and energy balance, controls, acceptance, replay and resource bounds before implementation.",
-    "on_acceptance": "E3-D01-implementation"
+    "deliverable": "experiments/E3-D01/run.py",
+    "action": "Implement frozen patch fracture and repair bench, independent reference, replay and physical ledgers.",
+    "acceptance": "Freeze source before run; no changes to criteria.",
+    "on_acceptance": "E3-D01-run"
   },
   "last_change": {
-    "id": "E3.05-screen",
+    "id": "E3.05-preregistration",
     "log": "LOG.md",
-    "parent_commit": "92afa32d4f3c3e83c5269ec2a75bdfd5664a818c",
-    "note": "Screened wear, fracture, repair alternatives; selected synthetic attached functional surface with retained debris."
+    "parent_commit": "d9746c904c426cd5988753a4375d1904b9f9b96b",
+    "note": "Frozen D01 9 cases, three resolutions, physical damage and finite repair."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
