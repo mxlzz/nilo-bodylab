@@ -231,3 +231,7 @@ Runner estándar público, biblioteca estándar, timeout 20 s, revisión congela
 ## E3-D01 ejecución (2026-11-26)
 
 Run 45810169617, 8/8, 27 corridas y replay exacto; daño material y reparación finita, igual reserva en prueba funcional. Datos y evidencia registrados; próxima revisión. Base 45b425d11c459d71eea0cafcd38195b6aa2285d4.
+
+## E3-D01 revisión / cierre E3.05 (2026-11-26)
+
+Readback de 28 registros idéntico al log, 8/8. Pérdida funcional irreversible solo respecto de operaciones admitidas, no muerte; no-energy recuperable potencialmente con nueva ventana. Próxima auditoría G3, aún abierto. Base ecd74746696a38094d5e87587f7dd07a38cd80ae.
