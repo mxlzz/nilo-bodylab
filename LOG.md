@@ -211,3 +211,7 @@ Run 45664613141, 9/9, 24 corridas, llegada y retirada sin cable, intercambio .08
 ## E3-S03 revisión / cierre E3.04 (2026-11-25)
 
 Readback de 25 registros idéntico al log; 9/9 en dominio restringido. E3.04 cerrada, no locomoción autónoma ni suelo general, próximo E3.05 cribado. G3 abierto. Base 3ea5e1009a92c9b6233a7248586435cabe2c360e.
+
+## E3.05 cribado (2026-11-26)
+
+Archard, desgaste energético, reparación extrínseca/intrínseca y LAMMPS contrastados documentalmente. Banco mínimo de módulos adheridos/fragmentos retenidos y precursor finito; no HP, sin muerte impuesta. Próximo D01 preregistro. Base 92afa32d4f3c3e83c5269ec2a75bdfd5664a818c.
