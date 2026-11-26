@@ -247,3 +247,7 @@ Revisión de compatibilidad S03/D01/A0 y alternativas previas, partición de ene
 ## E3-C02 preregistro (2026-11-26)
 
 12 casos, dos dt, reparación dependiente de recarga, reserva común, referencia libre y controladores, criterios C1–C9 congelados. Sin ejecución. Base 3f51404f60eba9fbe695d08a381f3877f6c41373.
+
+## E3-C02 implementación (2026-11-26)
+
+Adaptación S03 y ley D01, ledger común, reparación y acceso local, trazas, referencia libre y replay. Fuente congelada antes de ejecución. Base bf12ae7993186efb4657db9cf2fd9ba9a451b7f1.
