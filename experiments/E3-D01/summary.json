@@ -1,0 +1,42 @@
+{
+  "convergence": [
+    0.0029263763080490945,
+    0.0014609189745539708,
+    0.0007298938949541756
+  ],
+  "criteria": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C4": true,
+    "C5": true,
+    "C6": true,
+    "C7": true,
+    "C8": true
+  },
+  "elapsed_s": 0.16559839399999987,
+  "max_energy": 0.0015877366518779468,
+  "max_energy_fine": 0.00039373121310326553,
+  "max_identity": 2.220446049250313e-14,
+  "max_mass": 5.062616992290714e-14,
+  "max_mechanical": 0.0015877366519502084,
+  "max_momentum": 8.881784197001252e-15,
+  "passed": true,
+  "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "rss_mib": 16.78515625,
+  "runs": 27,
+  "sha256": {
+    "config.json": "f940f16c328cb1e05bb82998825ec9c82e9eb0a07a06fd7216311aa3b83b03df",
+    "run.py": "146c85e06daad4bf648cf84964892cd28135bb0ad8f41946e21a4a2b632376f1"
+  },
+  "steps": 22330,
+  "type": "summary",
+  "run_id": 45810169617,
+  "job_id": 139875632125,
+  "head_sha": "45b425d11c459d71eea0cafcd38195b6aa2285d4",
+  "raw_sha256": "ebe860cf588e8a5502fab085bb99bdb1d50c5aee72a1fd0dfa93cb68e6f92565",
+  "raw_records": 28,
+  "raw_bytes_ascii": 75079,
+  "exit": 0
+}

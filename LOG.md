@@ -227,3 +227,7 @@ Fuente propia sin dependencias externas, ley de fractura local y reparación por
 ## E3-D01 disparo CI (2026-11-26)
 
 Runner estándar público, biblioteca estándar, timeout 20 s, revisión congelada. Base 5f4417fb2b8ab5b0ead20844321dd66d5706baa8.
+
+## E3-D01 ejecución (2026-11-26)
+
+Run 45810169617, 8/8, 27 corridas y replay exacto; daño material y reparación finita, igual reserva en prueba funcional. Datos y evidencia registrados; próxima revisión. Base 45b425d11c459d71eea0cafcd38195b6aa2285d4.
