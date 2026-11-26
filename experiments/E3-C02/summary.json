@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C4": true,
+    "C5": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true
+  },
+  "elapsed_s": 61.751342678000015,
+  "free_refinement": [
+    0.000058877066236862063,
+    0.000014716199619957404
+  ],
+  "max_energy_all": 0.004687424710682286,
+  "max_energy_fine": 0.0011596031650662197,
+  "max_identity": 2.3314683517128287e-13,
+  "max_impulse_error": 3.0808688933348094e-14,
+  "max_mass": 9.992007221626409e-13,
+  "max_momentum": 1.7852386235972517e-13,
+  "max_penetration": 0.0028065673675350677,
+  "mujoco": "4.0.1",
+  "numpy": "2.3.5",
+  "passed": true,
+  "platform": "Linux-7.0.0-1018-aws-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "reference_fine": {
+    "R": 0.0000029432395940998113,
+    "W": 0.000014716199619957404,
+    "v": 0.000009871269741369704,
+    "x": 0.000010785383178002483
+  },
+  "rss_mib": 63.12109375,
+  "runs": 24,
+  "sha256": {
+    "config.json": "f4bcf6f1e69f3e3a57c74a5242ca86c9a1bc9343ee31c632f45df99ebcd7f329",
+    "controller.py": "ad3771a3a09e92a6f2374b2eb8a3a6a22a74aedd875104ecc01a70f26b36f72c",
+    "requirements.txt": "e58f8eee9eff0affb1689e26e69efcfd1a2ece7aa58ba496e8c3d887a33cbbc1",
+    "run.py": "659f11ba10e78f0b6e0edd657bff74ddd360d6341340931f3fcce8deb8571f5b"
+  },
+  "steps": 490000,
+  "type": "summary",
+  "run_id": 45832676159,
+  "job_id": 139953239467,
+  "head_sha": "2995e725e1cf7af66786fb2c55c6d1b1aa8fd384",
+  "raw_sha256": "a98ac6b25a3669bc69a259093d49ebbec1bf3f9949db92270dbafb9ced1c4485",
+  "raw_records": 25,
+  "raw_bytes_ascii": 592290,
+  "exit": 0
+}

@@ -255,3 +255,7 @@ Adaptación S03 y ley D01, ledger común, reparación y acceso local, trazas, re
 ## E3-C02 disparo CI (2026-11-26)
 
 Runner público, mismas dependencias verificadas, timeout 90 s proceso y 4 min job. Base 6da1cc8d6fce81c8e7e349b950c1c76626b163fd.
+
+## E3-C02 ejecución (2026-11-26)
+
+Run 45832676159, 9/9, 24 corridas, reparación dependiente de ingreso local y precursor, recuperación funcional sin reset. Salida íntegra y resumen registrados; próxima revisión. Base 2995e725e1cf7af66786fb2c55c6d1b1aa8fd384.

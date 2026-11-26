@@ -6,8 +6,8 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_rework",
-  "current_task": "E3-C02-run",
-  "status": "awaiting_run_result",
+  "current_task": "E3-C02-review",
+  "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
     "E0.02",
@@ -79,7 +79,8 @@
     "G3-audit-initial",
     "E3.06-screen",
     "E3.06-preregistration",
-    "E3-C02-implementation"
+    "E3-C02-implementation",
+    "E3-C02-run"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -96,18 +97,18 @@
   "pending_audit": "G3-recheck after E3.06",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-C02-run",
+    "task": "E3-C02-review",
     "plan": "ROADMAP.md",
-    "deliverable": "E3-C02 execution log and raw results",
-    "action": "Verify one-shot C02 result, save raw output and evaluate C1–C9.",
-    "acceptance": "Preserve all outcomes and negatives; no threshold change.",
-    "on_acceptance": "E3-C02-review"
+    "deliverable": "evidence/E3-C02-review.md",
+    "action": "Verify raw readback, source integrity and scope of C02; review E3.06 before G3 recheck.",
+    "acceptance": "Frozen criteria, explicit causal evidence and limits, no overclaim.",
+    "on_acceptance": "G3-recheck"
   },
   "last_change": {
-    "id": "E3-C02-run-trigger",
+    "id": "E3-C02-run",
     "log": "LOG.md",
-    "parent_commit": "6da1cc8d6fce81c8e7e349b950c1c76626b163fd",
-    "note": "Bounded public CI, same pinned wheel dependencies."
+    "parent_commit": "2995e725e1cf7af66786fb2c55c6d1b1aa8fd384",
+    "note": "C02 9/9; situated damage and resource-dependent repair; review pending."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
