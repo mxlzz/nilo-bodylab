@@ -239,3 +239,7 @@ Readback de 28 registros idéntico al log, 8/8. Pérdida funcional irreversible 
 ## G3 primera auditoría (2026-11-26)
 
 Verificación de CI, fuentes congeladas y salidas; M02 negativo preservado. Autoauditoría: G3 no superado por ausencia de contraste conjunto situado con reserva compartida, daño y reparación. Ajuste E3.06 dentro del plan; P/X no iniciadas. Ver audits/G3.md. Base 2fca4d48fdf31fd75cea4cdbb4474c1ce2869291.
+
+## E3.06 cribado (2026-11-26)
+
+Revisión de compatibilidad S03/D01/A0 y alternativas previas, partición de energía de interfaz, estimaciones analíticas de contraste de reparación dependiente de recarga. Diferir térmica/hídrica con razón. Próximo preregistro E3-C02. Base 98395db751cb470cca410a214b0ad948916692a1.

@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_rework",
-  "current_task": "E3.06-screen",
+  "current_task": "E3.06-preregistration",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -76,7 +76,8 @@
     "E3-D01-run",
     "E3-D01-review",
     "E3.05",
-    "G3-audit-initial"
+    "G3-audit-initial",
+    "E3.06-screen"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -93,18 +94,18 @@
   "pending_audit": "G3-recheck after E3.06",
   "blocked_by": [],
   "next_action": {
-    "task": "E3.06-screen",
+    "task": "E3.06-preregistration",
     "plan": "ROADMAP.md",
-    "deliverable": "evidence/E3.06-screen.md",
-    "action": "Screen a single coupled fixed-body experiment reusing S03/D01/A0, with common reserve, situated recovery and explicit thermal disposition.",
-    "acceptance": "Justified minimal mechanism, boundary and discriminating contrast; preregister before implementation.",
-    "on_acceptance": "E3.06-preregistration"
+    "deliverable": "experiments/E3-C02/protocol.md and config.json",
+    "action": "Freeze coupled situated body contrast with material damage, local refill and repair sharing reserve; use ex ante analytical feasibility estimates.",
+    "acceptance": "Falsifiable conditions, controls, tolerances, replay and cost frozen before source changes.",
+    "on_acceptance": "E3-C02-implementation"
   },
   "last_change": {
-    "id": "G3-audit-initial",
+    "id": "E3.06-screen",
     "log": "LOG.md",
-    "parent_commit": "2fca4d48fdf31fd75cea4cdbb4474c1ce2869291",
-    "note": "Gate not passed; one corrective coupled fixed-body contrast required before P/X."
+    "parent_commit": "98395db751cb470cca410a214b0ad948916692a1",
+    "note": "Screened reuse, compatible energy partition, repair competition and analytic feasibility."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
