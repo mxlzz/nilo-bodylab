@@ -1,3 +1,3 @@
 # Estado operativo
 
-2026-11-26 — E3.06 completada en dominio restringido, C02 9/9, readback verificado; reparación dependiente de ingreso local y precursor, sin reset. Próximo G3-recheck. G3 aún no superado; sin integración.
+2026-11-26 — G3 superado con alcance condicional tras C02 (9/9 y readback verificado). Base fija suficiente para P1; próxima criba de desarrollo individual y plasticidad física. X elegible solo si justificada, no bloqueante. Sin organismo completo ni integración; sin bloqueo.

@@ -37,3 +37,7 @@ Ver [evidence/E3.01.md](evidence/E3.01.md). E3.01 cribado; E3.02 referencia mec�
 ## E3.06 — corrección G3 (2026-11-26)
 
 Dictamen [G3 inicial](audits/G3.md): E3.01–05 completas en alcance restringido; G3 no superado. Contraste conjunto acotado de cuerpo fijo: reserva compartida, locomoción situada, deterioro y reparación material, acceso local, historia sin reset, balances, frontera sensorial, referencia y replay. Cribado → preregistro → implementación → ejecución → revisión → reevaluación G3. Térmica/hídrica solo con causalidad compatible y pregunta discriminante; justificar exclusiones. No abrir P/X antes de dictamen, no agregar requisitos de anatomía, integración, muerte global ni fisiología exhaustiva. 
+
+## P1 — continuidad tras G3 (2026-11-26)
+
+[G3 reevaluado](audits/G3-recheck.md): base fija C02 suficiente en dominio restringido. P1 inicia con cribado de desarrollo individual y plasticidad física, luego preregistro, implementación, ejecución, revisión y G-P1. Fijo conserva reparación, recursos y costes equivalentes; distinguir reparación de cambio funcional por historia. Evaluar crecimiento/redistribución con materia, energía y mecánica explícitas, sin asumir anatomía final ni utilidad adaptativa. X elegible solo por oportunidad justificada y acotada, no bloqueante.

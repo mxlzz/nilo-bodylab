@@ -4,9 +4,9 @@
   "date": "2026-11-26",
   "branch": "main",
   "design": "approved",
-  "phase": "E3",
-  "gate": "G2_passed_G3_rework",
-  "current_task": "G3-recheck",
+  "phase": "P1",
+  "gate": "G3_passed_GP1_open",
+  "current_task": "P1-screen",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -82,7 +82,9 @@
     "E3-C02-implementation",
     "E3-C02-run",
     "E3-C02-review",
-    "E3.06"
+    "E3.06",
+    "G3-recheck",
+    "G3"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -94,27 +96,28 @@
     "audits/G0.md",
     "audits/G1.md",
     "audits/G2.md",
-    "audits/G3.md"
+    "audits/G3.md",
+    "audits/G3-recheck.md"
   ],
-  "pending_audit": "G3-recheck after E3.06",
+  "pending_audit": "G-P1 after P1 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "G3-recheck",
+    "task": "P1-screen",
     "plan": "ROADMAP.md",
-    "deliverable": "audits/G3-recheck.md",
-    "action": "Reevaluate fixed-body sufficiency and explicit limitations against initial G3 disposition, R1–R7 and roadmap.",
-    "acceptance": "Explicit gate decision; no automatic pass; if sufficient, bounded P1 next.",
-    "on_acceptance": "Conditional P1-screen or replanning"
+    "deliverable": "evidence/P1-screen.md",
+    "action": "Screen lifetime development and physical plasticity alternatives against fixed baseline; define minimal discriminating question and justify reusable mechanisms before preregistration.",
+    "acceptance": "Traceable alternatives, scope, material/energy/mechanical costs, fair fixed control, falsifiable question; no architecture commitment.",
+    "on_acceptance": "P1-preregistration"
   },
   "last_change": {
-    "id": "E3-C02-review",
+    "id": "G3-recheck",
     "log": "LOG.md",
-    "parent_commit": "a07ff2a7b1062a8b67e058d9701384cf83ae08be",
-    "note": "Raw readback verified; E3.06 accepted within scope; G3 recheck next."
+    "parent_commit": "73942bc3aedf3ff149e5b6906da67680d7156d63",
+    "note": "G3 conditionally passed after C02 closes coupling gap; P1 screen next."
   },
   "parallel_tracks": {
-    "P": "conditional_on_G3",
-    "X": "conditional_on_G3_and_opportunity_nonblocking"
+    "P": "active_P1",
+    "X": "eligible_if_justified_nonblocking"
   },
   "budget": "free resources only; preregister limits per experiment"
 }

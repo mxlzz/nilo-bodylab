@@ -263,3 +263,7 @@ Run 45832676159, 9/9, 24 corridas, reparación dependiente de ingreso local y pr
 ## E3-C02 revisión / cierre E3.06 (2026-11-26)
 
 Readback idéntico de 25 registros, fuentes congeladas verificadas; 9/9, recuperación situada dependiente de materia y energía sin reset. Dry conserva movilidad; no supervivencia demostrada. Próxima reevaluación G3. Base a07ff2a7b1062a8b67e058d9701384cf83ae08be.
+
+## G3 reevaluación (2026-11-26)
+
+G3 superado en dominio restringido: E3.06 cierra brecha de acoplamiento, no vida autónoma ni validación empírica. Fijo C02 como control; P1-screen próximo, X condicional no bloqueante. Autoauditoría y límites en audits/G3-recheck.md. Base 73942bc3aedf3ff149e5b6906da67680d7156d63.
