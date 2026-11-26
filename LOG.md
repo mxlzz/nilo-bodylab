@@ -235,3 +235,7 @@ Run 45810169617, 8/8, 27 corridas y replay exacto; daño material y reparación 
 ## E3-D01 revisión / cierre E3.05 (2026-11-26)
 
 Readback de 28 registros idéntico al log, 8/8. Pérdida funcional irreversible solo respecto de operaciones admitidas, no muerte; no-energy recuperable potencialmente con nueva ventana. Próxima auditoría G3, aún abierto. Base ecd74746696a38094d5e87587f7dd07a38cd80ae.
+
+## G3 primera auditoría (2026-11-26)
+
+Verificación de CI, fuentes congeladas y salidas; M02 negativo preservado. Autoauditoría: G3 no superado por ausencia de contraste conjunto situado con reserva compartida, daño y reparación. Ajuste E3.06 dentro del plan; P/X no iniciadas. Ver audits/G3.md. Base 2fca4d48fdf31fd75cea4cdbb4474c1ce2869291.

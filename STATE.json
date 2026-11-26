@@ -5,8 +5,8 @@
   "branch": "main",
   "design": "approved",
   "phase": "E3",
-  "gate": "G2_passed_G3_open",
-  "current_task": "G3-audit",
+  "gate": "G2_passed_G3_rework",
+  "current_task": "E3.06-screen",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -75,7 +75,8 @@
     "E3-D01-implementation",
     "E3-D01-run",
     "E3-D01-review",
-    "E3.05"
+    "E3.05",
+    "G3-audit-initial"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -86,23 +87,24 @@
   "audits": [
     "audits/G0.md",
     "audits/G1.md",
-    "audits/G2.md"
+    "audits/G2.md",
+    "audits/G3.md"
   ],
-  "pending_audit": "G3 after E3 evidence",
+  "pending_audit": "G3-recheck after E3.06",
   "blocked_by": [],
   "next_action": {
-    "task": "G3-audit",
+    "task": "E3.06-screen",
     "plan": "ROADMAP.md",
-    "deliverable": "audits/G3.md",
-    "action": "Audit fixed-body sufficiency against gate criteria, R1–R7, evidence and limitations; decide pass/rework/close without automatic passage.",
-    "acceptance": "Traceable gate decision, evidence, limits and explicit next step; P/X conditional.",
-    "on_acceptance": "Conditional P1 or justified corrective unit"
+    "deliverable": "evidence/E3.06-screen.md",
+    "action": "Screen a single coupled fixed-body experiment reusing S03/D01/A0, with common reserve, situated recovery and explicit thermal disposition.",
+    "acceptance": "Justified minimal mechanism, boundary and discriminating contrast; preregister before implementation.",
+    "on_acceptance": "E3.06-preregistration"
   },
   "last_change": {
-    "id": "E3-D01-review",
+    "id": "G3-audit-initial",
     "log": "LOG.md",
-    "parent_commit": "ecd74746696a38094d5e87587f7dd07a38cd80ae",
-    "note": "8/8 readback verified; E3.05 closed in restricted domain; G3 audit next."
+    "parent_commit": "2fca4d48fdf31fd75cea4cdbb4474c1ce2869291",
+    "note": "Gate not passed; one corrective coupled fixed-body contrast required before P/X."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",

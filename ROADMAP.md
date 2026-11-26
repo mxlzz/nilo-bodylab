@@ -33,3 +33,7 @@ Ver evidence/E2.01.md. E2.01 cribado; E2.02 capacidad térmica y balance acoplad
 
 ## E3 — secuencia operativa (2026-11-25, posterior a G2)
 Ver [evidence/E3.01.md](evidence/E3.01.md). E3.01 cribado; E3.02 referencia mecánica restringida con cuerpo finito, reacción, contacto y ledger; E3.03 comparación de motor reutilizable cuando acceso/licencias/recursos verificados; E3.04 cuerpo fijo situado y frontera sensorial/material; E3.05 perturbación material y disposición de daño/reparación; G3 auditoría de suficiencia para P/X. Cada ensayo preregistrado; no seleccionar motor por anticipado ni confundir referencia guiada con cuerpo completo. Bloqueo de acceso externo solo afecta unidades dependientes; no afirmar contraste realizado si falta. Criterios de gate y tolerancias por ensayo en evidencia/protocolos.
+
+## E3.06 — corrección G3 (2026-11-26)
+
+Dictamen [G3 inicial](audits/G3.md): E3.01–05 completas en alcance restringido; G3 no superado. Contraste conjunto acotado de cuerpo fijo: reserva compartida, locomoción situada, deterioro y reparación material, acceso local, historia sin reset, balances, frontera sensorial, referencia y replay. Cribado → preregistro → implementación → ejecución → revisión → reevaluación G3. Térmica/hídrica solo con causalidad compatible y pregunta discriminante; justificar exclusiones. No abrir P/X antes de dictamen, no agregar requisitos de anatomía, integración, muerte global ni fisiología exhaustiva. 
