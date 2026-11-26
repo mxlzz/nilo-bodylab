@@ -251,3 +251,7 @@ Revisión de compatibilidad S03/D01/A0 y alternativas previas, partición de ene
 ## E3-C02 implementación (2026-11-26)
 
 Adaptación S03 y ley D01, ledger común, reparación y acceso local, trazas, referencia libre y replay. Fuente congelada antes de ejecución. Base bf12ae7993186efb4657db9cf2fd9ba9a451b7f1.
+
+## E3-C02 disparo CI (2026-11-26)
+
+Runner público, mismas dependencias verificadas, timeout 90 s proceso y 4 min job. Base 6da1cc8d6fce81c8e7e349b950c1c76626b163fd.

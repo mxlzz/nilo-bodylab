@@ -7,7 +7,7 @@
   "phase": "E3",
   "gate": "G2_passed_G3_rework",
   "current_task": "E3-C02-run",
-  "status": "ready_to_start",
+  "status": "awaiting_run_result",
   "completed_research_tasks": [
     "E0.01",
     "E0.02",
@@ -99,15 +99,15 @@
     "task": "E3-C02-run",
     "plan": "ROADMAP.md",
     "deliverable": "E3-C02 execution log and raw results",
-    "action": "Execute frozen coupled contrast in bounded public CI and evaluate C1–C9.",
+    "action": "Verify one-shot C02 result, save raw output and evaluate C1–C9.",
     "acceptance": "Preserve all outcomes and negatives; no threshold change.",
     "on_acceptance": "E3-C02-review"
   },
   "last_change": {
-    "id": "E3-C02-implementation",
+    "id": "E3-C02-run-trigger",
     "log": "LOG.md",
-    "parent_commit": "bf12ae7993186efb4657db9cf2fd9ba9a451b7f1",
-    "note": "Adapted S03 source and D01 patch law, shared reserve, local signal variant, explicit event traces."
+    "parent_commit": "6da1cc8d6fce81c8e7e349b950c1c76626b163fd",
+    "note": "Bounded public CI, same pinned wheel dependencies."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
