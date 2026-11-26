@@ -1,0 +1,31 @@
+name: E3-D01 material damage contrast
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/e3-d01.yml']
+permissions: {}
+jobs:
+  contrast:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - name: Fetch exact public revision
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 --version
+          python3 -c 'import sys; assert sys.version_info[:2]==(3,12)'
+          uname -sm
+          git init checkout
+          git -C checkout -c credential.helper= fetch --depth 1 https://github.com/mxlzz/nilo-bodylab.git "$GITHUB_SHA"
+          git -C checkout checkout --detach FETCH_HEAD
+          test "$(git -C checkout rev-parse HEAD)" = "$GITHUB_SHA"
+          cd checkout/experiments/E3-D01
+          sha256sum run.py config.json
+      - name: Execute frozen contrast
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd checkout/experiments/E3-D01
+          timeout 20s python3 -u run.py

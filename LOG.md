@@ -223,3 +223,7 @@ Ley de daño, superficie efectiva, fragmentos, reparación finita, banco y refer
 ## E3-D01 implementación (2026-11-26)
 
 Fuente propia sin dependencias externas, ley de fractura local y reparación por lotes, referencia exacta, balances y replay; sin ejecución. Base a0f245efb1bb1d3a338cf33e9f2b19ce6f29574f.
+
+## E3-D01 disparo CI (2026-11-26)
+
+Runner estándar público, biblioteca estándar, timeout 20 s, revisión congelada. Base 5f4417fb2b8ab5b0ead20844321dd66d5706baa8.
