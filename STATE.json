@@ -6,7 +6,7 @@
   "design": "approved",
   "phase": "E3",
   "gate": "G2_passed_G3_open",
-  "current_task": "E3-D01-implementation",
+  "current_task": "E3-D01-run",
   "status": "ready_to_start",
   "completed_research_tasks": [
     "E0.01",
@@ -71,7 +71,8 @@
     "E3-S03-review",
     "E3.04",
     "E3.05-screen",
-    "E3.05-preregistration"
+    "E3.05-preregistration",
+    "E3-D01-implementation"
   ],
   "approved_decisions": [
     "decisions/D001.md"
@@ -87,18 +88,18 @@
   "pending_audit": "G3 after E3 evidence",
   "blocked_by": [],
   "next_action": {
-    "task": "E3-D01-implementation",
+    "task": "E3-D01-run",
     "plan": "ROADMAP.md",
-    "deliverable": "experiments/E3-D01/run.py",
-    "action": "Implement frozen patch fracture and repair bench, independent reference, replay and physical ledgers.",
-    "acceptance": "Freeze source before run; no changes to criteria.",
-    "on_acceptance": "E3-D01-run"
+    "deliverable": "E3-D01 run log and results.jsonl",
+    "action": "Run frozen source, preserve raw output and evaluate C1–C8.",
+    "acceptance": "All frozen criteria, preserve negatives.",
+    "on_acceptance": "E3-D01-review"
   },
   "last_change": {
-    "id": "E3.05-preregistration",
+    "id": "E3-D01-implementation",
     "log": "LOG.md",
-    "parent_commit": "d9746c904c426cd5988753a4375d1904b9f9b96b",
-    "note": "Frozen D01 9 cases, three resolutions, physical damage and finite repair."
+    "parent_commit": "a0f245efb1bb1d3a338cf33e9f2b19ce6f29574f",
+    "note": "Frozen source with independent exact reference and replay."
   },
   "parallel_tracks": {
     "P": "conditional_on_G3",
